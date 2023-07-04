@@ -46,7 +46,7 @@ const ProductCard = ({ name, category, price, imageURL }) => {
             </ProductCardContent>
             <CardContent>
                 <Typography variant="h6" color="textPrimary">
-                    ${price}
+                    {price} ₪
                 </Typography>
                 <div>
                     <Button onClick={handleRemoveFromCart} disabled={quantity === 0}>
