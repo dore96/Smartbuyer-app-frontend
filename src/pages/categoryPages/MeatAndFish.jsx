@@ -1,12 +1,12 @@
-import React from 'react';
-import Grid from '@mui/material/Grid';
-import ProductCard from '../components/Product';
-import {Box, Typography} from "@mui/material"; // Replace with the actual path to the ProductCard component
-import ShopNavbar from "../components/ShopNavbar";
-const Shop = ({products, handleAddToCart}) => {
+import React from "react";
+import {Box, Typography} from "@mui/material";
+import Grid from "@mui/material/Grid";
+import ProductCard from "../../components/Product";
+import ShopNavbar from "../../components/ShopNavbar";
+const MeatAndFish = ({products, handleAddToCart}) => {
     return (
         <div>
-        <ShopNavbar/>
+            <ShopNavbar/>
         <Box sx={{
             flexGrow: 1,
             backgroundColor: 'whitesmoke',
@@ -25,8 +25,8 @@ const Shop = ({products, handleAddToCart}) => {
                 ))}
             </Grid>
         </Box>
-        </div>
+            </div>
     );
 };
 
-export default Shop;
+export default MeatAndFish;

@@ -1,17 +1,18 @@
 import React from "react";
-import {Stack} from "@mui/material";
-// import ProductList from "../components/ProductList";
+import {Box, Stack, Typography} from "@mui/material";
+import CartTable from "../components/CartTable";
 
-const Cart = () => {
+const Cart = ({cartProducts,handleDeleteFromCart}) => {
     return (
-        <Stack sx={{
+        <Box sx={{
             flexGrow: 1,
             backgroundColor: 'whitesmoke',
+            display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center',
+            alignItems: 'center'
         }}>
-            {/*<ProductList products={realProducts}></ProductList>*/}
-        </Stack>
+            <CartTable cartProducts={cartProducts} handleDeleteFromCart={handleDeleteFromCart}/>
+        </Box>
     );
 };
 export default Cart;
