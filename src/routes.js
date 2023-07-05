@@ -40,7 +40,7 @@ const routes = [
         component: Shop,
     },
     {
-        key: "Shop-route",
+        key: "Shop-all-route",
         title: "all",
         path: "/shop",
         enabled: true,
@@ -64,7 +64,7 @@ const routes = [
         component: Snacks,
     },
     {
-        key: "Shop-route",
+        key: "Shop-meat&fish-route",
         title: "meat and fish",
         path: "/shop/meat&fish",
         enabled: true,

@@ -35,6 +35,11 @@ const ProductCard = ({product, handleAddToCart}) => {
         }
     };
 
+    const handleAddToCartFromProduct = () => {
+        handleAddToCart(product,quantity)
+        setQuantity(0);
+    }
+
     return (
         <ProductCardWrapper>
             <CardMedia component="img" height="150" image={imageURL} alt={name} sx={{ objectFit: 'cover' }} />
@@ -58,7 +63,7 @@ const ProductCard = ({product, handleAddToCart}) => {
                     <Button onClick={handleAddToItemQuantity}>+</Button>
                 </div>
             </CardContent>
-            <Button onClick={() => handleAddToCart(product,quantity)} disabled={quantity === 0}>
+            <Button onClick={handleAddToCartFromProduct} disabled={quantity === 0}>
                 Add to cart
             </Button>
         </ProductCardWrapper>
