@@ -28,7 +28,7 @@ const routes = [
     {
         key: "Shop-route",
         title: "Shop",
-        path: "/Shop",
+        path: "/shop",
         enabled: true,
         component: Shop,
     },

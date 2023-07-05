@@ -21,18 +21,20 @@ const ProductCardContent = styled(CardContent)({
     flexGrow: 1,
 });
 
-const ProductCard = ({ name, category, price, imageURL }) => {
+const ProductCard = ({product, handleAddToCart}) => {
+    const {name, category, price, imageURL} = product;
     const [quantity, setQuantity] = useState(0);
 
-    const handleAddToCart = () => {
+    const handleAddToItemQuantity = () => {
         setQuantity(quantity + 1);
     };
 
-    const handleRemoveFromCart = () => {
+    const handleReduceItemFromCart = () => {
         if (quantity > 0) {
             setQuantity(quantity - 1);
         }
     };
+
     return (
         <ProductCardWrapper>
             <CardMedia component="img" height="150" image={imageURL} alt={name} sx={{ objectFit: 'cover' }} />
@@ -49,13 +51,16 @@ const ProductCard = ({ name, category, price, imageURL }) => {
                     {price} ₪
                 </Typography>
                 <div>
-                    <Button onClick={handleRemoveFromCart} disabled={quantity === 0}>
+                    <Button onClick={handleReduceItemFromCart} disabled={quantity === 0}>
                         -
                     </Button>
                     <span>{quantity}</span>
-                    <Button onClick={handleAddToCart}>+</Button>
+                    <Button onClick={handleAddToItemQuantity}>+</Button>
                 </div>
             </CardContent>
+            <Button onClick={() => handleAddToCart(product,quantity)} disabled={quantity === 0}>
+                Add to cart
+            </Button>
         </ProductCardWrapper>
     );
 };
