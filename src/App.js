@@ -57,7 +57,11 @@ function App() {
         setCart([...cart, {id, name, category, price, imageURL, quantity, totalPrice}]);
     };
 
-
+    //delete tasks
+    const handleDeleteFromCart = (idsToDelete) => {
+        console.log('in app delete')
+        setCart(cart.filter((product) => !idsToDelete.includes(product.id)));
+    };
 
     // useEffect(() => {
     //     for (const mapElement of cart) {
@@ -87,7 +91,7 @@ function App() {
                                 <Route
                                     key={route.key}
                                     path={route.path}
-                                    element={<route.component cartProducts={cart} />}
+                                    element={<route.component cartProducts={cart} handleDeleteFromCart={handleDeleteFromCart}/>}
                                 />
                             );
                         } else {
