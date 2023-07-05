@@ -7,7 +7,8 @@ const fields = [
     { field: 'category', headerName: 'Product Category', width: 150 },
     { field: 'name', headerName: 'Product Name', width: 150 },
     { field: 'quantity', headerName: 'Quantity', type: 'number', width: 90 },
-    { field: 'price', headerName: 'Total Price', type: 'number', width: 120 },
+    { field: 'price', headerName: 'Price Per Unit', type: 'number', width: 120 },
+    { field: 'totalPrice', headerName: 'Total Price', type: 'number', width: 120 },
 ];
 
 const CartTable = ({ cartProducts, handleDeleteFromCart }) => {

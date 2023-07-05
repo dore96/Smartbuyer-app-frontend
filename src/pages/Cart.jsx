@@ -1,17 +1,25 @@
 import React from "react";
-import {Box, Stack, Typography} from "@mui/material";
+import {Box, Typography} from "@mui/material";
 import CartTable from "../components/CartTable";
 
-const Cart = ({cartProducts,handleDeleteFromCart}) => {
+const Cart = ({cartProducts,handleDeleteFromCart,cartTotalPrice}) => {
     return (
         <Box sx={{
             flexGrow: 1,
             backgroundColor: 'whitesmoke',
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
+            flexDirection: 'column'
         }}>
-            <CartTable cartProducts={cartProducts} handleDeleteFromCart={handleDeleteFromCart}/>
+            {cartProducts && cartProducts.length > 0 ? (
+                <>
+                    <CartTable cartProducts={cartProducts} handleDeleteFromCart={handleDeleteFromCart}/>
+                    <Typography sx={{ textAlign: 'right' }}>Cart Price: {cartTotalPrice} ₪</Typography>
+                </>
+            ) : (
+                <Typography>No items in the cart.</Typography>
+            )}
         </Box>
     );
 };
