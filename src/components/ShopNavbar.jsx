@@ -10,10 +10,10 @@ import {
     Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import  routes  from "../routes";
 import { NavLink } from "react-router-dom";
+import routes from "../routes";
 
-const Navbar = () => {
+const ShopNavbar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
@@ -41,7 +41,7 @@ const Navbar = () => {
                             display: { xs: "none", md: "flex" },
                         }}
                     >
-                        Smart Buyer App
+                        Categories
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
                         <IconButton
@@ -73,19 +73,19 @@ const Navbar = () => {
                             }}
                         >
                             {routes.map((page) => (
-                                    <Link
-                                        key={page.key}
-                                        component={NavLink}
-                                        to={page.path}
-                                        color="black"
-                                        underline="none"
-                                        variant="button"
-                                    >
-                                        <MenuItem onClick={handleCloseNavMenu}>
-                                            <Typography textAlign="center">{page.title}</Typography>
-                                        </MenuItem>
-                                    </Link>
-                                ))}
+                                <Link
+                                    key={page.key}
+                                    component={NavLink}
+                                    to={page.path}
+                                    color="black"
+                                    underline="none"
+                                    variant="button"
+                                >
+                                    <MenuItem onClick={handleCloseNavMenu}>
+                                        <Typography textAlign="center">{page.title}</Typography>
+                                    </MenuItem>
+                                </Link>
+                            ))}
                         </Menu>
                     </Box>
                     <Typography
@@ -94,7 +94,7 @@ const Navbar = () => {
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
                     >
-                        Smart Buyer App
+                        Categories
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
                         <Box
@@ -106,7 +106,7 @@ const Navbar = () => {
                                 marginLeft: "1rem",
                             }}
                         >
-                            {routes.filter((page) => page.showInMenu).map((page) => (
+                            {routes.filter((page) => !page.showInMenu).map((page) => (
                                 <Link
                                     key={page.key}
                                     component={NavLink}
@@ -127,4 +127,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default ShopNavbar;
