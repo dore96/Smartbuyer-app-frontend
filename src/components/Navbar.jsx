@@ -8,12 +8,15 @@ import {
     MenuItem,
     Toolbar,
     Typography,
+    Button,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import  routes  from "../routes";
 import { NavLink } from "react-router-dom";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { Badge } from "@mui/material";
 
-const Navbar = () => {
+const Navbar = ({itemsInCart}) => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
@@ -116,7 +119,14 @@ const Navbar = () => {
                                     variant="button"
                                     sx={{ fontSize: "large", marginLeft: "2rem" }}
                                 >
-                                    {page.title}
+                                    {page.title !== 'cart' ? (
+                                        <Button variant="contained" color="secondary">{page.title}</Button>
+                                    ) : (
+                                        <><Badge badgeContent={itemsInCart} color='secondary' sx={{ marginRight: '1rem' }}>
+                                            <ShoppingCartIcon />
+                                        </Badge>
+                                        <Button variant="contained" color="secondary">{page.title}</Button></>
+                                    )}
                                 </Link>
                             ))}
                         </Box>

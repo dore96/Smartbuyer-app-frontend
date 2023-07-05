@@ -157,61 +157,71 @@ function App() {
     };
 
 
+    //map routs and deliver relevant functions/arguments by page needs
+    const mapRoutes = (routes) => {
+        return routes.map((route) => {
+            if (
+                route.path === "/shop" ||
+                route.path === "/shop/dairy" ||
+                route.path === "/shop/meat&fish" ||
+                route.path === "/shop/snacks"
+            ) {
+                // Filter the products based on the route path
+                const filteredProducts =
+                    route.path === "/shop"
+                        ? products // Display all products if the path is '/shop'
+                        : products.filter((product) =>
+                            product.category
+                                .toLowerCase()
+                                .includes(route.path.replace("/shop/", ""))
+                        );
 
-  return (
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <Box height="100vh" display="flex" flexDirection="column">
-            <Router>
-                <Navbar />
-                <Routes>
-                    {routes.map((route) => {
-                        if (route.path === '/shop' ||
-                            route.path === '/shop/dairy' ||
-                            route.path === '/shop/meat&fish' ||
-                            route.path === '/shop/snacks') {
-                            // Filter the products based on the route path
-                            const filteredProducts =
-                                route.path === '/shop' ? products : // Display all products if the path is '/shop'
-                                    products.filter((product) =>
-                                        product.category.toLowerCase().includes(route.path.replace('/shop/', ''))
-                                    );
-
-                            return (
-                                <Route
-                                    key={route.key}
-                                    path={route.path}
-                                    element={<route.component products={filteredProducts} handleAddToCart={handleAddToCart} />}
-                                />
-                            );
+                return (
+                    <Route
+                        key={route.key}
+                        path={route.path}
+                        element={
+                            <route.component
+                                products={filteredProducts}
+                                handleAddToCart={handleAddToCart}
+                            />
                         }
-                        else if (route.path === '/cart') {
-                            return (
-                                <Route
-                                    key={route.key}
-                                    path={route.path}
-                                    element={<route.component cartProducts={cart}
-                                                              handleDeleteFromCart={handleDeleteFromCart}
-                                                              cartTotalPrice = {cartTotalPrice}/>}
-                                />
-                            );
-                        } else {
-                            return (
-                                <Route
-                                    key={route.key}
-                                    path={route.path}
-                                    element={<route.component />}
-                                />
-                            );
+                    />
+                );
+            } else if (route.path === "/cart") {
+                return (
+                    <Route
+                        key={route.key}
+                        path={route.path}
+                        element={
+                            <route.component
+                                cartProducts={cart}
+                                handleDeleteFromCart={handleDeleteFromCart}
+                                cartTotalPrice={cartTotalPrice}
+                            />
                         }
-                    })}
+                    />
+                );
+            } else {
+                return (
+                    <Route key={route.key} path={route.path} element={<route.component />} />
+                );
+            }
+        });
+    };
 
-                </Routes>
-                <Footer />
-            </Router>
-        </Box>
-      </ThemeProvider>
-  );
+    return (
+        <ThemeProvider theme={theme}>
+            <CssBaseline />
+            <Box height="100vh" display="flex" flexDirection="column">
+                <Router>
+                    <Navbar itemsInCart = {cart.length} />
+                    <Routes>{mapRoutes(routes)}</Routes>
+                    <Footer />
+                </Router>
+            </Box>
+        </ThemeProvider>
+    );
 }
 
 export default App;
