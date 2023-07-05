@@ -8,6 +8,7 @@ import React, {useState} from "react";
 
 function App() {
     const [cart, setCart] = useState([]);
+    const [cartTotalPrice, setCartTotalPrice] = useState(0);
 
     // define theme
     const theme = createTheme({
@@ -89,6 +90,7 @@ function App() {
             name: 'גבינה צהובה',
             unit: 'יחידות',
             category: 'dairy',
+            price: 5.90,
             imageURL: 'https://www.tnuva.co.il/uploads/f_5eb2ca62457c8_1588775522.jpg'
         },
         {
@@ -125,18 +127,35 @@ function App() {
         },
     ];
 
+    //add products to cart
     const handleAddToCart = (product, quantity) => {
-        const totalPrice = product.price * quantity
-        const {id,name, category, price, imageURL} = product;
-        setCart([...cart, {id, name, category, price, imageURL, quantity, totalPrice}]);
+        const totalPrice = product.price * quantity;
+        const { id, name, category, price, imageURL } = product;
 
+        setCart((prevCart) => {
+            const updatedCart = [...prevCart, { id, name, category, price, imageURL, quantity, totalPrice }];
 
+            setCartTotalPrice((prevTotalPrice) => prevTotalPrice + totalPrice);
+            return updatedCart;
+        });
     };
 
-    //delete tasks
+
+    //delete products from cart
     const handleDeleteFromCart = (idsToDelete) => {
-        setCart(cart.filter((product) => !idsToDelete.includes(product.id)));
+        setCart((prevCart) => {
+            const updatedCart = prevCart.filter((product) => !idsToDelete.includes(product.id));
+
+            // Calculate the new total amount
+            const newTotalAmount = updatedCart.reduce((total, product) => {
+                return total + product.price;
+            }, 0);
+
+            setCartTotalPrice(newTotalAmount);
+            return updatedCart;
+        });
     };
+
 
 
   return (
@@ -171,7 +190,9 @@ function App() {
                                 <Route
                                     key={route.key}
                                     path={route.path}
-                                    element={<route.component cartProducts={cart} handleDeleteFromCart={handleDeleteFromCart}/>}
+                                    element={<route.component cartProducts={cart}
+                                                              handleDeleteFromCart={handleDeleteFromCart}
+                                                              cartTotalPrice = {cartTotalPrice}/>}
                                 />
                             );
                         } else {
