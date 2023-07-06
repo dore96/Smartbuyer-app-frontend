@@ -8,7 +8,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import {typography} from "@mui/system";
+import {Typography} from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import routes from "../routes";
 
@@ -32,7 +32,7 @@ function ShopNavbar() {
         <AppBar position="static" color="secondary">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <typography
+                    <Typography
                         variant="text"
                         noWrap
                         component={NavLink}
@@ -48,7 +48,7 @@ function ShopNavbar() {
                         }}
                     >
                         Categories
-                    </typography>
+                    </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
