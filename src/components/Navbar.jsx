@@ -38,7 +38,6 @@ const Navbar = ({itemsInCart}) => {
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"
-                        noWrap
                         sx={{
                             mr: 2,
                             display: { xs: "none", md: "flex" },
@@ -93,7 +92,6 @@ const Navbar = ({itemsInCart}) => {
                     </Box>
                     <Typography
                         variant="h6"
-                        noWrap
                         component="div"
                         sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}
                     >

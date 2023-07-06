@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-import Grid from '@mui/material/Grid';
 import ProductCard from '../components/Product';
-import {Box} from "@mui/material"; // Replace with the actual path to the ProductCard component
+import {Box,Grid} from "@mui/material";
 import ShopNavbar from "../components/ShopNavbar";
 import PopupMessage from '../components/PopupMessage';
 const Shop = ({ products, handleAddToCart }) => {

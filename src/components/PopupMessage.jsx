@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Alert from '@mui/material/Alert';
 
 const PopupMessage = ({ message, duration, onClose }) => {
     const [showPopup, setShowPopup] = useState(true);
@@ -30,7 +31,9 @@ const PopupMessage = ({ message, duration, onClose }) => {
                 zIndex: '9999',
             }}
         >
-            <p>{message}</p>
+            <Alert variant="filled" severity="success" color="secondary">
+                {message}
+            </Alert>
         </div>
     );
 };
