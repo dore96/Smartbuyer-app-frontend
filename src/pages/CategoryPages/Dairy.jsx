@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import {Box} from "@mui/material";
 import Grid from "@mui/material/Grid";
 import ProductCard from "../../components/Product";
-import ShopNavbar from "../../components/ShopNavbar";
 import PopupMessage from "../../components/PopupMessage";
 import SearchBar from "../../components/SerchBar";
 const Dairy = ({products,handleAddToCart}) => {
@@ -39,7 +38,6 @@ const Dairy = ({products,handleAddToCart}) => {
 
     return (
         <div>
-            <ShopNavbar/>
             <SearchBar onSearch={handleSearch} products={products}/>
             <Box sx={{
                 flexGrow: 1,

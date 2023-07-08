@@ -1,10 +1,10 @@
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import  routes  from "./routes";
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import React, {useState} from "react";
+import CombinedNavbar from "./components/CombinedNavbar";
 
 function App() {
     const [cart, setCart] = useState([]);
@@ -215,7 +215,7 @@ function App() {
             <CssBaseline />
             <Box height="100vh" display="flex" flexDirection="column">
                 <Router>
-                    <Navbar itemsInCart = {cart.length} />
+                    <CombinedNavbar itemsInCart = {cart.length}/>
                     <Routes>{mapRoutes(routes)}</Routes>
                     <Footer />
                 </Router>
