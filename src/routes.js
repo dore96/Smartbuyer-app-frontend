@@ -24,14 +24,6 @@ const routes = [
         component: About,
     },
     {
-        key: "cart-route",
-        title: "cart",
-        path: "/cart",
-        enabled: true,
-        showInMenu: true,
-        component: Cart,
-    },
-    {
         key: "Shop-route",
         title: "Shop",
         path: "/shop",
@@ -70,6 +62,14 @@ const routes = [
         enabled: true,
         showInMenu: false,
         component: MeatAndFish,
+    },
+    {
+        key: "cart-route",
+        title: "cart",
+        path: "/cart",
+        enabled: true,
+        showInMenu: true,
+        component: Cart,
     },
 ];
 

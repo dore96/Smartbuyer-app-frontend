@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import ProductCard from '../components/Product';
 import {Box,Grid} from "@mui/material";
-import ShopNavbar from "../components/ShopNavbar";
 import PopupMessage from '../components/PopupMessage';
 import SearchBar from "../components/SerchBar";
 const Shop = ({ products, handleAddToCart }) => {
@@ -38,9 +37,7 @@ const Shop = ({ products, handleAddToCart }) => {
 
     return (
         <div>
-            <ShopNavbar />
             <SearchBar onSearch={handleSearch} products={products}/>
-
             <Box
                 sx={{
                     flexGrow: 1,

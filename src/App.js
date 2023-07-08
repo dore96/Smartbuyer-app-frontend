@@ -1,32 +1,33 @@
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import  routes  from "./routes";
+import routes from "./routes";
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import React, {useState} from "react";
+import React, { useState } from "react";
+import CombinedNavbar from "./components/CombinedNavbar";
 
 function App() {
+    // State variables for the cart and total price
     const [cart, setCart] = useState([]);
     const [cartTotalPrice, setCartTotalPrice] = useState(0);
 
-    // define theme
+    // Define the theme
     const theme = createTheme({
-    palette: {
-      primary: {
-        light: "#63b8ff",
-        main: "#0989e3",
-        dark: "#005db0",
-        contrastText: "#000",
-      },
-      secondary: {
-        main: "#4db6ac",
-        light: "#82e9de",
-        dark: "#00867d",
-        contrastText: "#000",
-      },
-    },
-  });
+        palette: {
+            primary: {
+                light: "#63b8ff",
+                main: "#0989e3",
+                dark: "#005db0",
+                contrastText: "#000",
+            },
+            secondary: {
+                main: "#4db6ac",
+                light: "#82e9de",
+                dark: "#00867d",
+                contrastText: "#000",
+            },
+        },
+    });
 
     const products = [
         {
@@ -127,21 +128,36 @@ function App() {
         },
     ];
 
-    //add products to cart
+    // Add products to the cart
     const handleAddToCart = (product, quantity) => {
         const totalPrice = product.price * quantity;
         const { id, name, category, price, imageURL } = product;
 
         setCart((prevCart) => {
-            const updatedCart = [...prevCart, { id, name, category, price, imageURL, quantity, totalPrice }];
+            const existingCartItem = prevCart.find((item) => item.id === id);
 
-            setCartTotalPrice((prevTotalPrice) => prevTotalPrice + totalPrice);
-            return updatedCart;
+            if (existingCartItem) {
+                // If the product already exists in the cart, increment the quantity
+                const updatedCart = prevCart.map((item) =>
+                    item.id === id ? { ...item, quantity: item.quantity + quantity } : item
+                );
+
+                setCartTotalPrice((prevTotalPrice) => prevTotalPrice + totalPrice);
+                return updatedCart;
+            } else {
+                // If the product doesn't exist in the cart, add it as a new item
+                const updatedCart = [
+                    ...prevCart,
+                    { id, name, category, price, imageURL, quantity, totalPrice },
+                ];
+
+                setCartTotalPrice((prevTotalPrice) => prevTotalPrice + totalPrice);
+                return updatedCart;
+            }
         });
     };
 
-
-    //delete products from cart
+    // Delete products from the cart
     const handleDeleteFromCart = (idsToDelete) => {
         setCart((prevCart) => {
             const updatedCart = prevCart.filter((product) => !idsToDelete.includes(product.id));
@@ -156,8 +172,7 @@ function App() {
         });
     };
 
-
-    //map routs and deliver relevant functions/arguments by page needs
+    // Map routes and deliver relevant functions/arguments by page needs
     const mapRoutes = (routes) => {
         return routes.map((route) => {
             if (
@@ -171,21 +186,14 @@ function App() {
                     route.path === "/shop"
                         ? products // Display all products if the path is '/shop'
                         : products.filter((product) =>
-                            product.category
-                                .toLowerCase()
-                                .includes(route.path.replace("/shop/", ""))
+                            product.category.toLowerCase().includes(route.path.replace("/shop/", ""))
                         );
 
                 return (
                     <Route
                         key={route.key}
                         path={route.path}
-                        element={
-                            <route.component
-                                products={filteredProducts}
-                                handleAddToCart={handleAddToCart}
-                            />
-                        }
+                        element={<route.component products={filteredProducts} handleAddToCart={handleAddToCart} />}
                     />
                 );
             } else if (route.path === "/cart") {
@@ -203,9 +211,7 @@ function App() {
                     />
                 );
             } else {
-                return (
-                    <Route key={route.key} path={route.path} element={<route.component />} />
-                );
+                return <Route key={route.key} path={route.path} element={<route.component />} />;
             }
         });
     };
@@ -213,9 +219,9 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Box height="100vh" display="flex" flexDirection="column">
+            <Box height="100vh" display="flex" flexDirection="column" sx={{ maxWidth: "100%" }}>
                 <Router>
-                    <Navbar itemsInCart = {cart.length} />
+                    <CombinedNavbar itemsInCart={cart.length} />
                     <Routes>{mapRoutes(routes)}</Routes>
                     <Footer />
                 </Router>
@@ -225,3 +231,4 @@ function App() {
 }
 
 export default App;
+
