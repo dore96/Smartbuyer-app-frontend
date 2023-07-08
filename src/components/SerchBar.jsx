@@ -5,13 +5,17 @@ import TextField from '@mui/material/TextField';
 const SearchBar = ({ onSearch, products }) => {
     const options = products.map((product) => ({
         id: product.id,
-        label: product.name
+        label: product.name,
+        category: product.category
     }));
+
+    const groupByCategory = (option) => option.category;
 
     return (
         <Autocomplete
             freeSolo
             options={options}
+            groupBy={groupByCategory}
             getOptionLabel={(option) => option.label}
             filterOptions={(options, state) =>
                 options.filter((option) =>
@@ -20,7 +24,7 @@ const SearchBar = ({ onSearch, products }) => {
             }
             onInputChange={(event, value) => onSearch(value)}
             renderInput={(params) => (
-                <TextField {...params} label="חיפוש מוצר" variant="outlined"/>
+                <TextField {...params} label="Search Product" variant="outlined" />
             )}
         />
     );
