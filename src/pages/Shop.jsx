@@ -3,9 +3,11 @@ import ProductCard from '../components/Product';
 import {Box,Grid} from "@mui/material";
 import ShopNavbar from "../components/ShopNavbar";
 import PopupMessage from '../components/PopupMessage';
+import SearchBar from "../components/SerchBar";
 const Shop = ({ products, handleAddToCart }) => {
     const [popupMessage, setPopupMessage] = useState('');
     const [showPopup, setShowPopup] = useState(false);
+    const [filteredProducts, setFilteredProducts] = useState(products);
 
     const handleAddToCartFromShop = (product, quantity) => {
         // Update the popup state variables
@@ -21,6 +23,14 @@ const Shop = ({ products, handleAddToCart }) => {
         handleAddToCart(product, quantity);
     };
 
+    //show only products that correspond to the search
+    const handleSearch = (searchValue) => {
+        const filtered = products.filter((product) =>
+            product.name.toLowerCase().includes(searchValue.toLowerCase())
+        );
+        setFilteredProducts(filtered);
+    };
+
     const closePopup = () => {
         setShowPopup(false);
         setPopupMessage('');
@@ -29,6 +39,8 @@ const Shop = ({ products, handleAddToCart }) => {
     return (
         <div>
             <ShopNavbar />
+            <SearchBar onSearch={handleSearch} products={products}/>
+
             <Box
                 sx={{
                     flexGrow: 1,
@@ -39,7 +51,7 @@ const Shop = ({ products, handleAddToCart }) => {
                 }}
             >
                 <Grid container spacing={0.5}>
-                    {products.map((product, index) => (
+                    {filteredProducts.map((product, index) => (
                         <Grid item xs={12} sm={6} md={1.5} key={index}>
                             <ProductCard
                                 product={product}
