@@ -6,23 +6,6 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 
-// Styled component for the product card
-const ProductCardWrapper = styled(Card)(({ theme }) => ({
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    height: '100%',
-    alignItems: 'center',
-    borderRadius: theme.spacing(1),
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
-    maxWidth: 200, // Adjust the maximum width of the card
-    margin: theme.spacing(1), // Add margin to create space between cards
-    [theme.breakpoints.down('sm')]: {
-        flexDirection: 'row',
-        alignItems: 'flex-start',
-    },
-}));
-
 // Styled component for the quantity container
 const QuantityContainer = styled('div')(({ theme }) => ({
     display: 'flex',
@@ -43,7 +26,7 @@ const ProductCardContent = styled(CardContent)({
 
 // ProductCard component
 const ProductCard = ({ product, handleAddToCart }) => {
-    const { name, category, price, imageURL } = product;
+    const {name, category, price, imageURL} = product;
     const [quantity, setQuantity] = useState(0);
 
     const handleAddToItemQuantity = () => {
@@ -62,14 +45,15 @@ const ProductCard = ({ product, handleAddToCart }) => {
     };
 
     return (
-        <ProductCardWrapper>
+        <Card sx={{ margin: '2%' ,textAlign:'center'}}>
             {/* Card Media */}
             <CardMedia
                 component="img"
-                height="150"
+                height="120"
+                width="100%"
                 image={imageURL}
                 alt={name}
-                sx={{ objectFit: 'cover' }}
+                sx={{objectFit: 'cover'}}
             />
 
             {/* Card Content */}
@@ -92,9 +76,11 @@ const ProductCard = ({ product, handleAddToCart }) => {
                 </Typography>
 
                 {/* Quantity Container */}
-                <QuantityContainer>
+                <QuantityContainer sx={{justifyContent: 'center'}} >
                     {/* Decrease Quantity Button */}
-                    <Button onClick={handleReduceItemFromCart} disabled={quantity === 0}>-</Button>
+                    <Button onClick={handleReduceItemFromCart} disabled={quantity === 0}>
+                        -
+                    </Button>
                     <span>{quantity}</span>
                     {/* Increase Quantity Button */}
                     <Button onClick={handleAddToItemQuantity}>+</Button>
@@ -105,8 +91,8 @@ const ProductCard = ({ product, handleAddToCart }) => {
             <Button onClick={handleAddToCartFromProduct} disabled={quantity === 0}>
                 Add to cart
             </Button>
-        </ProductCardWrapper>
+        </Card>
     );
 };
 
-export default ProductCard;
+    export default ProductCard;

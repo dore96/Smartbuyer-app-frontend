@@ -1,8 +1,10 @@
 import React, {useState} from 'react';
 import ProductCard from '../components/Product';
-import {Box,Grid} from "@mui/material";
+import {Box} from "@mui/material";
 import PopupMessage from '../components/PopupMessage';
 import SearchBar from "../components/SerchBar";
+import Typography from "@mui/material/Typography";
+
 const Shop = ({ products, handleAddToCart }) => {
     const [popupMessage, setPopupMessage] = useState('');
     const [showPopup, setShowPopup] = useState(false);
@@ -35,28 +37,55 @@ const Shop = ({ products, handleAddToCart }) => {
         setPopupMessage('');
     };
 
+    // Group products by category
+    const groupedProducts = filteredProducts.reduce((grouped, product) => {
+        const { category } = product;
+        if (!grouped[category]) {
+            grouped[category] = [];
+        }
+        grouped[category].push(product);
+        return grouped;
+    }, {});
+
+    const CategoryHeaderStyle = {
+        fontSize: '24px',
+        varient: "h3",
+        fontWeight: 'bold',
+        color: "white",
+        textAlign:'center',
+    };
+
+    // Render grouped products
     return (
         <div>
-            <SearchBar onSearch={handleSearch} products={products}/>
+            <SearchBar onSearch={handleSearch} products={products} />
             <Box
                 sx={{
                     flexGrow: 1,
                     backgroundColor: 'whitesmoke',
                     display: 'flex',
-                    justifyContent: 'center',
-                    alignItems: 'center'
+                    justifyContent: 'left',
+                    alignItems: 'left',
+                    flexDirection: 'column'
                 }}
             >
-                <Grid container spacing={0.5}>
-                    {filteredProducts.map((product, index) => (
-                        <Grid item xs={12} sm={6} md={1.5} key={index}>
-                            <ProductCard
-                                product={product}
-                                handleAddToCart={handleAddToCartFromShop}
-                            />
-                        </Grid>
-                    ))}
-                </Grid>
+                {Object.keys(groupedProducts).map(category => (
+                    <div key={category} style={{ display: 'Block' }}>
+                        <Typography  style={CategoryHeaderStyle}  sx={{backgroundColor: 'secondary.main'}}>
+                            {category}
+                        </Typography>
+                        <div style={{ display: 'flex' }}>
+                            {groupedProducts[category].map((product, index) => (
+                                <div key={index} style={{ display: 'block' }}>
+                                    <ProductCard
+                                        product={product}
+                                        handleAddToCart={handleAddToCartFromShop}
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                ))}
             </Box>
 
             {/* Popup message */}
@@ -65,6 +94,7 @@ const Shop = ({ products, handleAddToCart }) => {
             )}
         </div>
     );
+
 };
 
 

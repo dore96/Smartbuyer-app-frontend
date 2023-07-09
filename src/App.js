@@ -178,21 +178,19 @@ function App() {
 
     // Map routes and deliver relevant functions/arguments by page needs
     const mapRoutes = (routes) => {
-        return routes.map((route) => {
-            if (
-                route.path === "/shop" ||
-                route.path === "/shop/dairy" ||
-                route.path === "/shop/meat&fish" ||
-                route.path === "/shop/snacks"
-            ) {
-                // Filter the products based on the route path
-                const filteredProducts =
-                    route.path === "/shop"
-                        ? products // Display all products if the path is '/shop'
-                        : products.filter((product) =>
-                            product.category.toLowerCase().includes(route.path.replace("/shop/", ""))
-                        );
+        // Filter the products based on the route path
+        const filteredProducts = products.filter((product) => {
+            const routePaths = [
+                '/shop',
+                '/shop/dairy',
+                '/shop/meat&fish',
+                '/shop/snacks',
+            ];
+            return routePaths.includes(product.category.toLowerCase());
+        });
 
+        return routes.map((route) => {
+            if (route.path === '/shop' || route.path === '/shop/dairy' || route.path === '/shop/meat&fish' || route.path === '/shop/snacks') {
                 return (
                     <Route
                         key={route.key}
@@ -200,7 +198,7 @@ function App() {
                         element={<route.component products={filteredProducts} handleAddToCart={handleAddToCart} />}
                     />
                 );
-            } else if (route.path === "/cart") {
+            } else if (route.path === '/cart') {
                 return (
                     <Route
                         key={route.key}
