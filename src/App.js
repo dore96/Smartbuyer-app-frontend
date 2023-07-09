@@ -1,5 +1,5 @@
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import routes from "./routes";
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
@@ -179,15 +179,6 @@ function App() {
     // Map routes and deliver relevant functions/arguments by page needs
     const mapRoutes = (routes) => {
         // Filter the products based on the route path
-        const filteredProducts = products.filter((product) => {
-            const routePaths = [
-                '/shop',
-                '/shop/dairy',
-                '/shop/meat&fish',
-                '/shop/snacks',
-            ];
-            return routePaths.includes(product.category.toLowerCase());
-        });
 
         return routes.map((route) => {
             if (route.path === '/shop' || route.path === '/shop/dairy' || route.path === '/shop/meat&fish' || route.path === '/shop/snacks') {
@@ -195,7 +186,7 @@ function App() {
                     <Route
                         key={route.key}
                         path={route.path}
-                        element={<route.component products={filteredProducts} handleAddToCart={handleAddToCart} />}
+                        element={<route.component products={products} handleAddToCart={handleAddToCart} />}
                     />
                 );
             } else if (route.path === '/cart') {

@@ -2,6 +2,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
 import Shop from "./pages/Shop";
+import Dairy from "./pages/CategoryPages/Dairy";
+import MeatAndFish from "./pages/CategoryPages/MeatAndFish";
+import Snacks from "./pages/CategoryPages/Snacks";
 
 const routes = [
     {
@@ -42,7 +45,7 @@ const routes = [
         path: "/shop/dairy",
         enabled: true,
         showInMenu: false,
-        component: Shop,
+        component: Dairy,
     },
     {
         key: "Shop-snacks-route",
@@ -50,7 +53,7 @@ const routes = [
         path: "/shop/snacks",
         enabled: true,
         showInMenu: false,
-        component: Shop,
+        component: Snacks,
     },
     {
         key: "Shop-meat&fish-route",
@@ -58,7 +61,7 @@ const routes = [
         path: "/shop/meat&fish",
         enabled: true,
         showInMenu: false,
-        component: Shop,
+        component: MeatAndFish,
     },
     {
         key: "cart-route",

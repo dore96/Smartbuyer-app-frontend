@@ -1,15 +1,30 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import ProductCard from '../components/Product';
 import {Box} from "@mui/material";
 import PopupMessage from '../components/PopupMessage';
 import SearchBar from "../components/SerchBar";
 import Typography from "@mui/material/Typography";
+import { useLocation } from 'react-router-dom';
 
 const Shop = ({ products, handleAddToCart }) => {
     const [popupMessage, setPopupMessage] = useState('');
     const [showPopup, setShowPopup] = useState(false);
     const [filteredProducts, setFilteredProducts] = useState(products);
+    const location = useLocation();
+    const currentPath = location.pathname;
 
+    useEffect(() => {
+        // Filter the products based on the route path
+        const filtered =
+            currentPath === "/shop"
+                ? products // Display all products if the path is '/shop'
+                : products.filter((product) =>
+                    product.category
+                        .toLowerCase()
+                        .includes(currentPath.replace("/shop/", ""))
+                );
+        setFilteredProducts(filtered);
+    }, [currentPath, products]);
     const handleAddToCartFromShop = (product, quantity) => {
         // Update the popup state variables
         setShowPopup(true);
