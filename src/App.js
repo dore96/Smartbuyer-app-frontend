@@ -4,7 +4,7 @@ import routes from "./routes";
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import React, { useState } from "react";
-import CombinedNavbar from "./components/CombinedNavbar";
+import CombinedNavbar from "./components/CombinedNavbar"
 
 function App() {
     // State variables for the cart and total price
@@ -18,13 +18,13 @@ function App() {
                 light: "#63b8ff",
                 main: "#0989e3",
                 dark: "#005db0",
-                contrastText: "#000",
+                contrastText: "#FFF",
             },
             secondary: {
                 main: "#4db6ac",
                 light: "#82e9de",
                 dark: "#00867d",
-                contrastText: "#000",
+                contrastText: "#FFF",
             },
         },
     });
@@ -159,6 +159,10 @@ function App() {
 
     // Delete products from the cart
     const handleDeleteFromCart = (idsToDelete) => {
+        if (idsToDelete.length === 0)
+        {
+            return ;
+        }
         setCart((prevCart) => {
             const updatedCart = prevCart.filter((product) => !idsToDelete.includes(product.id));
 

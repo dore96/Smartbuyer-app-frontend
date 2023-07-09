@@ -14,11 +14,13 @@ export const Footer = () => {
         >
             <Container maxWidth="lg">
                 <Grid container direction="column" alignItems="center" spacing={2}>
+                    {/* Footer title */}
                     <Grid item xs={12}>
-                        <Typography color="black" variant="h5" align="center">
+                        <Typography color="textSecondary" variant="h5" align="center">
                             Smart Buyer App
                         </Typography>
                     </Grid>
+                    {/* Footer subtitle */}
                     <Grid item xs={12}>
                         <Typography color="textSecondary" variant="subtitle1" align="center">
                             {`© ${new Date().getFullYear()} Smart Buyer App By Dor Edelman and Maor Halevi`}
