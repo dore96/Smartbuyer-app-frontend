@@ -25,6 +25,7 @@ const Shop = ({ products, handleAddToCart }) => {
                 );
         setFilteredProducts(filtered);
     }, [currentPath, products]);
+
     const handleAddToCartFromShop = (product, quantity) => {
         // Update the popup state variables
         setShowPopup(true);
@@ -41,7 +42,7 @@ const Shop = ({ products, handleAddToCart }) => {
 
     //show only products that correspond to the search
     const handleSearch = (searchValue) => {
-        const filtered = products.filter((product) =>
+        const filtered = filteredProducts.filter((product) =>
             product.name.toLowerCase().includes(searchValue.toLowerCase())
         );
         setFilteredProducts(filtered);
@@ -73,7 +74,7 @@ const Shop = ({ products, handleAddToCart }) => {
     // Render grouped products
     return (
         <div>
-            <SearchBar onSearch={handleSearch} products={products} />
+            <SearchBar onSearch={handleSearch} products={filteredProducts} />
             <Box
                 sx={{
                     flexGrow: 1,
