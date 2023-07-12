@@ -1,12 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 import { Button, Drawer, List, ListItem, ListItemText, useMediaQuery, Grid } from "@mui/material";
 import routes from "../routes";
 import { NavLink } from "react-router-dom";
-
 const SearchBar = ({ onSearch, products }) => {
-    const [drawerOpen, setDrawerOpen] = React.useState(false);
+    const [drawerOpen, setDrawerOpen] = useState(false);
     const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
 
     // Handler for closing the drawer
@@ -24,12 +23,11 @@ const SearchBar = ({ onSearch, products }) => {
         label: product.name,
         category: product.category
     }));
-
     const groupByCategory = (option) => option.category;
 
     return (
-        <Grid container  spacing={2} alignItems="center">
-            <Grid item xs={2} >
+        <Grid container spacing={2} alignItems="center">
+            <Grid item xs={2}>
                 {/* Shop By Categories Button */}
                 <Button
                     variant="contained"
@@ -52,7 +50,7 @@ const SearchBar = ({ onSearch, products }) => {
                     }
                     onInputChange={(event, value) => onSearch(value)}
                     renderInput={(params) => (
-                        <TextField {...params} label="Search Product" variant="outlined"/>
+                        <TextField {...params} label="Search Product" variant="outlined" />
                     )}
                 />
             </Grid>
