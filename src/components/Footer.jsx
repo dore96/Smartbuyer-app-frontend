@@ -1,5 +1,6 @@
 import React from "react";
-import { Box, Container, Grid, Typography } from "@mui/material";
+import { Box, Container, Grid, Typography} from "@mui/material";
+import SiteMap from "./SiteMap";
 
 export const Footer = () => {
     return (
@@ -8,21 +9,23 @@ export const Footer = () => {
                 width: "100%",
                 height: "auto",
                 backgroundColor: "secondary.main",
-                paddingTop: "1rem",
-                paddingBottom: "1rem",
+                paddingTop: "0.5rem",
+                paddingBottom: "0.5rem",
             }}
         >
             <Container maxWidth="lg">
                 <Grid container direction="column" alignItems="center" spacing={2}>
                     {/* Footer title */}
                     <Grid item xs={12}>
-                        <Typography color="textSecondary" variant="h5" align="center">
+                        <Typography color="textSecondary" variant="h6" align="center">
                             Smart Buyer App
                         </Typography>
                     </Grid>
+                    {/*Site Map*/}
+                    <SiteMap/>
                     {/* Footer subtitle */}
                     <Grid item xs={12}>
-                        <Typography color="textSecondary" variant="subtitle1" align="center">
+                        <Typography color="textSecondary" variant="body2" align="center">
                             {`© ${new Date().getFullYear()} Smart Buyer App By Dor Edelman and Maor Halevi`}
                         </Typography>
                     </Grid>
