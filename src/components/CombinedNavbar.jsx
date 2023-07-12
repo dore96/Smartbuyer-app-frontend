@@ -3,7 +3,7 @@ import { Box, Link, Container, Toolbar, Button, useMediaQuery, Stack, Badge } fr
 import routes from "../routes";
 import { NavLink } from "react-router-dom";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
-//import SmartBuyerLogo from "../SmartBuyerLogo.png";
+import SmartBuyerLogo from "../SmartBuyerLogo.png"
 
 const CombinedNavbar = ({ itemsInCart }) => {
     const isMobile = useMediaQuery((theme) => theme.breakpoints.down("sm"));
@@ -20,8 +20,9 @@ const CombinedNavbar = ({ itemsInCart }) => {
                 <Toolbar disableGutters>
                     <Stack direction="row" alignItems="center" spacing={2}>
                         {/* Smart Buyer Logo */}
-                        {/*<img src={SmartBuyerLogo} alt="Logo" style={{ height: "50px" }} />*/}
-
+                        <Link  key="home-route" component={NavLink} to="/">
+                            <img src={SmartBuyerLogo} alt="Logo" style={{ height: "50px" }}/>
+                        </Link>
                         {/* Desktop navigation links */}
                         {!isMobile && (
                             <>
@@ -36,7 +37,7 @@ const CombinedNavbar = ({ itemsInCart }) => {
                                                 color="black"
                                                 underline="none"
                                                 variant="button"
-                                                sx={{ fontSize: "large" }}
+                                                sx={{ fontSize: "large"}}
                                             >
                                                 {/* Render the route as a Button */}
                                                 {route.path !== "/cart" ? (
@@ -46,7 +47,7 @@ const CombinedNavbar = ({ itemsInCart }) => {
                                                 ) : (
                                                     // Render the cart route with a Badge
                                                     <Badge badgeContent={itemsInCart} color="secondary">
-                                                        <ShoppingCartIcon style={{ color: 'white' }} />
+                                                        <ShoppingCartIcon style={{color: 'white'}}/>
                                                     </Badge>
                                                 )}
                                             </Link>

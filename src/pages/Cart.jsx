@@ -15,7 +15,7 @@ const Cart = ({cartProducts,handleDeleteFromCart,cartTotalPrice}) => {
             {cartProducts && cartProducts.length > 0 ? (
                 <>
                     <CartTable cartProducts={cartProducts} handleDeleteFromCart={handleDeleteFromCart}/>
-                    <Typography sx={{ textAlign: 'right' }}>Cart Price: {cartTotalPrice} ₪</Typography>
+                    <Typography sx={{ textAlign: 'right' }}>Cart Price: {cartTotalPrice.toFixed(2)} ₪</Typography>
                 </>
             ) : (
                 <Typography>No items in the cart.</Typography>

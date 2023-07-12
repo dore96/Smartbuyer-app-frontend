@@ -179,7 +179,6 @@ function App() {
     // Map routes and deliver relevant functions/arguments by page needs
     const mapRoutes = (routes) => {
         // Filter the products based on the route path
-
         return routes.map((route) => {
             if (route.path === '/shop' || route.path === '/shop/dairy' || route.path === '/shop/meat&fish' || route.path === '/shop/snacks') {
                 return (

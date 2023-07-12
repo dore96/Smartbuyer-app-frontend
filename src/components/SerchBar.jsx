@@ -63,7 +63,7 @@ const SearchBar = ({ onSearch, products }) => {
                 <List>
                     {/* Generate list items for each route */}
                     {routes
-                        .filter((page) => !page.showInMenu)
+                        .filter((page) => page.shoppingRout)
                         .map((page) => (
                             <ListItem
                                 key={page.key}

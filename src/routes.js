@@ -5,6 +5,8 @@ import Shop from "./pages/Shop";
 import Dairy from "./pages/CategoryPages/Dairy";
 import MeatAndFish from "./pages/CategoryPages/MeatAndFish";
 import Snacks from "./pages/CategoryPages/Snacks";
+import SignUpPage from "./pages/SingUpPage";
+import Login from "./pages/Login";
 
 const routes = [
     {
@@ -13,6 +15,7 @@ const routes = [
         path: "/",
         enabled: true,
         showInMenu: true,
+        shoppingRout: false,
         component: Home,
     },
     {
@@ -21,6 +24,7 @@ const routes = [
         path: "/about",
         enabled: true,
         showInMenu: true,
+        shoppingRout: false,
         component: About,
     },
     {
@@ -29,6 +33,7 @@ const routes = [
         path: "/shop",
         enabled: true,
         showInMenu: true,
+        shoppingRout: false,
         component: Shop,
     },
     {
@@ -37,6 +42,7 @@ const routes = [
         path: "/shop",
         enabled: true,
         showInMenu: false,
+        shoppingRout: true,
         component: Shop,
     },
     {
@@ -45,6 +51,7 @@ const routes = [
         path: "/shop/dairy",
         enabled: true,
         showInMenu: false,
+        shoppingRout: true,
         component: Dairy,
     },
     {
@@ -53,6 +60,7 @@ const routes = [
         path: "/shop/snacks",
         enabled: true,
         showInMenu: false,
+        shoppingRout: true,
         component: Snacks,
     },
     {
@@ -61,6 +69,7 @@ const routes = [
         path: "/shop/meat&fish",
         enabled: true,
         showInMenu: false,
+        shoppingRout: true,
         component: MeatAndFish,
     },
     {
@@ -69,7 +78,26 @@ const routes = [
         path: "/cart",
         enabled: true,
         showInMenu: true,
+        shoppingRout: false,
         component: Cart,
+    },
+    {
+        key: "SignUpPage-route",
+        title: "Sign Up Page",
+        path: "/sign-up",
+        enabled: true,
+        showInMenu: false,
+        shoppingRout: false,
+        component: SignUpPage,
+    },
+    {
+        key: "Login-route",
+        title: "Login",
+        path: "/login",
+        enabled: true,
+        showInMenu: true,
+        shoppingRout: false,
+        component: Login,
     },
 ];
 
