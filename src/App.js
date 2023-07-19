@@ -1,15 +1,18 @@
 import Footer from "./components/Footer";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import routes from "./routes";
-import { Box, CssBaseline, ThemeProvider } from "@mui/material";
+import {Box, CssBaseline, ThemeProvider, useMediaQuery} from "@mui/material";
 import { createTheme } from "@mui/material/styles";
 import React, { useState } from "react";
+import { useTheme } from "@mui/material/styles";
 import CombinedNavbar from "./components/CombinedNavbar"
 
 function App() {
     // State variables for the cart and total price
     const [cart, setCart] = useState([]);
     const [cartTotalPrice, setCartTotalPrice] = useState(0);
+    const Theme = useTheme();
+    const isMobile = useMediaQuery(Theme.breakpoints.down("sm"));
 
     // Define the theme
     const theme = createTheme({
@@ -211,7 +214,7 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Box height="100vh" display="flex" flexDirection="column" sx={{ maxWidth: "100%" }}>
+            <Box height={isMobile ? "auto":"100vh"} display="flex" flexDirection="column" sx={{ maxWidth: "100%" }}>
                 <Router>
                     <CombinedNavbar itemsInCart={cart.length} />
                     <Routes>{mapRoutes(routes)}</Routes>

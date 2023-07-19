@@ -95,7 +95,7 @@ const routes = [
         title: "Login",
         path: "/login",
         enabled: true,
-        showInMenu: true,
+        showInMenu: false,
         shoppingRout: false,
         component: Login,
     },
