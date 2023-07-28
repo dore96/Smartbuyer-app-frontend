@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import routes from "./routes";
 import {Box, CssBaseline, ThemeProvider, useMediaQuery} from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { useTheme } from "@mui/material/styles";
 import CombinedNavbar from "./components/CombinedNavbar"
 
@@ -13,6 +13,24 @@ function App() {
     const [cartTotalPrice, setCartTotalPrice] = useState(0);
     const Theme = useTheme();
     const isMobile = useMediaQuery(Theme.breakpoints.down("sm"));
+
+    function handelCallbackResponse(response) {
+        console.log("Encoded JWT:" + response.credentials);
+    }
+
+    useEffect(() => {
+        /*global google*/
+
+        google.accounts.id.initialize({
+            client_id: "523770280361-rv0bhqo3a3tdhm4kl6uiv2u3gk7f2i24.apps.googleusercontent.com",
+            callback: handelCallbackResponse
+        });
+
+        google.accounts.id.renderButton(
+            document.getElementById("signInDiv"),
+            {theme: "outline", size: "large"}
+        );
+    },[]);
 
     // Define the theme
     const theme = createTheme({
@@ -217,7 +235,7 @@ function App() {
             <Box height={isMobile ? "auto":"100vh"} display="flex" flexDirection="column" sx={{ maxWidth: "100%" }}>
                 <Router>
                     <CombinedNavbar itemsInCart={cart.length} />
-                    <Routes>{mapRoutes(routes)}</Routes>
+                        <Routes>{mapRoutes(routes)}</Routes>
                     <Footer />
                 </Router>
             </Box>

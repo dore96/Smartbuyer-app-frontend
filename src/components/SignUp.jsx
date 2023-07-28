@@ -12,15 +12,41 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import {NavLink} from "react-router-dom";
+import PopupMessage from "./PopupMessage";
+import { useState } from 'react';
 
 export default function SignUp() {
+    const [showPopup, setShowPopup] = useState(false);
     const handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
-        console.log({
-            email: data.get('email'),
-            password: data.get('password'),
-        });
+
+        const options ={
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json', // Set the Content-Type header to JSON
+            },
+            body: JSON.stringify({
+                first_name: data.get('firstName'),
+                last_name: data.get('lastName'),
+                email: data.get('email'),
+                password: data.get('password')
+            })
+        };
+        console.log(options.body);
+        fetch("http://localhost:5000/user",options).then(response =>{
+            if (response.status===200) {
+                console.log(response);
+            }
+            else if(response.status === 409)  {
+                setShowPopup(true);
+            }
+            else {
+                alert("Error");
+            }
+        }).then().catch(error =>{
+            console.log("there has beeen an error",error);
+        })
     };
 
     return (
@@ -113,6 +139,10 @@ export default function SignUp() {
                     </Grid>
                 </Box>
             </Box>
+            {/* Render the PopupMessage component conditionally */}
+            {showPopup && (
+                <PopupMessage message={"User already exists"} duration={2000} onClose={() => setShowPopup(false)} messageType={false} />
+            )}
         </Container>
     );
 }

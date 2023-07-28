@@ -119,7 +119,7 @@ const Shop = ({ products, handleAddToCart }) => {
                 ))}
             </Box>
 
-            {showPopup && <PopupMessage message={popupMessage} duration={2000} onClose={closePopup} />}
+            {showPopup && <PopupMessage message={popupMessage} duration={2000} onClose={closePopup} messageType={true}/>}
         </div>
     );
 };
