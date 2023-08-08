@@ -3,34 +3,15 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import routes from "./routes";
 import {Box, CssBaseline, ThemeProvider, useMediaQuery} from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import { useTheme } from "@mui/material/styles";
 import CombinedNavbar from "./components/CombinedNavbar"
-
 function App() {
     // State variables for the cart and total price
     const [cart, setCart] = useState([]);
     const [cartTotalPrice, setCartTotalPrice] = useState(0);
     const Theme = useTheme();
     const isMobile = useMediaQuery(Theme.breakpoints.down("sm"));
-
-    function handelCallbackResponse(response) {
-        console.log("Encoded JWT:" + response.credentials);
-    }
-
-    useEffect(() => {
-        /*global google*/
-
-        google.accounts.id.initialize({
-            client_id: "523770280361-rv0bhqo3a3tdhm4kl6uiv2u3gk7f2i24.apps.googleusercontent.com",
-            callback: handelCallbackResponse
-        });
-
-        google.accounts.id.renderButton(
-            document.getElementById("signInDiv"),
-            {theme: "outline", size: "large"}
-        );
-    },[]);
 
     // Define the theme
     const theme = createTheme({
@@ -148,7 +129,6 @@ function App() {
             imageURL: 'https://cdna.wobily.com/images/e940409a-a7e3-4b5b-8fcb-4838d64fa5d0_500.png'
         },
     ];
-
     // Add products to the cart
     const handleAddToCart = (product, quantity) => {
         const totalPrice = product.price * quantity;
