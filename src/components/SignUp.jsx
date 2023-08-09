@@ -11,13 +11,11 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import {NavLink} from "react-router-dom";
 import PopupMessage from "./PopupMessage";
-import { useState } from 'react';
+import {usePopupMessage} from "./usePopupMessage";
 import backendServerURL from '../config'
 
 export default function SignUp() {
-    const [showPopup, setShowPopup] = useState(false);
-    const [popupMessage, setPopupMessage] = useState('');
-    const [popupMessageType, setPopupMessageType] = useState(false); // false for error, true for success
+    const {show , showPopup,popupMessage,popupMessageType,setShowPopup} = usePopupMessage();
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -39,24 +37,15 @@ export default function SignUp() {
         fetch(`${backendServerURL}/user`, options)
             .then((response) => {
                 if (response.status === 200) {
-                    setPopupMessage("Registration successful"); // Set success message
-                    setPopupMessageType(true); // Set success message type
-                    setShowPopup(true); // Show the PopupMessage
+                    show("Registration successful, you can now log in.", true)
                 } else if (response.status === 409) {
-                    setPopupMessage("User already exists"); // Set error message
-                    setPopupMessageType(false); // Set error message type
-                    setShowPopup(true); // Show the PopupMessage
+                    show("User already exists", false)
                 } else {
-                    setPopupMessage("Error"); // Set error message for other cases
-                    setPopupMessageType(false); // Set error message type
-                    setShowPopup(true); // Show the PopupMessage
+                    show("Error", false)
                 }
             })
             .catch((error) => {
-                console.log("There has been an error", error);
-                setPopupMessage("Error"); // Set error message for unexpected errors
-                setPopupMessageType(false); // Set error message type
-                setShowPopup(true); // Show the PopupMessage
+                show(error, false)
             });
     };
 

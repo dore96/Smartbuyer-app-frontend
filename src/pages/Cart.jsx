@@ -1,22 +1,21 @@
-import React, { useState} from "react";
+import React from "react";
 import { useEffect } from 'react';
 import {Box, Typography} from "@mui/material";
 import CartTable from "../components/CartTable";
 import PopupMessage from "../components/PopupMessage";
+import {usePopupMessage} from "../components/usePopupMessage";
 
 const Cart = ({cartProducts,handleDeleteFromCart,cartTotalPrice}) => {
-    const [showPopup, setShowPopup] = useState(false);
-    const [popupMessage, setPopupMessage] = useState('');
+    const {show , showPopup,popupMessage,setShowPopup} = usePopupMessage();
 
     useEffect(() => {
         // Check for the pop-up message in localStorage
         const popupMessage = localStorage.getItem('popupMessage');
         if (popupMessage) {
-            setPopupMessage(popupMessage);
-            setShowPopup(true);
+            show(popupMessage,true);
             localStorage.removeItem('popupMessage');
         }
-    }, []);
+    }, [show]);
 
 
     return (

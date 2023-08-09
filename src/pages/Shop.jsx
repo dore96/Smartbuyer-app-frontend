@@ -1,21 +1,23 @@
-import React, { useEffect, useState } from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import ProductCard from '../components/Product';
 import { Box } from '@mui/material';
 import PopupMessage from '../components/PopupMessage';
+import {usePopupMessage} from "../components/usePopupMessage";
 import SearchBar from '../components/SerchBar';
 import Typography from '@mui/material/Typography';
 import { useLocation } from 'react-router-dom';
-import Slider from 'react-slick'; // Import the react-slick carousel component
-import 'slick-carousel/slick/slick.css'; // Import the slick-carousel CSS
-import 'slick-carousel/slick/slick-theme.css'; // Import the slick-carousel theme CSS
+import TokenContext from "../components/TokenContext";
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const Shop = ({ products, handleAddToCart }) => {
-    const [popupMessage, setPopupMessage] = useState('');
-    const [showPopup, setShowPopup] = useState(false);
+    const {show , showPopup,popupMessage,popupMessageType,setShowPopup} = usePopupMessage();
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [groupedProducts, setGroupedProducts] = useState([]);
     const location = useLocation();
     const currentPath = location.pathname;
+    const { isLoggedIn } = useContext(TokenContext);
 
     useEffect(() => {
         // Filter products based on the route path
@@ -41,17 +43,14 @@ const Shop = ({ products, handleAddToCart }) => {
     }, [currentPath, products]);
 
     const handleAddToCartFromShop = (product, quantity) => {
-        // Update the popup state variables
-        setShowPopup(true);
-        setPopupMessage(`Added ${quantity} ${product.unit} of ${product.name} to the cart`);
-
-        // Reset the popup state variables after a certain duration
-        setTimeout(() => {
-            setShowPopup(false);
-            setPopupMessage('');
-        }, 2000); // 2 seconds
-
-        handleAddToCart(product, quantity);
+        if(isLoggedIn){
+            // Update the popup state variables
+            show(`Added ${quantity} ${product.unit} of ${product.name} to the cart`,true);
+            handleAddToCart(product, quantity);
+        }
+        else{
+            show("You need to log in first.",false);
+        }
     };
 
     const handleSearch = (searchValue) => {
@@ -80,10 +79,6 @@ const Shop = ({ products, handleAddToCart }) => {
         setGroupedProducts(grouped);
     };
 
-    const closePopup = () => {
-        setShowPopup(false);
-        setPopupMessage('');
-    };
 
     const CategoryHeaderStyle = {
         fontSize: '24px',
@@ -159,7 +154,14 @@ const Shop = ({ products, handleAddToCart }) => {
                 ))}
             </Box>
 
-            {showPopup && <PopupMessage message={popupMessage} duration={2000} onClose={closePopup} messageType={true}/>}
+            {showPopup && (
+                <PopupMessage
+                    message={popupMessage}
+                    duration={2000}
+                    onClose={() => setShowPopup(false)}
+                    messageType={popupMessageType}
+                />
+            )}
         </div>
     );
 };

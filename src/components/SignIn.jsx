@@ -12,16 +12,15 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import {NavLink} from "react-router-dom";
-import {useContext, useState} from "react";
+import {useContext} from "react";
 import backendServerURL from '../config'
 import PopupMessage from "./PopupMessage";
 import TokenContext from "./TokenContext";
 import { useNavigate } from 'react-router-dom';
+import {usePopupMessage} from "./usePopupMessage";
 
 export default function SignIn() {
-    const [showPopup, setShowPopup] = useState(false);
-    const [popupMessage, setPopupMessage] = useState('');
-    const [popupMessageType, setPopupMessageType] = useState(false); // false for error, true for success
+    const {show , showPopup,popupMessage,popupMessageType,setShowPopup} = usePopupMessage();
     const { setToken, isLoggedIn } = useContext(TokenContext);
     const navigate = useNavigate();
 
@@ -45,8 +44,10 @@ export default function SignIn() {
                 if (response.status === 200) {
                     return response.json();
                 } else if (response.status === 401) {
+                    show('Invalid credentials',false)
                     return { error: 'Invalid credentials' };
                 } else {
+                    show('Error',false)
                     return { error: 'Error' };
                 }
             })
@@ -57,16 +58,11 @@ export default function SignIn() {
                     localStorage.setItem('popupMessage', 'Login successful');
                     navigate("/cart")
                 } else {
-                    setPopupMessage(data.error || "Error");
-                    setPopupMessageType(false);
-                    setShowPopup(true);
+                    show(data.error || "Error",false)
                 }
             })
             .catch((error) => {
-                console.log("There has been an error", error);
-                setPopupMessage("Error");
-                setPopupMessageType(false);
-                setShowPopup(true);
+                show( error,false)
             });
     };
 

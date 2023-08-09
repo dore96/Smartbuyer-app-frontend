@@ -1,4 +1,4 @@
-    import React, { useState } from 'react';
+    import React, { useState} from 'react';
     import Card from '@mui/material/Card';
     import CardContent from '@mui/material/CardContent';
     import CardMedia from '@mui/material/CardMedia';
@@ -27,7 +27,7 @@
 
     // ProductCard component
     const ProductCard = ({ product, handleAddToCart }) => {
-        const { name, category, price, imageURL } = product;
+        const { name, category, imageURL } = product;
         const [quantity, setQuantity] = useState(0);
 
         const handleAddToItemQuantity = () => {
@@ -71,11 +71,6 @@
                 </ProductCardContent>
 
                 <CardContent>
-                    {/* Product Price */}
-                    <Typography variant="h6" color="textPrimary" align="center">
-                        {price.toFixed(2)} ₪
-                    </Typography>
-
                     {/* Quantity Container */}
                     <QuantityContainer>
                         <Box sx={{ display: 'flex', alignItems: 'center' }}>
