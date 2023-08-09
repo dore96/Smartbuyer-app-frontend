@@ -27,7 +27,7 @@
 
     // ProductCard component
     const ProductCard = ({ product, handleAddToCart }) => {
-        const { name, category, imageURL } = product;
+        const { name, category, image_path } = product;
         const [quantity, setQuantity] = useState(0);
 
         const handleAddToItemQuantity = () => {
@@ -46,21 +46,26 @@
         };
 
         return (
-            <Card sx={{ margin: '2%', textAlign: 'center' }}>
+            <Card sx={{ margin: '2%', textAlign: 'center' ,objectFit: 'cover'}}>
                 {/* Card Media */}
                 <CardMedia
                     component="img"
                     height="120"
                     width="100%"
-                    image={imageURL}
+                    src={process.env.PUBLIC_URL + "/" + encodeURIComponent(image_path)}
                     alt={name}
-                    sx={{ objectFit: 'cover' }}
+                    sx={{ objectFit: 'contain' }}
                 />
 
                 {/* Card Content */}
-                <ProductCardContent>
+                <ProductCardContent style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justifyContent: 'space-between',
+                    height: 'calc(100% - 120px)', // Calculate remaining height after subtracting CardMedia height
+                }}>
                     {/* Product Name */}
-                    <Typography gutterBottom variant="h6" component="h3">
+                    <Typography gutterBottom variant="body1" component="h3">
                         {name}
                     </Typography>
 

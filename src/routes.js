@@ -7,6 +7,7 @@ import MeatAndFish from "./pages/CategoryPages/MeatAndFish";
 import Snacks from "./pages/CategoryPages/Snacks";
 import SignUpPage from "./pages/SingUpPage";
 import Login from "./pages/Login";
+import Drinks from "./pages/CategoryPages/Drinks";
 
 const routes = [
     {
@@ -71,6 +72,15 @@ const routes = [
         showInMenu: false,
         shoppingRout: true,
         component: MeatAndFish,
+    },
+    {
+        key: "Shop-drinks-route",
+        title: "drinks",
+        path: "/shop/drinks",
+        enabled: true,
+        showInMenu: false,
+        shoppingRout: true,
+        component: Drinks,
     },
     {
         key: "cart-route",

@@ -10,8 +10,8 @@ import TokenContext from "../components/TokenContext";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-const Shop = ({ products, handleAddToCart }) => {
+import products from "../products.json"
+const Shop = ({ handleAddToCart }) => {
     const {show , showPopup,popupMessage,popupMessageType,setShowPopup} = usePopupMessage();
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [groupedProducts, setGroupedProducts] = useState([]);
@@ -40,7 +40,7 @@ const Shop = ({ products, handleAddToCart }) => {
 
         setFilteredProducts(filteredByPath);
         setGroupedProducts(grouped);
-    }, [currentPath, products]);
+    }, [currentPath]);
 
     const handleAddToCartFromShop = (product, quantity) => {
         if(isLoggedIn){
@@ -94,18 +94,14 @@ const Shop = ({ products, handleAddToCart }) => {
         const itemsInCategory = groupedProducts[category].length;
         let slidesToShow;
 
-        if (screenWidth >= 600) {
+        if (screenWidth >= 1200) {
+            slidesToShow = itemsInCategory >= 8 ? 8 : itemsInCategory;
+        } else if (screenWidth >= 992) {
+            slidesToShow = itemsInCategory >= 6 ? 6 : itemsInCategory;
+        } else if (screenWidth >= 768) {
             slidesToShow = itemsInCategory >= 5 ? 5 : itemsInCategory;
         } else {
-            slidesToShow = itemsInCategory >= 3 ? 3 : itemsInCategory;
-        }
-
-        // For mobile devices, if itemsInCategory is less than 3, set slidesToShow to the length
-        // For non-mobile devices, if itemsInCategory is less than 5, set slidesToShow to the length
-        if (screenWidth < 600 && itemsInCategory < 3) {
-            slidesToShow = itemsInCategory;
-        } else if (screenWidth >= 600 && itemsInCategory < 5) {
-            slidesToShow = itemsInCategory;
+            slidesToShow = itemsInCategory >= 4 ? 4 : itemsInCategory;
         }
 
         return slidesToShow;
@@ -143,7 +139,8 @@ const Shop = ({ products, handleAddToCart }) => {
                             infinite={true}
                             speed={500}
                             slidesToShow={getSlidesToShow(category)}
-                            slidesToScroll={1}
+                            slidesToScroll={getSlidesToShow(category)}
+                            lazyLoad="ondemand"
                             style={{ textAlign: 'left' }}
                         >
                             {groupedProducts[category].map((product, index) => (
