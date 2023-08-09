@@ -45,7 +45,7 @@ const Shop = ({ handleAddToCart }) => {
     const handleAddToCartFromShop = (product, quantity) => {
         if(isLoggedIn){
             // Update the popup state variables
-            show(`Added ${quantity} ${product.unit} of ${product.name} to the cart`,true);
+            show(`Added ${quantity} units of ${product.name} to the cart`,true);
             handleAddToCart(product, quantity);
         }
         else{

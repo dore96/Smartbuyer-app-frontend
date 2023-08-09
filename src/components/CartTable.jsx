@@ -5,13 +5,12 @@ import Box from "@mui/material/Box";
 
 // Define the columns for the cart table
 const fields = [
-    { field: 'id', headerName: 'Serial Number', width: 150 },
-    { field: 'category', headerName: 'Product Category', width: 150 },
-    { field: 'name', headerName: 'Product Name', width: 150 },
+    { field: 'code', headerName: 'Barcode Number', width: 200},
+    { field: 'category', headerName: 'Product Category', width: 200 },
+    { field: 'name', headerName: 'Product Name', width: 300 },
     { field: 'quantity', headerName: 'Quantity', type: 'number', width: 90 },
-    { field: 'price', headerName: 'Price Per Unit', type: 'number', width: 120 },
-    { field: 'totalPrice', headerName: 'Total Price', type: 'number', width: 120 },
 ];
+
 
 // CartTable component
 const CartTable = ({ cartProducts, handleDeleteFromCart }) => {
