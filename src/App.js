@@ -6,6 +6,8 @@ import { createTheme } from "@mui/material/styles";
 import React, { useState } from "react";
 import { useTheme } from "@mui/material/styles";
 import CombinedNavbar from "./components/CombinedNavbar"
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 function App() {
     // State variables for the cart and total price
@@ -129,8 +131,31 @@ function App() {
             price: 80,
             imageURL: 'https://cdna.wobily.com/images/e940409a-a7e3-4b5b-8fcb-4838d64fa5d0_500.png'
         },
+        {
+            id: 13,
+            name: 'סלמון4',
+            unit: 'ק"ג',
+            category: 'Meat&Fish',
+            price: 80,
+            imageURL: 'https://cdna.wobily.com/images/e940409a-a7e3-4b5b-8fcb-4838d64fa5d0_500.png'
+        },
+        {
+            id: 14,
+            name: 'סלמון2',
+            unit: 'ק"ג',
+            category: 'Meat&Fish',
+            price: 80,
+            imageURL: 'https://cdna.wobily.com/images/e940409a-a7e3-4b5b-8fcb-4838d64fa5d0_500.png'
+        },
+        {
+            id: 15,
+            name: 'סלמון3',
+            unit: 'ק"ג',
+            category: 'Meat&Fish',
+            price: 80,
+            imageURL: 'https://cdna.wobily.com/images/e940409a-a7e3-4b5b-8fcb-4838d64fa5d0_500.png'
+        },
     ];
-
     // Add products to the cart
     const handleAddToCart = (product, quantity) => {
         const totalPrice = product.price * quantity;
@@ -217,7 +242,7 @@ function App() {
             <Box height={isMobile ? "auto":"100vh"} display="flex" flexDirection="column" sx={{ maxWidth: "100%" }}>
                 <Router>
                     <CombinedNavbar itemsInCart={cart.length} />
-                    <Routes>{mapRoutes(routes)}</Routes>
+                        <Routes>{mapRoutes(routes)}</Routes>
                     <Footer />
                 </Router>
             </Box>
