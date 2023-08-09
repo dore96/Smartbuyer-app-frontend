@@ -156,7 +156,6 @@ function App() {
             imageURL: 'https://cdna.wobily.com/images/e940409a-a7e3-4b5b-8fcb-4838d64fa5d0_500.png'
         },
     ];
-
     // Add products to the cart
     const handleAddToCart = (product, quantity) => {
         const totalPrice = product.price * quantity;
@@ -243,7 +242,7 @@ function App() {
             <Box height={isMobile ? "auto":"100vh"} display="flex" flexDirection="column" sx={{ maxWidth: "100%" }}>
                 <Router>
                     <CombinedNavbar itemsInCart={cart.length} />
-                    <Routes>{mapRoutes(routes)}</Routes>
+                        <Routes>{mapRoutes(routes)}</Routes>
                     <Footer />
                 </Router>
             </Box>

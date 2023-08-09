@@ -3,8 +3,6 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -12,15 +10,54 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import {NavLink} from "react-router-dom";
+import PopupMessage from "./PopupMessage";
+import { useState } from 'react';
+import backendServerURL from '../config'
 
 export default function SignUp() {
+    const [showPopup, setShowPopup] = useState(false);
+    const [popupMessage, setPopupMessage] = useState('');
+    const [popupMessageType, setPopupMessageType] = useState(false); // false for error, true for success
+
     const handleSubmit = (event) => {
         event.preventDefault();
         const data = new FormData(event.currentTarget);
-        console.log({
-            email: data.get('email'),
-            password: data.get('password'),
-        });
+
+        const options ={
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json', // Set the Content-Type header to JSON
+            },
+            body: JSON.stringify({
+                first_name: data.get('firstName'),
+                last_name: data.get('lastName'),
+                email: data.get('email'),
+                password: data.get('password')
+            })
+        };
+
+        fetch(`${backendServerURL}/user`, options)
+            .then((response) => {
+                if (response.status === 200) {
+                    setPopupMessage("Registration successful"); // Set success message
+                    setPopupMessageType(true); // Set success message type
+                    setShowPopup(true); // Show the PopupMessage
+                } else if (response.status === 409) {
+                    setPopupMessage("User already exists"); // Set error message
+                    setPopupMessageType(false); // Set error message type
+                    setShowPopup(true); // Show the PopupMessage
+                } else {
+                    setPopupMessage("Error"); // Set error message for other cases
+                    setPopupMessageType(false); // Set error message type
+                    setShowPopup(true); // Show the PopupMessage
+                }
+            })
+            .catch((error) => {
+                console.log("There has been an error", error);
+                setPopupMessage("Error"); // Set error message for unexpected errors
+                setPopupMessageType(false); // Set error message type
+                setShowPopup(true); // Show the PopupMessage
+            });
     };
 
     return (
@@ -88,12 +125,6 @@ export default function SignUp() {
                                 autoComplete="new-password"
                             />
                         </Grid>
-                        <Grid item xs={12}>
-                            <FormControlLabel
-                                control={<Checkbox value="allowExtraEmails" color="primary" />}
-                                label="I want to receive inspiration, marketing promotions and updates via email."
-                            />
-                        </Grid>
                     </Grid>
                     <Button
                         color="secondary"
@@ -113,6 +144,15 @@ export default function SignUp() {
                     </Grid>
                 </Box>
             </Box>
+            {/* Render the PopupMessage component conditionally */}
+            {showPopup && (
+                <PopupMessage
+                    message={popupMessage}
+                    duration={2000}
+                    onClose={() => setShowPopup(false)}
+                    messageType={popupMessageType}
+                />
+            )}
         </Container>
     );
 }
