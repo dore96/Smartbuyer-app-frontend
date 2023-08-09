@@ -27,17 +27,20 @@ const SearchBar = ({ onSearch, products }) => {
 
     return (
         <Grid container spacing={2} alignItems="center">
-            <Grid item xs={2}>
-                {/* Shop By Categories Button */}
+            {/* Shop By Categories Button */}
+            <Grid item xs={12} sm={6} md={2} sx={{ marginTop: isMobile ? '10px' : 0 }}>
                 <Button
                     variant="contained"
                     color="secondary"
                     onClick={() => handleDrawerCategoryClick("Categories")}
+                    fullWidth={isMobile}
+                    sx={{ display: 'inline-block' }}
                 >
                     Shop By Categories
                 </Button>
             </Grid>
-            <Grid item xs={5} md={10}>
+            {/* Search Field */}
+            <Grid item xs={12} sm={6} md={10}>
                 <Autocomplete
                     freeSolo
                     options={options}
