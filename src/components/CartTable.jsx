@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
 import Button from "@mui/material/Button";
+import Box from "@mui/material/Box";
 
 // Define the columns for the cart table
 const fields = [
@@ -28,26 +29,35 @@ const CartTable = ({ cartProducts, handleDeleteFromCart }) => {
     };
 
     return (
-        <div style={{ height: 400, width: '100%' }}>
-            <DataGrid
-                rows={cartProducts}
-                columns={fields}
-                initialState={{
-                    pagination: {
-                        paginationModel: { page: 0, pageSize: 5 },
-                    },
-                }}
-                pageSizeOptions={[5, 10]}
-                checkboxSelection
-                selectionModel={selectedRows}
-                onRowSelectionModelChange={handleSelectionModelChange}
-            />
+        <Box sx={{ flexGrow: 1, width: '100%', backgroundColor: 'whitesmoke', display: 'flex', flexDirection: 'column' }}>
+            <div style={{ flexGrow: 1, overflowX: 'auto' }}>
+                <div style={{ height: 400, minWidth: '100%' }}>
+                    <DataGrid
+                        rows={cartProducts}
+                        columns={fields}
+                        initialState={{
+                            pagination: {
+                                paginationModel: { page: 0, pageSize: 5 },
+                            },
+                        }}
+                        pageSizeOptions={[5, 10]}
+                        checkboxSelection
+                        selectionModel={selectedRows}
+                        onRowSelectionModelChange={handleSelectionModelChange}
+                    />
+                </div>
+            </div>
             <Button onClick={handleDeleteClick}
-                    sx={{backgroundColor: 'secondary.main', color: 'white',
-                        '&:hover': {backgroundColor: 'secondary.dark',},}}>
-                Delete from Cart
+                    sx={{
+                        backgroundColor: 'secondary.main',
+                        color: 'white',
+                        '&:hover': { backgroundColor: 'secondary.dark', },
+                        marginBottom: '16px',
+                    }}
+            >
+                Delete selected items    from Cart
             </Button>
-        </div>
+        </Box>
     );
 };
 
