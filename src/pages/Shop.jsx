@@ -5,11 +5,14 @@ import PopupMessage from '../components/PopupMessage';
 import SearchBar from '../components/SerchBar';
 import Typography from '@mui/material/Typography';
 import { useLocation } from 'react-router-dom';
+import Slider from 'react-slick'; // Import the react-slick carousel component
+import 'slick-carousel/slick/slick.css'; // Import the slick-carousel CSS
+import 'slick-carousel/slick/slick-theme.css'; // Import the slick-carousel theme CSS
 
 const Shop = ({ products, handleAddToCart }) => {
     const [popupMessage, setPopupMessage] = useState('');
     const [showPopup, setShowPopup] = useState(false);
-    const [filteredProducts, setFilteredProducts] = useState([]); // Added missing state
+    const [filteredProducts, setFilteredProducts] = useState([]);
     const [groupedProducts, setGroupedProducts] = useState([]);
     const location = useLocation();
     const currentPath = location.pathname;
@@ -51,7 +54,6 @@ const Shop = ({ products, handleAddToCart }) => {
         handleAddToCart(product, quantity);
     };
 
-    // Show only products that correspond to the search
     const handleSearch = (searchValue) => {
         const filteredByPath =
             currentPath === '/shop'
@@ -64,6 +66,7 @@ const Shop = ({ products, handleAddToCart }) => {
             product.name.toLowerCase().includes(searchValue.toLowerCase())
         );
 
+        // Group the filtered products
         const grouped = filtered.reduce((grouped, product) => {
             const { category } = product;
             if (!grouped[category]) {
@@ -90,6 +93,37 @@ const Shop = ({ products, handleAddToCart }) => {
         textAlign: 'center',
     };
 
+// Function to determine the number of slides to show based on screen width and the number of items in a category
+    const getSlidesToShow = (category) => {
+        const screenWidth = window.innerWidth;
+        const itemsInCategory = groupedProducts[category].length;
+        let slidesToShow;
+
+        if (screenWidth >= 600) {
+            slidesToShow = itemsInCategory >= 5 ? 5 : itemsInCategory;
+        } else {
+            slidesToShow = itemsInCategory >= 3 ? 3 : itemsInCategory;
+        }
+
+        // For mobile devices, if itemsInCategory is less than 3, set slidesToShow to the length
+        // For non-mobile devices, if itemsInCategory is less than 5, set slidesToShow to the length
+        if (screenWidth < 600 && itemsInCategory < 3) {
+            slidesToShow = itemsInCategory;
+        } else if (screenWidth >= 600 && itemsInCategory < 5) {
+            slidesToShow = itemsInCategory;
+        }
+
+        return slidesToShow;
+    };
+
+// ProductCard component with fixed-size container and left alignment
+    const ProductCardWrapper = ({ product }) => (
+        <div style={{ maxWidth: '300px', margin: '0 auto', textAlign: 'left' }}>
+            <ProductCard product={product} handleAddToCart={handleAddToCartFromShop} />
+        </div>
+    );
+
+
     return (
         <div>
             <SearchBar onSearch={handleSearch} products={filteredProducts} />
@@ -108,13 +142,19 @@ const Shop = ({ products, handleAddToCart }) => {
                         <Typography style={CategoryHeaderStyle} sx={{ backgroundColor: 'secondary.main' }}>
                             {category}
                         </Typography>
-                        <div style={{ display: 'flex' }}>
+                        {/* Use the Slider component to wrap the product cards */}
+                        <Slider
+                            dots={true}
+                            infinite={true}
+                            speed={500}
+                            slidesToShow={getSlidesToShow(category)}
+                            slidesToScroll={1}
+                            style={{ textAlign: 'left' }}
+                        >
                             {groupedProducts[category].map((product, index) => (
-                                <div key={index} style={{ display: 'block' }}>
-                                    <ProductCard product={product} handleAddToCart={handleAddToCartFromShop} />
-                                </div>
+                                <ProductCardWrapper key={index} product={product} />
                             ))}
-                        </div>
+                        </Slider>
                     </div>
                 ))}
             </Box>
