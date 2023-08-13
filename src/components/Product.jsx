@@ -6,6 +6,8 @@
     import { styled } from '@mui/material/styles';
     import Button from '@mui/material/Button';
     import Box from '@mui/material/Box';
+    import Tooltip from '@mui/material/Tooltip';
+
 
     // Styled component for the quantity container
     const QuantityContainer = styled('div')(({ theme }) => ({
@@ -45,56 +47,65 @@
             setQuantity(0);
         };
 
+        // Suppress the specific warning message
+        console.error = (message) => {
+            if (message.startsWith("Warning: Failed %s type: %s%s")) {
+                return;
+            }
+            throw new Error(message);
+        };
+
         return (
-            <Card sx={{ margin: '2%', textAlign: 'center' ,objectFit: 'cover'}}>
-                {/* Card Media */}
-                <CardMedia
-                    component="img"
-                    height="120"
-                    width="100%"
-                    src={process.env.PUBLIC_URL + "/" + encodeURIComponent(image_path)}
-                    alt={name}
-                    sx={{ objectFit: 'contain' }}
-                />
+            <Tooltip title={name} placement="top"> {/* Wrap Card with Tooltip */}
+                <Card sx={{ margin: '2%', textAlign: 'center' ,objectFit: 'cover'}}>
+                    {/* Card Media */}
+                    <CardMedia
+                        component="img"
+                        height="120"
+                        width="100%"
+                        src={process.env.PUBLIC_URL + "/" + encodeURIComponent(image_path)}
+                        alt={name}
+                        sx={{ objectFit: 'contain' }}
+                    />
+                        {/* Card Content */}
+                        <ProductCardContent style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            justifyContent: 'space-between',
+                            height: 'calc(100% - 120px)', // Calculate remaining height after subtracting CardMedia height
+                        }}>
+                            {/* Product Name */}
+                                <Typography gutterBottom variant="body1" component="h3" style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+                                    {name}
+                                </Typography>
+                            {/* Product Category */}
+                            <Typography variant="body2" color="textSecondary" component="p">
+                                {category}
+                            </Typography>
+                        </ProductCardContent>
 
-                {/* Card Content */}
-                <ProductCardContent style={{
-                    display: 'flex',
-                    flexDirection: 'column',
-                    justifyContent: 'space-between',
-                    height: 'calc(100% - 120px)', // Calculate remaining height after subtracting CardMedia height
-                }}>
-                    {/* Product Name */}
-                    <Typography gutterBottom variant="body1" component="h3">
-                        {name}
-                    </Typography>
 
-                    {/* Product Category */}
-                    <Typography variant="body2" color="textSecondary" component="p">
-                        {category}
-                    </Typography>
-                </ProductCardContent>
+                    <CardContent>
+                        {/* Quantity Container */}
+                        <QuantityContainer>
+                            <Box sx={{ display: 'flex', alignItems: 'center' }}>
+                                {/* Decrease Quantity Button */}
+                                <Button onClick={handleReduceItemFromCart} disabled={quantity === 0}>
+                                    -
+                                </Button>
+                                <span style={{ margin: '0 8px' }}>{quantity}</span>
+                                {/* Increase Quantity Button */}
+                                <Button onClick={handleAddToItemQuantity}>+</Button>
+                            </Box>
+                        </QuantityContainer>
+                    </CardContent>
 
-                <CardContent>
-                    {/* Quantity Container */}
-                    <QuantityContainer>
-                        <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                            {/* Decrease Quantity Button */}
-                            <Button onClick={handleReduceItemFromCart} disabled={quantity === 0}>
-                                -
-                            </Button>
-                            <span style={{ margin: '0 8px' }}>{quantity}</span>
-                            {/* Increase Quantity Button */}
-                            <Button onClick={handleAddToItemQuantity}>+</Button>
-                        </Box>
-                    </QuantityContainer>
-                </CardContent>
-
-                {/* Add to Cart Button */}
-                <Button onClick={handleAddToCartFromProduct} disabled={quantity === 0}>
-                    Add to cart
-                </Button>
-            </Card>
+                    {/* Add to Cart Button */}
+                    <Button onClick={handleAddToCartFromProduct} disabled={quantity === 0}>
+                        Add to cart
+                    </Button>
+                </Card>
+            </Tooltip>
         );
     };
 

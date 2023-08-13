@@ -12,7 +12,6 @@ import 'slick-carousel/slick/slick-theme.css';
 function App() {
     // State variables for the cart and total price
     const [cart, setCart] = useState([]);
-    const [cartTotalPrice, setCartTotalPrice] = useState(0);
     const Theme = useTheme();
     const isMobile = useMediaQuery(Theme.breakpoints.down("sm"));
 
@@ -41,24 +40,19 @@ function App() {
 
         setCart((prevCart) => {
             const existingCartItem = prevCart.find((item) => item.code === code);
-
             if (existingCartItem) {
                 // If the product already exists in the cart, increment the quantity
-                const updatedCart = prevCart.map((item) =>
+                return prevCart.map((item) =>
                     item.code === code ? { ...item, quantity: item.quantity + quantity } : item
                 );
 
-                setCartTotalPrice((prevTotalPrice) => prevTotalPrice + totalPrice);
-                return updatedCart;
-            } else {
+            }
+            else {
                 // If the product doesn't exist in the cart, add it as a new item
-                const updatedCart = [
+                return [
                     ...prevCart,
                     {id, code, name, category, price, imageURL, quantity, totalPrice },
                 ];
-
-                setCartTotalPrice((prevTotalPrice) => prevTotalPrice + totalPrice);
-                return updatedCart;
             }
         });
     };
@@ -70,15 +64,7 @@ function App() {
             return ;
         }
         setCart((prevCart) => {
-            const updatedCart = prevCart.filter((product) => !idsToDelete.includes(product.id));
-
-            // Calculate the new total amount
-            const newTotalAmount = updatedCart.reduce((total, product) => {
-                return total + product.price;
-            }, 0);
-
-            setCartTotalPrice(newTotalAmount);
-            return updatedCart;
+            return  prevCart.filter((product) => !idsToDelete.includes(product.id));
         });
     };
 
@@ -103,7 +89,6 @@ function App() {
                             <route.component
                                 cartProducts={cart}
                                 handleDeleteFromCart={handleDeleteFromCart}
-                                cartTotalPrice={cartTotalPrice}
                             />
                         }
                     />

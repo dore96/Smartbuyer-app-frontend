@@ -62,7 +62,7 @@ export default function SignIn() {
                 }
             })
             .catch((error) => {
-                show( error,false)
+                console.log(error.message)
             });
     };
 
