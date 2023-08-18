@@ -23,6 +23,17 @@ const SearchBar = ({ onSearch, products }) => {
         label: product.name,
         category: product.category
     }));
+
+    const getOptionLabel = (option) => {
+        if (typeof option === 'string') {
+            return option; // If the option is a string, return it as-is
+        }
+        if (option.label) {
+            return option.label; // If the option has a label property, return it
+        }
+        return ''; // Return an empty string if the option doesn't have a valid label
+    };
+
     const groupByCategory = (option) => option.category;
 
     return (
@@ -45,7 +56,7 @@ const SearchBar = ({ onSearch, products }) => {
                     freeSolo
                     options={options}
                     groupBy={groupByCategory}
-                    getOptionLabel={(option) => option.label}
+                    getOptionLabel={getOptionLabel}
                     filterOptions={(options, state) =>
                         options.filter((option) =>
                             option.label.toLowerCase().includes(state.inputValue.toLowerCase())

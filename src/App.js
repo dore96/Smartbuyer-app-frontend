@@ -3,17 +3,20 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import routes from "./routes";
 import {Box, CssBaseline, ThemeProvider, useMediaQuery} from "@mui/material";
 import { createTheme } from "@mui/material/styles";
-import React, { useState } from "react";
+import React, {useContext, useEffect, useState} from "react";
 import { useTheme } from "@mui/material/styles";
 import CombinedNavbar from "./components/CombinedNavbar"
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import backendServerURL from "./config";
+import TokenContext from "./components/TokenContext";
 
 function App() {
     // State variables for the cart and total price
     const [cart, setCart] = useState([]);
     const Theme = useTheme();
     const isMobile = useMediaQuery(Theme.breakpoints.down("sm"));
+    const { token, isLoggedIn } = useContext(TokenContext);
 
     // Define the theme
     const theme = createTheme({
@@ -32,6 +35,33 @@ function App() {
             },
         },
     });
+
+    // Fetch cart data when the component mounts and the user is logged in
+    useEffect(() => {
+        const fetchCartData = async () => {
+            const options = {
+                method: 'GET',
+                headers: {
+                    'Authorization': `Bearer ${token}`, // Replace with actual token
+                },
+            };
+
+            try {
+                const response = await fetch(`${backendServerURL}/cart`, options);
+                if (response.ok) {
+                    const data = await response.json();
+                    setCart(data.cart_items);
+                }
+            } catch (error) {
+                console.error('Error fetching cart data:', error);
+            }
+        };
+
+        // Call the fetchCartData function only if the user is logged in
+        if (isLoggedIn) {
+            fetchCartData();
+        }
+    }, [isLoggedIn, token]);
 
     // Add products to the cart
     const handleAddToCart = (product, quantity) => {
@@ -72,7 +102,7 @@ function App() {
     const mapRoutes = (routes) => {
         // Filter the products based on the route path
         return routes.map((route) => {
-            if (route.path === '/shop' || route.path === '/shop/dairy' || route.path === '/shop/meat&fish' || route.path === '/shop/snacks') {
+            if (route.path.startsWith('/shop')) {
                 return (
                     <Route
                         key={route.key}

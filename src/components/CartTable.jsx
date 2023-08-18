@@ -11,7 +11,6 @@ const fields = [
     { field: 'quantity', headerName: 'Quantity', type: 'number', width: 90 },
 ];
 
-
 // CartTable component
 const CartTable = ({ cartProducts, handleDeleteFromCart }) => {
     // State to store the selected rows in the table
