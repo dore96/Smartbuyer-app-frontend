@@ -21,7 +21,7 @@ import {usePopupMessage} from "./usePopupMessage";
 
 export default function SignIn() {
     const {show , showPopup,popupMessage,popupMessageType,setShowPopup} = usePopupMessage();
-    const { setToken, isLoggedIn } = useContext(TokenContext);
+    const { setToken , isLoggedIn } = useContext(TokenContext);
     const navigate = useNavigate();
 
     const handleSubmit = (event) => {
@@ -38,7 +38,6 @@ export default function SignIn() {
                 password: data.get('password')
             })
         };
-
         fetch(`${backendServerURL}/user/login`, options)
             .then((response) => {
                 if (response.status === 200) {
@@ -62,7 +61,7 @@ export default function SignIn() {
                 }
             })
             .catch((error) => {
-                show( error,false)
+                console.log(error.message)
             });
     };
 

@@ -40,6 +40,8 @@ export default function SignUp() {
                     show("Registration successful, you can now log in.", true)
                 } else if (response.status === 409) {
                     show("User already exists", false)
+                } else if (response.status === 400) {
+                    show("Email is not valid", false)
                 } else {
                     show("Error", false)
                 }

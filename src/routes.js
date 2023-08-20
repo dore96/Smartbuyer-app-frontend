@@ -7,6 +7,12 @@ import MeatAndFish from "./pages/CategoryPages/MeatAndFish";
 import Snacks from "./pages/CategoryPages/Snacks";
 import SignUpPage from "./pages/SingUpPage";
 import Login from "./pages/Login";
+import Drinks from "./pages/CategoryPages/Drinks";
+import HealthCare from "./pages/CategoryPages/HealthCare";
+import Frozen from "./pages/CategoryPages/FrozenFoods";
+import CondimentsAndSpices from "./pages/CategoryPages/Condiments&Spices";
+import DryAndBakingGoods from "./pages/CategoryPages/Dry&BakingGoods";
+import HouseholdAndCleaningSupplies from "./pages/CategoryPages/Household&CleaningSupplies";
 
 const routes = [
     {
@@ -71,6 +77,60 @@ const routes = [
         showInMenu: false,
         shoppingRout: true,
         component: MeatAndFish,
+    },
+    {
+        key: "Shop-drinks-route",
+        title: "drinks",
+        path: "/shop/drinks",
+        enabled: true,
+        showInMenu: false,
+        shoppingRout: true,
+        component: Drinks,
+    },
+    {
+        key: "Shop-Healt-Care-route",
+        title: "Health Care",
+        path: "/shop/Health Care",
+        enabled: true,
+        showInMenu: false,
+        shoppingRout: true,
+        component: HealthCare,
+    },
+    {
+        key: "Shop-Frozen-route",
+        title: "Frozen",
+        path: "/shop/Frozen",
+        enabled: true,
+        showInMenu: false,
+        shoppingRout: true,
+        component: Frozen,
+    },
+    {
+        key: "Shop-Condiments-Spices-route",
+        title: "Condiments & Spices",
+        path: "/shop/Condiments & Spices",
+        enabled: true,
+        showInMenu: false,
+        shoppingRout: true,
+        component: CondimentsAndSpices,
+    },
+    {
+        key: "Shop-Dry-Baking-Goods-route",
+        title: "Dry & Baking Goods",
+        path: "/shop/Dry/Baking Goods",
+        enabled: true,
+        showInMenu: false,
+        shoppingRout: true,
+        component: DryAndBakingGoods,
+    },
+    {
+        key: "Shop-Household-Cleaning Supplies-route",
+        title: "Household & Cleaning Supplies",
+        path: "/shop/Household & Cleaning Supplies",
+        enabled: true,
+        showInMenu: false,
+        shoppingRout: true,
+        component: HouseholdAndCleaningSupplies,
     },
     {
         key: "cart-route",

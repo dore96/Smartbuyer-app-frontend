@@ -1,0 +1,4002 @@
+[
+  {
+    "id": 1,
+    "name": "משקה אנרגיה XL",
+    "code": "5906485301012",
+    "category": "drinks",
+    "description": "משקה אנרגיה XL",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 423,
+    "image_path": "product_pictures/product_משקה אנרגיה XL_5906485301012.jpg"
+  },
+  {
+    "id": 2,
+    "name": "במבה 80 גרם",
+    "code": "7290000066318",
+    "category": "snacks",
+    "description": "במבה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 411,
+    "image_path": "product_pictures/product_במבה 80 גרם_7290000066318.jpg"
+  },
+  {
+    "id": 3,
+    "name": "ביסלי גריל 70 גרם",
+    "code": "7290000066141",
+    "category": "snacks",
+    "description": "ביסלי גריל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 407,
+    "image_path": "product_pictures/product_ביסלי גריל 70 גרם_7290000066141.jpg"
+  },
+  {
+    "id": 4,
+    "name": "במבה נוגט 60 גרם",
+    "code": "7290100687109",
+    "category": "snacks",
+    "description": "במבה נוגט",
+    "unit_qty": "גרמים",
+    "occurrence_count": 402,
+    "image_path": "product_pictures/product_במבה נוגט 60 גרם_7290100687109.jpg"
+  },
+  {
+    "id": 5,
+    "name": "דוריטוס חמוץ חריף 70 גרם",
+    "code": "7290100850916",
+    "category": "snacks",
+    "description": "דוריטוס חמוץ ח",
+    "unit_qty": "גרמים",
+    "occurrence_count": 394,
+    "image_path": "product_pictures/product_דוריטוס חמוץ חריף 70 גרם_7290100850916.jpg"
+  },
+  {
+    "id": 6,
+    "name": "סנו ג'אוול מרסס לימון 1ל",
+    "code": "7290000289069",
+    "category": "Household & Cleaning Supplies",
+    "description": "סנו ג'אוול מרסס",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 393,
+    "image_path": "product_pictures/product_סנו ג'אוול מרסס לימון 1ל_7290000289069.jpg"
+  },
+  {
+    "id": 7,
+    "name": "אפרופו 50 גרם",
+    "code": "7290000066332",
+    "category": "snacks",
+    "description": "חטיף אפרופו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 393,
+    "image_path": "product_pictures/product_אפרופו 50 גרם_7290000066332.jpg"
+  },
+  {
+    "id": 8,
+    "name": "שוקולד פרה חלב 100 גרם",
+    "code": "7290000170053",
+    "category": "snacks",
+    "description": "שוקולד פרה חלב",
+    "unit_qty": "גרמים",
+    "occurrence_count": 390,
+    "image_path": "product_pictures/product_שוקולד פרה חלב 100 גרם_7290000170053.jpg"
+  },
+  {
+    "id": 9,
+    "name": "תפוצ'יפס ט.שמנת ובצל50גר",
+    "code": "7290005200786",
+    "category": "snacks",
+    "description": "תפוצ'יפס שמנת",
+    "unit_qty": "גרמים",
+    "occurrence_count": 388,
+    "image_path": "product_pictures/product_תפוצ'יפס ט.שמנת ובצל50גר_7290005200786.jpg"
+  },
+  {
+    "id": 10,
+    "name": "שוק.מריר 100 גרם",
+    "code": "7290000170077",
+    "category": "snacks",
+    "description": "שוקולד מריר",
+    "unit_qty": "גרמים",
+    "occurrence_count": 386,
+    "image_path": "product_pictures/product_שוק.מריר 100 גרם_7290000170077.jpg"
+  },
+  {
+    "id": 11,
+    "name": "תפוצ'יפס קראנצ' טעם טבעי",
+    "code": "7290008745239",
+    "category": "snacks",
+    "description": "תפוצ'יפס קראנצ'",
+    "unit_qty": "גרמים",
+    "occurrence_count": 384,
+    "image_path": "product_pictures/product_תפוצ'יפס קראנצ' טעם טבעי_7290008745239.jpg"
+  },
+  {
+    "id": 12,
+    "name": "שמפו לשיער רגיל700מ",
+    "code": "7290112492449",
+    "category": "Household & Cleaning Supplies",
+    "description": "שמפו לשיער רגיל",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 384,
+    "image_path": "product_pictures/product_שמפו לשיער רגיל700מ_7290112492449.jpg"
+  },
+  {
+    "id": 13,
+    "name": "דוריטוס גריל 70 גרם",
+    "code": "7290100850923",
+    "category": "snacks",
+    "description": "דוריטוס גריל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 383,
+    "image_path": "product_pictures/product_דוריטוס גריל 70 גרם_7290100850923.jpg"
+  },
+  {
+    "id": 14,
+    "name": "תפוצ'יפס בטעם טבעי 50 גר",
+    "code": "7290000178707",
+    "category": "snacks",
+    "description": "חטיף תפוצ'יפס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 382,
+    "image_path": "product_pictures/product_תפוצ'יפס בטעם טבעי 50 גר_7290000178707.jpg"
+  },
+  {
+    "id": 15,
+    "name": "קליק ביסקוויט 65 גרם",
+    "code": "7290112494221",
+    "category": "snacks",
+    "description": "קליק ביסקוויט",
+    "unit_qty": "גרמים",
+    "occurrence_count": 378,
+    "image_path": "product_pictures/product_קליק ביסקוויט 65 גרם_7290112494221.jpg"
+  },
+  {
+    "id": 16,
+    "name": "ג'ל כביסה פרסיל 2.5 ליטר",
+    "code": "7290016509786",
+    "category": "Household & Cleaning Supplies",
+    "description": "ג'ל כביסה פרסיל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 376,
+    "image_path": "product_pictures/product_ג'ל כביסה פרסיל 2.5 ליטר_7290016509786.jpg"
+  },
+  {
+    "id": 17,
+    "name": "עוג.אוראו קרם וניל 176ג",
+    "code": "7622010001858",
+    "category": "snacks",
+    "description": "עוגיות אוראו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 372,
+    "image_path": "product_pictures/product_עוג.אוראו קרם וניל 176ג_7622010001858.jpg"
+  },
+  {
+    "id": 18,
+    "name": "קליק כריות 65 גרם",
+    "code": "7290112494276",
+    "category": "snacks",
+    "description": "קליק כריות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 371,
+    "image_path": "product_pictures/product_קליק כריות 65 גרם_7290112494276.jpg"
+  },
+  {
+    "id": 19,
+    "name": "מרכ.מקסימה ס.מרוכז מסק1ל",
+    "code": "7290012117558",
+    "category": "Household & Cleaning Supplies",
+    "description": "מקסימה ס.מרוכז",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 370,
+    "image_path": "product_pictures/product_מרכ.מקסימה ס.מרוכז מסק1ל_7290012117558.jpg"
+  },
+  {
+    "id": 20,
+    "name": "קפה נמס טסטרס צ'ויס200ג",
+    "code": "7290000072753",
+    "category": "drinks",
+    "description": "קפה טסטרס צ'ויס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 370,
+    "image_path": "product_pictures/product_קפה נמס טסטרס צ'ויס200ג_7290000072753.jpg"
+  },
+  {
+    "id": 21,
+    "name": "מגב.האגיס ללא בישום 64*4",
+    "code": "7290000195537",
+    "category": "Health Care",
+    "description": "מגבונים האגיס 4י",
+    "unit_qty": "יחידה",
+    "occurrence_count": 369,
+    "image_path": "product_pictures/product_מגב.האגיס ללא בישום 644_7290000195537.jpg"
+  },
+  {
+    "id": 22,
+    "name": "קליק כדורים 65 גרם",
+    "code": "7290112494238",
+    "category": "snacks",
+    "description": "קליק כדורים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 368,
+    "image_path": "product_pictures/product_קליק כדורים 65 גרם_7290112494238.jpg"
+  },
+  {
+    "id": 23,
+    "name": "קליק קורנפלקס 65 גרם",
+    "code": "7290112494313",
+    "category": "snacks",
+    "description": "קליק קורנפלקס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 366,
+    "image_path": "product_pictures/product_קליק קורנפלקס 65 גרם_7290112494313.jpg"
+  },
+  {
+    "id": 24,
+    "name": "טורטית וופל מצופה שוק40ג",
+    "code": "7290106658479",
+    "category": "snacks",
+    "description": "טורטית מגדים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 366,
+    "image_path": "product_pictures/product_טורטית וופל מצופה שוק40ג_7290106658479.jpg"
+  },
+  {
+    "id": 25,
+    "name": "שוקולד קינדר 200 גרם",
+    "code": "8000500071083",
+    "category": "snacks",
+    "description": "שוקולד חלב קינדר",
+    "unit_qty": "גרמים",
+    "occurrence_count": 365,
+    "image_path": "product_pictures/product_שוקולד קינדר 200 גרם_8000500071083.jpg"
+  },
+  {
+    "id": 26,
+    "name": "מקסימה סופר מרוכז פרש 1ל",
+    "code": "7290013268020",
+    "category": "Household & Cleaning Supplies",
+    "description": "מרכך כביסה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 364,
+    "image_path": "product_pictures/product_מקסימה סופר מרוכז פרש 1ל_7290013268020.jpg"
+  },
+  {
+    "id": 27,
+    "name": "קליק חום לבן 65 גרם",
+    "code": "7290112494283",
+    "category": "snacks",
+    "description": "קליק חום לבן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 363,
+    "image_path": "product_pictures/product_קליק חום לבן 65 גרם_7290112494283.jpg"
+  },
+  {
+    "id": 28,
+    "name": "מנקה אסלות \"00\" 1 ליטר",
+    "code": "7290000412481",
+    "category": "Household & Cleaning Supplies",
+    "description": "מנקה אסלות 00\"",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 363,
+    "image_path": "product_pictures/product_מנקה אסלות 00 1 ליטר_7290000412481.jpg"
+  },
+  {
+    "id": 29,
+    "name": "משחת קולגייט אדום 100מ\"ל",
+    "code": "7290002730675",
+    "category": "Health Care",
+    "description": "משחת שיניים",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 360,
+    "image_path": "product_pictures/product_משחת קולגייט אדום 100מל_7290002730675.jpg"
+  },
+  {
+    "id": 30,
+    "name": "סנו אנטי קאלק נ.כללי700מ",
+    "code": "7290011598211",
+    "category": "Household & Cleaning Supplies",
+    "description": "סנו אנטי קאלק",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 360,
+    "image_path": "product_pictures/product_סנו אנטי קאלק נ.כללי700מ_7290011598211.jpg"
+  },
+  {
+    "id": 31,
+    "name": "פופקו בטעם חמאה ודבש80גר",
+    "code": "7290000066431",
+    "category": "snacks",
+    "description": "חטיף פופקו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 359,
+    "image_path": "product_pictures/product_פופקו בטעם חמאה ודבש80גר_7290000066431.jpg"
+  },
+  {
+    "id": 32,
+    "name": "חטיף puffs צ'יטוס 55 גרם",
+    "code": "7290112343499",
+    "category": "snacks",
+    "description": "חטיף צ'יטוס puff",
+    "unit_qty": "גרמים",
+    "occurrence_count": 359,
+    "image_path": "product_pictures/product_חטיף puffs צ'יטוס 55 גרם_7290112343499.jpg"
+  },
+  {
+    "id": 33,
+    "name": "קינדר בואנו 43*3 גרם",
+    "code": "8000500029350",
+    "category": "snacks",
+    "description": "קינדר בואנו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 358,
+    "image_path": "product_pictures/product_קינדר בואנו 433 גרם_8000500029350.jpg"
+  },
+  {
+    "id": 34,
+    "name": "תפוצ'יפס מקסיקני 50 גרם",
+    "code": "7290008753111",
+    "category": "snacks",
+    "description": "תפוצ'יפס קראנצ'",
+    "unit_qty": "גרמים",
+    "occurrence_count": 357,
+    "image_path": "product_pictures/product_תפוצ'יפס מקסיקני 50 גרם_7290008753111.jpg"
+  },
+  {
+    "id": 35,
+    "name": "דובונים-חטיפים מלוחים40ג",
+    "code": "7290000066264",
+    "category": "snacks",
+    "description": "חטיפי דובונים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 356,
+    "image_path": "product_pictures/product_דובונים-חטיפים מלוחים40ג_7290000066264.jpg"
+  },
+  {
+    "id": 36,
+    "name": "קטשופ בקבוק לחיץ 750 גרם",
+    "code": "7290000072623",
+    "category": "Condiments & Spices",
+    "description": "קטשופ בקבוק לחיץ",
+    "unit_qty": "גרמים",
+    "occurrence_count": 356,
+    "image_path": "product_pictures/product_קטשופ בקבוק לחיץ 750 גרם_7290000072623.jpg"
+  },
+  {
+    "id": 37,
+    "name": "עוגיות שוקולד צ'יפס225גר",
+    "code": "46214731552",
+    "category": "snacks",
+    "description": "עוגיות ש.צ'יפס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 355,
+    "image_path": "product_pictures/product_עוגיות שוקולד צ'יפס225גר_46214731552.jpg"
+  },
+  {
+    "id": 38,
+    "name": "ריצפז פלוס דוחה תיקנים2ל",
+    "code": "7290005423635",
+    "category": "Household & Cleaning Supplies",
+    "description": "ריצפז דוחה חרקים",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 353,
+    "image_path": "product_pictures/product_ריצפז פלוס דוחה תיקנים2ל_7290005423635.jpg"
+  },
+  {
+    "id": 39,
+    "name": "צ'יטוס כאפה 55 גרם",
+    "code": "7290001817728",
+    "category": "snacks",
+    "description": "צ'יטוס כפאה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 352,
+    "image_path": "product_pictures/product_צ'יטוס כאפה 55 גרם_7290001817728.jpg"
+  },
+  {
+    "id": 40,
+    "name": "ביסקוויט פתי בר 500 גרם",
+    "code": "7290000074184",
+    "category": "snacks",
+    "description": "ביסקוויט פתי בר",
+    "unit_qty": "גרמים",
+    "occurrence_count": 351,
+    "image_path": "product_pictures/product_ביסקוויט פתי בר 500 גרם_7290000074184.jpg"
+  },
+  {
+    "id": 41,
+    "name": "תח.רחצה פינוק קלאסי700מ",
+    "code": "7290112492593",
+    "category": "Health Care",
+    "description": "תחליב רחצה פינוק",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 351,
+    "image_path": "product_pictures/product_תח.רחצה פינוק קלאסי700מ_7290112492593.jpg"
+  },
+  {
+    "id": 42,
+    "name": "כיף כף מגדים 45 גרם",
+    "code": "7290105362377",
+    "category": "snacks",
+    "description": "כיף כף מגדים 45ג",
+    "unit_qty": "גרמים",
+    "occurrence_count": 350,
+    "image_path": "product_pictures/product_כיף כף מגדים 45 גרם_7290105362377.jpg"
+  },
+  {
+    "id": 43,
+    "name": "קרם קרקר 250 גרם",
+    "code": "7290000074245",
+    "category": "snacks",
+    "description": "קרם קרקר אסם",
+    "unit_qty": "גרמים",
+    "occurrence_count": 349,
+    "image_path": "product_pictures/product_קרם קרקר 250 גרם_7290000074245.jpg"
+  },
+  {
+    "id": 44,
+    "name": "24 תח.אולוייז דואו לונג",
+    "code": "4015400755487",
+    "category": "Health Care",
+    "description": "תחבושות אולוייז",
+    "unit_qty": "יחידה",
+    "occurrence_count": 349,
+    "image_path": "product_pictures/product_24 תח.אולוייז דואו לונג_4015400755487.jpg"
+  },
+  {
+    "id": 45,
+    "name": "ריצפז פרש הום בית מלון2ל",
+    "code": "7290108351613",
+    "category": "Household & Cleaning Supplies",
+    "description": "ריצפז פרש הום",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 348,
+    "image_path": "product_pictures/product_ריצפז פרש הום בית מלון2ל_7290108351613.jpg"
+  },
+  {
+    "id": 46,
+    "name": "28תח.אולוייז דואו נורמל+",
+    "code": "4015400755241",
+    "category": "Health Care",
+    "description": "תחבושות אולוייז",
+    "unit_qty": "יחידה",
+    "occurrence_count": 348,
+    "image_path": "product_pictures/product_28תח.אולוייז דואו נורמל+_4015400755241.jpg"
+  },
+  {
+    "id": 47,
+    "name": "מקופלת חלב 25 גרם",
+    "code": "72917589",
+    "category": "snacks",
+    "description": "מקופלת חלב",
+    "unit_qty": "גרמים",
+    "occurrence_count": 348,
+    "image_path": "product_pictures/product_מקופלת חלב 25 גרם_72917589.jpg"
+  },
+  {
+    "id": 48,
+    "name": "חטיף שוקולד אגוזי 45 גרם",
+    "code": "72917329",
+    "category": "snacks",
+    "description": "חטיף אגוזי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 347,
+    "image_path": "product_pictures/product_חטיף שוקולד אגוזי 45 גרם_72917329.jpg"
+  },
+  {
+    "id": 49,
+    "name": "18תחב.אולוייז לילה בטוח",
+    "code": "4015400681670",
+    "category": "Health Care",
+    "description": "תחבושות אולוייז",
+    "unit_qty": "יחידה",
+    "occurrence_count": 346,
+    "image_path": "product_pictures/product_18תחב.אולוייז לילה בטוח_4015400681670.jpg"
+  },
+  {
+    "id": 50,
+    "name": "20 תח.אולוייז דואו לילה",
+    "code": "4015400731719",
+    "category": "Health Care",
+    "description": "תחבושות אולוייז",
+    "unit_qty": "יחידה",
+    "occurrence_count": 345,
+    "image_path": "product_pictures/product_20 תח.אולוייז דואו לילה_4015400731719.jpg"
+  },
+  {
+    "id": 51,
+    "name": "חטיף טעמי 40 גרם",
+    "code": "72917367",
+    "category": "snacks",
+    "description": "חטיף טעמי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 344,
+    "image_path": "product_pictures/product_חטיף טעמי 40 גרם_72917367.jpg"
+  },
+  {
+    "id": 52,
+    "name": "שמפו פנטן קלאסי 660 מ\"ל",
+    "code": "8001090832450",
+    "category": "Health Care",
+    "description": "שמפו פנטן",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 344,
+    "image_path": "product_pictures/product_שמפו פנטן קלאסי 660 מל_8001090832450.jpg"
+  },
+  {
+    "id": 53,
+    "name": "דוריטוס בטעם טבעי 70 גרם",
+    "code": "7290100850930",
+    "category": "snacks",
+    "description": "חטיף דוריטוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 344,
+    "image_path": "product_pictures/product_דוריטוס בטעם טבעי 70 גרם_7290100850930.jpg"
+  },
+  {
+    "id": 54,
+    "name": "מגבות נייר סנו סושי 6 גל",
+    "code": "7290005427107",
+    "category": "Household & Cleaning Supplies",
+    "description": "מגבות נייר סנו",
+    "unit_qty": "מטרים",
+    "occurrence_count": 344,
+    "image_path": "product_pictures/product_מגבות נייר סנו סושי 6 גל_7290005427107.jpg"
+  },
+  {
+    "id": 55,
+    "name": "מגבוני האגיס אלוורה 64*4",
+    "code": "7290000195773",
+    "category": "Health Care",
+    "description": "מגבונים האגיס 4י",
+    "unit_qty": "יחידה",
+    "occurrence_count": 343,
+    "image_path": "product_pictures/product_מגבוני האגיס אלוורה 644_7290000195773.jpg"
+  },
+  {
+    "id": 56,
+    "name": "קרקר דק רוזמרין פיטנס140",
+    "code": "7290112963918",
+    "category": "snacks",
+    "description": "קרקר דק פיטנס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 343,
+    "image_path": "product_pictures/product_קרקר דק רוזמרין פיטנס140_7290112963918.jpg"
+  },
+  {
+    "id": 57,
+    "name": "מילקי בטעם שוקולד 170מ\"ל",
+    "code": "72940761",
+    "category": "snacks",
+    "description": "מילקי טעם שוקולד",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 342,
+    "image_path": "product_pictures/product_מילקי בטעם שוקולד 170מל_72940761.jpg"
+  },
+  {
+    "id": 58,
+    "name": "מרכך פינוק רגיל 700 מ\"ל",
+    "code": "7290112492531",
+    "category": "Household & Cleaning Supplies",
+    "description": "מרכך לשיער רגיל",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 342,
+    "image_path": "product_pictures/product_מרכך פינוק רגיל 700 מל_7290112492531.jpg"
+  },
+  {
+    "id": 59,
+    "name": "מסטיק בזוקה צ'יקלט 66גרם",
+    "code": "7290106721906",
+    "category": "snacks",
+    "description": "מסטיק בזוקה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 341,
+    "image_path": "product_pictures/product_מסטיק בזוקה צ'יקלט 66גרם_7290106721906.jpg"
+  },
+  {
+    "id": 60,
+    "name": "בדין אקסטרה כחול 960 מ\"ל",
+    "code": "7290100243671",
+    "category": "Household & Cleaning Supplies",
+    "description": "מרכך כביסה בדין",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 340,
+    "image_path": "product_pictures/product_בדין אקסטרה כחול 960 מל_7290100243671.jpg"
+  },
+  {
+    "id": 61,
+    "name": "שמנת תנובה 15%שומן200מל",
+    "code": "7290004125455",
+    "category": "dairy",
+    "description": "שמנת תנובה 15%",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 340,
+    "image_path": "product_pictures/product_שמנת תנובה 15%שומן200מל_7290004125455.jpg"
+  },
+  {
+    "id": 62,
+    "name": "מגבונים האגיס נטורל4*64",
+    "code": "7290111344206",
+    "category": "Health Care",
+    "description": "מגבונים האגיס 4*",
+    "unit_qty": "יחידה",
+    "occurrence_count": 340,
+    "image_path": "product_pictures/product_מגבונים האגיס נטורל464_7290111344206.jpg"
+  },
+  {
+    "id": 63,
+    "name": "פיירי לכלים לימון 900 מל",
+    "code": "8001090184412",
+    "category": "Household & Cleaning Supplies",
+    "description": "פיירי לכלים",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 339,
+    "image_path": "product_pictures/product_פיירי לכלים לימון 900 מל_8001090184412.jpg"
+  },
+  {
+    "id": 64,
+    "name": "בפלות בטעם שוקולד 500 גר",
+    "code": "7290000174099",
+    "category": "snacks",
+    "description": "בפלות טעם שוקולד",
+    "unit_qty": "גרמים",
+    "occurrence_count": 339,
+    "image_path": "product_pictures/product_בפלות בטעם שוקולד 500 גר_7290000174099.jpg"
+  },
+  {
+    "id": 65,
+    "name": "שוקולד פרה לבן 100 גרם",
+    "code": "7290112348548",
+    "category": "snacks",
+    "description": "שוקולד פרה לבן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 339,
+    "image_path": "product_pictures/product_שוקולד פרה לבן 100 גרם_7290112348548.jpg"
+  },
+  {
+    "id": 66,
+    "name": "שוקולד חלב שברי אגוז100ג",
+    "code": "7290112358844",
+    "category": "snacks",
+    "description": "שוקולד פרה אגוז",
+    "unit_qty": "גרמים",
+    "occurrence_count": 337,
+    "image_path": "product_pictures/product_שוקולד חלב שברי אגוז100ג_7290112358844.jpg"
+  },
+  {
+    "id": 67,
+    "name": "שוקו יטבתה בבקבוק 1 ליטר",
+    "code": "7290003029181",
+    "category": "dairy",
+    "description": "שוקו יטבתה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 336,
+    "image_path": "product_pictures/product_שוקו יטבתה בבקבוק 1 ליטר_7290003029181.jpg"
+  },
+  {
+    "id": 68,
+    "name": "ציטוס גבינה 80 גרם",
+    "code": "7290106720626",
+    "category": "snacks",
+    "description": "ציטוס גבינה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 336,
+    "image_path": "product_pictures/product_ציטוס גבינה 80 גרם_7290106720626.jpg"
+  },
+  {
+    "id": 69,
+    "name": "קוטג' 5% שומן 250 גרם",
+    "code": "7290011194246",
+    "category": "dairy",
+    "description": "קוטג' 5% שומן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 335,
+    "image_path": "product_pictures/product_קוטג' 5% שומן 250 גרם_7290011194246.jpg"
+  },
+  {
+    "id": 70,
+    "name": "מסטיק ספירמינט צ'יקלט66ג",
+    "code": "7290106721920",
+    "category": "snacks",
+    "description": "מסטיק ספירמינט",
+    "unit_qty": "גרמים",
+    "occurrence_count": 335,
+    "image_path": "product_pictures/product_מסטיק ספירמינט צ'יקלט66ג_7290106721920.jpg"
+  },
+  {
+    "id": 71,
+    "name": "קפה נמס 200 גרם",
+    "code": "7290000176420",
+    "category": "snacks",
+    "description": "קפה נמס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 335,
+    "image_path": "product_pictures/product_קפה נמס 200 גרם_7290000176420.jpg"
+  },
+  {
+    "id": 72,
+    "name": "פיירי פלטינום אורגינל",
+    "code": "8006540491539",
+    "category": "Household & Cleaning Supplies",
+    "description": "פיירי פלטינום",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 335,
+    "image_path": "product_pictures/product_פיירי פלטינום אורגינל_8006540491539.jpg"
+  },
+  {
+    "id": 73,
+    "name": "קוטג' 5% 250 גרם בעלז",
+    "code": "7290004127329",
+    "category": "dairy",
+    "description": "קוטג' תנובה 5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 335,
+    "image_path": "product_pictures/product_קוטג' 5% 250 גרם בעלז_7290004127329.jpg"
+  },
+  {
+    "id": 74,
+    "name": "מקסימה מרכך בייבי 1 ליטר",
+    "code": "7290013269003",
+    "category": "Household & Cleaning Supplies",
+    "description": "מקסימה מרכך",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 334,
+    "image_path": "product_pictures/product_מקסימה מרכך בייבי 1 ליטר_7290013269003.jpg"
+  },
+  {
+    "id": 75,
+    "name": "דנונה בר פקאן 183 גרם",
+    "code": "7290003321155",
+    "category": "dairy",
+    "description": "דנונה בר פקאן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 333,
+    "image_path": "product_pictures/product_דנונה בר פקאן 183 גרם_7290003321155.jpg"
+  },
+  {
+    "id": 76,
+    "name": "גב.סקי5%לבנה מעודנת250ג",
+    "code": "7290002824640",
+    "category": "dairy",
+    "description": "גבינת סקי 5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 333,
+    "image_path": "product_pictures/product_גב.סקי5%לבנה מעודנת250ג_7290002824640.jpg"
+  },
+  {
+    "id": 77,
+    "name": "מסטיק מנטוס מנטה בקבוק60",
+    "code": "80913467",
+    "category": "snacks",
+    "description": "מסטיק מנטוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 332,
+    "image_path": "product_pictures/product_מסטיק מנטוס מנטה בקבוק60_80913467.jpg"
+  },
+  {
+    "id": 78,
+    "name": "שוקו יטבתה+פקק נשלף 250מ",
+    "code": "7290003029433",
+    "category": "dairy",
+    "description": "שוקו יטבתה",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 332,
+    "image_path": "product_pictures/product_שוקו יטבתה+פקק נשלף 250מ_7290003029433.jpg"
+  },
+  {
+    "id": 79,
+    "name": "שמ.של פעם חמוצה27% 200ג",
+    "code": "72963753",
+    "category": "dairy",
+    "description": "שמנת חמוצה תנובה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 332,
+    "image_path": "product_pictures/product_שמ.של פעם חמוצה27% 200ג_72963753.jpg"
+  },
+  {
+    "id": 80,
+    "name": "אינסטנט פודינג וניל 80גר",
+    "code": "7290000068138",
+    "category": "Condiments & Spices",
+    "description": "אינסטנט פודינג",
+    "unit_qty": "גרמים",
+    "occurrence_count": 331,
+    "image_path": "product_pictures/product_אינסטנט פודינג וניל 80גר_7290000068138.jpg"
+  },
+  {
+    "id": 81,
+    "name": "מסיר כתמים קליה750מ",
+    "code": "7290101864127",
+    "category": "Household & Cleaning Supplies",
+    "description": "קליה ספריי",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 331,
+    "image_path": "product_pictures/product_מסיר כתמים קליה750מ_7290101864127.jpg"
+  },
+  {
+    "id": 82,
+    "name": "יוגורט ביו 3% דנונה 200ג",
+    "code": "7290000408316",
+    "category": "dairy",
+    "description": "יוגורט ביו 3%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 331,
+    "image_path": "product_pictures/product_יוגורט ביו 3% דנונה 200ג_7290000408316.jpg"
+  },
+  {
+    "id": 83,
+    "name": "פיירי פלטינום לימון780מל",
+    "code": "8001841625362",
+    "category": "Household & Cleaning Supplies",
+    "description": "פיירי נוזל כלים",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 331,
+    "image_path": "product_pictures/product_פיירי פלטינום לימון780מל_8001841625362.jpg"
+  },
+  {
+    "id": 84,
+    "name": "דנונה בר פצפוצים 173 גרם",
+    "code": "7290000408354",
+    "category": "dairy",
+    "description": "דנונה בר פצפוצים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 331,
+    "image_path": "product_pictures/product_דנונה בר פצפוצים 173 גרם_7290000408354.jpg"
+  },
+  {
+    "id": 85,
+    "name": "שמנת עמידה לקצפת38% 250מ",
+    "code": "7290000043814",
+    "category": "dairy",
+    "description": "שמנת עמידה לקצפת",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 331,
+    "image_path": "product_pictures/product_שמנת עמידה לקצפת38% 250מ_7290000043814.jpg"
+  },
+  {
+    "id": 86,
+    "name": "אורז יסמין קלאסי 1 ק\"ג",
+    "code": "7290100700396",
+    "category": "Dry/Baking Goods",
+    "description": "אורז יסמין סוגת",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 330,
+    "image_path": "product_pictures/product_אורז יסמין קלאסי 1 קג_7290100700396.jpg"
+  },
+  {
+    "id": 87,
+    "name": "ספארק לימון+משאבה 1ל",
+    "code": "7290107280761",
+    "category": "Household & Cleaning Supplies",
+    "description": "נוזל כלים לימון",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 330,
+    "image_path": "product_pictures/product_ספארק לימון+משאבה 1ל_7290107280761.jpg"
+  },
+  {
+    "id": 88,
+    "name": "אוקסיג'ן מ.כתמים",
+    "code": "7290005430602",
+    "category": "Household & Cleaning Supplies",
+    "description": "אוקסיג'ן מ.כתמים",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 330,
+    "image_path": "product_pictures/product_אוקסיג'ן מ.כתמים_7290005430602.jpg"
+  },
+  {
+    "id": 89,
+    "name": "האגיס פרידום דריי מידה 5",
+    "code": "7290000197548",
+    "category": "Health Care",
+    "description": "חיתולי האגיס",
+    "unit_qty": "יחידה",
+    "occurrence_count": 330,
+    "image_path": "product_pictures/product_האגיס פרידום דריי מידה 5_7290000197548.jpg"
+  },
+  {
+    "id": 90,
+    "name": "מרכך מקסימה בלו 1 ליטר",
+    "code": "7290108350616",
+    "category": "Household & Cleaning Supplies",
+    "description": "מרכך מקסימה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 330,
+    "image_path": "product_pictures/product_מרכך מקסימה בלו 1 ליטר_7290108350616.jpg"
+  },
+  {
+    "id": 91,
+    "name": "אורז פרסי קלאסי 1ק\"ג",
+    "code": "7290000211442",
+    "category": "Dry/Baking Goods",
+    "description": "אורז פרסי קלאסי",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 330,
+    "image_path": "product_pictures/product_אורז פרסי קלאסי 1קג_7290000211442.jpg"
+  },
+  {
+    "id": 92,
+    "name": "גב.נפולאון טעם טבעי 225ג",
+    "code": "7290004129101",
+    "category": "dairy",
+    "description": "גבינת נפוליאון",
+    "unit_qty": "גרמים",
+    "occurrence_count": 330,
+    "image_path": "product_pictures/product_גב.נפולאון טעם טבעי 225ג_7290004129101.jpg"
+  },
+  {
+    "id": 93,
+    "name": "מסטיק מנטוס בקבוק תות60ג",
+    "code": "80773429",
+    "category": "snacks",
+    "description": "מנטוס בקבוק",
+    "unit_qty": "גרמים",
+    "occurrence_count": 329,
+    "image_path": "product_pictures/product_מסטיק מנטוס בקבוק תות60ג_80773429.jpg"
+  },
+  {
+    "id": 94,
+    "name": "ממרח נוטלה 350 גרם",
+    "code": "80177173",
+    "category": "snacks",
+    "description": "ממרח נוטלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 329,
+    "image_path": "product_pictures/product_ממרח נוטלה 350 גרם_80177173.jpg"
+  },
+  {
+    "id": 95,
+    "name": "פרינגלס שמנת בצל 158 גרם",
+    "code": "38000232176",
+    "category": "snacks",
+    "description": "פרינגלס שמנת בצל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 329,
+    "image_path": "product_pictures/product_פרינגלס שמנת בצל 158 גרם_38000232176.jpg"
+  },
+  {
+    "id": 96,
+    "name": "שקדי מרק רכיבים טבעי400ג",
+    "code": "7290000063140",
+    "category": "Dry/Baking Goods",
+    "description": "שקדי מרק אסם",
+    "unit_qty": "גרמים",
+    "occurrence_count": 328,
+    "image_path": "product_pictures/product_שקדי מרק רכיבים טבעי400ג_7290000063140.jpg"
+  },
+  {
+    "id": 97,
+    "name": "חלב בקרטון 3% שומן 1 ל'",
+    "code": "7290004131074",
+    "category": "dairy",
+    "description": "חלב בקרטון 3%",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 328,
+    "image_path": "product_pictures/product_חלב בקרטון 3% שומן 1 ל'_7290004131074.jpg"
+  },
+  {
+    "id": 98,
+    "name": "פסטה צינורות 500 גרם",
+    "code": "7290107871990",
+    "category": "Dry/Baking Goods",
+    "description": "פסטה צינורות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 328,
+    "image_path": "product_pictures/product_פסטה צינורות 500 גרם_7290107871990.jpg"
+  },
+  {
+    "id": 99,
+    "name": "גריסיני קלאסי 200 גרם",
+    "code": "7290017928821",
+    "category": "snacks",
+    "description": "גריסיני קלאסי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 327,
+    "image_path": "product_pictures/product_גריסיני קלאסי 200 גרם_7290017928821.jpg"
+  },
+  {
+    "id": 100,
+    "name": "גב.סקי משפחתי5%שומן500ג",
+    "code": "7290002824183",
+    "category": "dairy",
+    "description": "גבינת סקי 5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 327,
+    "image_path": "product_pictures/product_גב.סקי משפחתי5%שומן500ג_7290002824183.jpg"
+  },
+  {
+    "id": 101,
+    "name": "אשל מהדרין 4.5% 200 מ\"ל",
+    "code": "7290004125400",
+    "category": "dairy",
+    "description": "אשל 4.5% שומן",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 327,
+    "image_path": "product_pictures/product_אשל מהדרין 4.5% 200 מל_7290004125400.jpg"
+  },
+  {
+    "id": 102,
+    "name": "גב.נפולאון טעם זיתים225ג",
+    "code": "7290004129118",
+    "category": "dairy",
+    "description": "גבינת נפוליאון",
+    "unit_qty": "גרמים",
+    "occurrence_count": 327,
+    "image_path": "product_pictures/product_גב.נפולאון טעם זיתים225ג_7290004129118.jpg"
+  },
+  {
+    "id": 103,
+    "name": "גב.לבנה רכה 5% שומן 250ג",
+    "code": "7290000048185",
+    "category": "dairy",
+    "description": "גבינה לבנה 5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 327,
+    "image_path": "product_pictures/product_גב.לבנה רכה 5% שומן 250ג_7290000048185.jpg"
+  },
+  {
+    "id": 104,
+    "name": "מרכ.מקסימה ס.מרוכז קול1ל",
+    "code": "7290012117534",
+    "category": "Household & Cleaning Supplies",
+    "description": "מקסימה ס.מרוכז",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 327,
+    "image_path": "product_pictures/product_מרכ.מקסימה ס.מרוכז קול1ל_7290012117534.jpg"
+  },
+  {
+    "id": 105,
+    "name": "שמנת להקצפה-32%שף לבן250",
+    "code": "7290004125738",
+    "category": "dairy",
+    "description": "שמנת להקצפה32%",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 327,
+    "image_path": "product_pictures/product_שמנת להקצפה-32%שף לבן250_7290004125738.jpg"
+  },
+  {
+    "id": 106,
+    "name": "סנובון כחול שלישיה55*3גר",
+    "code": "7290000292687",
+    "category": "Household & Cleaning Supplies",
+    "description": "סנובון כחול 3 יח",
+    "unit_qty": "גרמים",
+    "occurrence_count": 327,
+    "image_path": "product_pictures/product_סנובון כחול שלישיה553גר_7290000292687.jpg"
+  },
+  {
+    "id": 107,
+    "name": "פתיתים אפויים קוסקוס500ג",
+    "code": "7290000060200",
+    "category": "Dry/Baking Goods",
+    "description": "פתיתים אפויים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 326,
+    "image_path": "product_pictures/product_פתיתים אפויים קוסקוס500ג_7290000060200.jpg"
+  },
+  {
+    "id": 108,
+    "name": "שמפו פינוק יבש /פגום 700",
+    "code": "7290112492456",
+    "category": "Household & Cleaning Supplies",
+    "description": "שמפו לשיער יבש",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 326,
+    "image_path": "product_pictures/product_שמפו פינוק יבש פגום 700_7290112492456.jpg"
+  },
+  {
+    "id": 109,
+    "name": "מסטיק אורביט ויט מנטה64ג",
+    "code": "4009900403023",
+    "category": "snacks",
+    "description": "אורביט בקבוקון",
+    "unit_qty": "גרמים",
+    "occurrence_count": 326,
+    "image_path": "product_pictures/product_מסטיק אורביט ויט מנטה64ג_4009900403023.jpg"
+  },
+  {
+    "id": 110,
+    "name": "פסטה מסולסלת אסם 500 גרם",
+    "code": "7290000060781",
+    "category": "Dry/Baking Goods",
+    "description": "פסטה מסולסלת",
+    "unit_qty": "גרמים",
+    "occurrence_count": 325,
+    "image_path": "product_pictures/product_פסטה מסולסלת אסם 500 גרם_7290000060781.jpg"
+  },
+  {
+    "id": 111,
+    "name": "יוגורט ביו 1.7%דנונה200ג",
+    "code": "7290004584528",
+    "category": "dairy",
+    "description": "יוגורט ביו 1.7%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 325,
+    "image_path": "product_pictures/product_יוגורט ביו 1.7%דנונה200ג_7290004584528.jpg"
+  },
+  {
+    "id": 112,
+    "name": "גוש חלב פרוס28% 200מהדרי",
+    "code": "7290004122195",
+    "category": "dairy",
+    "description": "גבינה גוש חלב",
+    "unit_qty": "גרמים",
+    "occurrence_count": 325,
+    "image_path": "product_pictures/product_גוש חלב פרוס28% 200מהדרי_7290004122195.jpg"
+  },
+  {
+    "id": 113,
+    "name": "אורז בסמטי קלאסי בשקית1ק",
+    "code": "7290003643004",
+    "category": "Dry/Baking Goods",
+    "description": "אורז בסמטי קלאסי",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 325,
+    "image_path": "product_pictures/product_אורז בסמטי קלאסי בשקית1ק_7290003643004.jpg"
+  },
+  {
+    "id": 114,
+    "name": "אורביט אוכמניות בקבוק64ג",
+    "code": "4009900479998",
+    "category": "snacks",
+    "description": "אורביט בקבוקון",
+    "unit_qty": "גרמים",
+    "occurrence_count": 325,
+    "image_path": "product_pictures/product_אורביט אוכמניות בקבוק64ג_4009900479998.jpg"
+  },
+  {
+    "id": 115,
+    "name": "פרינגלס אורגינל 149 גרם",
+    "code": "38000232183",
+    "category": "snacks",
+    "description": "פרינגלס אורגינל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 325,
+    "image_path": "product_pictures/product_פרינגלס אורגינל 149 גרם_38000232183.jpg"
+  },
+  {
+    "id": 116,
+    "name": "פסק זמן חלב מגדים 45 גרם",
+    "code": "72991008",
+    "category": "snacks",
+    "description": "פסק זמן חלב",
+    "unit_qty": "גרמים",
+    "occurrence_count": 325,
+    "image_path": "product_pictures/product_פסק זמן חלב מגדים 45 גרם_72991008.jpg"
+  },
+  {
+    "id": 117,
+    "name": "חטיף סניקרס 50 גרם",
+    "code": "5000159461122",
+    "category": "snacks",
+    "description": "חטיף סניקרס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 324,
+    "image_path": "product_pictures/product_חטיף סניקרס 50 גרם_5000159461122.jpg"
+  },
+  {
+    "id": 118,
+    "name": "שמנת חמוצה 9% שומן 200מל",
+    "code": "7290004125370",
+    "category": "dairy",
+    "description": "שמנת חמוצה 9%",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 324,
+    "image_path": "product_pictures/product_שמנת חמוצה 9% שומן 200מל_7290004125370.jpg"
+  },
+  {
+    "id": 119,
+    "name": "טופיפי 125 גרם",
+    "code": "4014400923711",
+    "category": "snacks",
+    "description": "טופיפי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 323,
+    "image_path": "product_pictures/product_טופיפי 125 גרם_4014400923711.jpg"
+  },
+  {
+    "id": 120,
+    "name": "שמנת חמוצה15% חצי מנה100",
+    "code": "7290004125509",
+    "category": "dairy",
+    "description": "שמנת חמוצה 15%",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 323,
+    "image_path": "product_pictures/product_שמנת חמוצה15% חצי מנה100_7290004125509.jpg"
+  },
+  {
+    "id": 121,
+    "name": "קינדר בואנו לבן 39*3 גרם",
+    "code": "8000500121436",
+    "category": "snacks",
+    "description": "קינדר בואנו לבן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 323,
+    "image_path": "product_pictures/product_קינדר בואנו לבן 393 גרם_8000500121436.jpg"
+  },
+  {
+    "id": 122,
+    "name": "קרקר דק פיטנס סלק 140גרם",
+    "code": "7290112968807",
+    "category": "snacks",
+    "description": "קרקר דק פיטנס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 323,
+    "image_path": "product_pictures/product_קרקר דק פיטנס סלק 140גרם_7290112968807.jpg"
+  },
+  {
+    "id": 123,
+    "name": "פתיתים אפויים אורז 500 ג",
+    "code": "7290000060903",
+    "category": "Dry/Baking Goods",
+    "description": "פתיתים אפויים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 322,
+    "image_path": "product_pictures/product_פתיתים אפויים אורז 500 ג_7290000060903.jpg"
+  },
+  {
+    "id": 124,
+    "name": "גב.נפולאון שום-שמיר 225ג",
+    "code": "7290004129156",
+    "category": "dairy",
+    "description": "גבינת נפוליאון",
+    "unit_qty": "גרמים",
+    "occurrence_count": 322,
+    "image_path": "product_pictures/product_גב.נפולאון שום-שמיר 225ג_7290004129156.jpg"
+  },
+  {
+    "id": 125,
+    "name": "מקסימה ג'ל כביסה מאסק3ל",
+    "code": "7290013269287",
+    "category": "Household & Cleaning Supplies",
+    "description": "ג'ל כביסה מרוכז",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 322,
+    "image_path": "product_pictures/product_מקסימה ג'ל כביסה מאסק3ל_7290013269287.jpg"
+  },
+  {
+    "id": 126,
+    "name": "תח.פינוק לבנדר וניל 700מ",
+    "code": "7290112492609",
+    "category": "Household & Cleaning Supplies",
+    "description": "תחליב רחצה פינוק",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 322,
+    "image_path": "product_pictures/product_תח.פינוק לבנדר וניל 700מ_7290112492609.jpg"
+  },
+  {
+    "id": 127,
+    "name": "ופלים קואדרטיני אגוז250ג",
+    "code": "8000380004911",
+    "category": "snacks",
+    "description": "ופל קואדרטיני",
+    "unit_qty": "גרמים",
+    "occurrence_count": 322,
+    "image_path": "product_pictures/product_ופלים קואדרטיני אגוז250ג_8000380004911.jpg"
+  },
+  {
+    "id": 128,
+    "name": "גיל 3% מהדרין 200מ\"ל",
+    "code": "7290004125417",
+    "category": "dairy",
+    "description": "גיל לבן 3%שומן",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 322,
+    "image_path": "product_pictures/product_גיל 3% מהדרין 200מל_7290004125417.jpg"
+  },
+  {
+    "id": 129,
+    "name": "משקה שקדים טרי 1 ליטר",
+    "code": "7290014760141",
+    "category": "drinks",
+    "description": "משקה שקדים",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 322,
+    "image_path": "product_pictures/product_משקה שקדים טרי 1 ליטר_7290014760141.jpg"
+  },
+  {
+    "id": 130,
+    "name": "מיונז אמיתי תלמה 500 גרם",
+    "code": "7290000111186",
+    "category": "Condiments & Spices",
+    "description": "מיונז אמיתי תלמה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_מיונז אמיתי תלמה 500 גרם_7290000111186.jpg"
+  },
+  {
+    "id": 131,
+    "name": "גב.לבנה 5% שומן 500 גרם",
+    "code": "7290004127800",
+    "category": "dairy",
+    "description": "גבינה לבנה 5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_גב.לבנה 5% שומן 500 גרם_7290004127800.jpg"
+  },
+  {
+    "id": 132,
+    "name": "חלב מועשר3% בקבוק 1ליטר",
+    "code": "7290107932080",
+    "category": "dairy",
+    "description": "חלב מועשר 3%",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_חלב מועשר3% בקבוק 1ליטר_7290107932080.jpg"
+  },
+  {
+    "id": 133,
+    "name": "בייגלה שטוחים מלח300גרם",
+    "code": "7290106574977",
+    "category": "snacks",
+    "description": "בייגלה שטוחים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_בייגלה שטוחים מלח300גרם_7290106574977.jpg"
+  },
+  {
+    "id": 134,
+    "name": "רבע לשבע גלילית אגוז160ג",
+    "code": "7290106520066",
+    "category": "snacks",
+    "description": "רבע לשבע 160 גרם",
+    "unit_qty": "גרמים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_רבע לשבע גלילית אגוז160ג_7290106520066.jpg"
+  },
+  {
+    "id": 135,
+    "name": "שמפו ומרכך 2 ב1- רגיל700",
+    "code": "7290112492463",
+    "category": "Health Care",
+    "description": "פינוק שמפו+מרכך",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_שמפו ומרכך 2 ב1- רגיל700_7290112492463.jpg"
+  },
+  {
+    "id": 136,
+    "name": "ביסקוויט מצופה שוקו200גר",
+    "code": "7622300503079",
+    "category": "snacks",
+    "description": "ביסקוויט מצופה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_ביסקוויט מצופה שוקו200גר_7622300503079.jpg"
+  },
+  {
+    "id": 137,
+    "name": "פסטה ספגטי מס 8 אסם 500ג",
+    "code": "7290000060880",
+    "category": "Dry/Baking Goods",
+    "description": "ספגטי מס' 8",
+    "unit_qty": "גרמים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_פסטה ספגטי מס 8 אסם 500ג_7290000060880.jpg"
+  },
+  {
+    "id": 138,
+    "name": "משקה סויה במתיקות מופחתת",
+    "code": "7290004130794",
+    "category": "drinks",
+    "description": "משקה סויה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 321,
+    "image_path": "product_pictures/product_משקה סויה במתיקות מופחתת_7290004130794.jpg"
+  },
+  {
+    "id": 139,
+    "name": "עוגות אישי.קינדר דליס390",
+    "code": "8000500267103",
+    "category": "snacks",
+    "description": "עוגות קינדר דליס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 320,
+    "image_path": "product_pictures/product_עוגות אישי.קינדר דליס390_8000500267103.jpg"
+  },
+  {
+    "id": 140,
+    "name": "מעדן ג'לי פטל 125 גרם",
+    "code": "7290004136857",
+    "category": "snacks",
+    "description": "מעדן ג'לי פטל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 320,
+    "image_path": "product_pictures/product_מעדן ג'לי פטל 125 גרם_7290004136857.jpg"
+  },
+  {
+    "id": 141,
+    "name": "ביסלי פיצה 70 גרם",
+    "code": "7290000066172",
+    "category": "snacks",
+    "description": "ביסלי פיצה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 319,
+    "image_path": "product_pictures/product_ביסלי פיצה 70 גרם_7290000066172.jpg"
+  },
+  {
+    "id": 142,
+    "name": "חטיף כיפלי בטעם בצל 70גר",
+    "code": "7290000110851",
+    "category": "snacks",
+    "description": "כיפלי בטעם בצל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 319,
+    "image_path": "product_pictures/product_חטיף כיפלי בטעם בצל 70גר_7290000110851.jpg"
+  },
+  {
+    "id": 143,
+    "name": "חטיף מרס 51 גרם",
+    "code": "5000159407236",
+    "category": "snacks",
+    "description": "חטיף מרס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 318,
+    "image_path": "product_pictures/product_חטיף מרס 51 גרם_5000159407236.jpg"
+  },
+  {
+    "id": 144,
+    "name": "יוגורט יופלה אפרסק3% 150",
+    "code": "7290000040080",
+    "category": "dairy",
+    "description": "יופלה אפרסק3%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 318,
+    "image_path": "product_pictures/product_יוגורט יופלה אפרסק3% 150_7290000040080.jpg"
+  },
+  {
+    "id": 145,
+    "name": "פסטה קרניים בינוניות500ג",
+    "code": "7290000060828",
+    "category": "Dry/Baking Goods",
+    "description": "פסטה קרניים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 318,
+    "image_path": "product_pictures/product_פסטה קרניים בינוניות500ג_7290000060828.jpg"
+  },
+  {
+    "id": 146,
+    "name": "דנונה ביו 3% 150*8 גרם",
+    "code": "7290005839078",
+    "category": "dairy",
+    "description": "דנונה ביו 8 יח",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 318,
+    "image_path": "product_pictures/product_דנונה ביו 3% 1508 גרם_7290005839078.jpg"
+  },
+  {
+    "id": 147,
+    "name": "חטיף כיפלי בטעם גריל70ג",
+    "code": "7290000110844",
+    "category": "snacks",
+    "description": "כיפלי בטעם גריל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 318,
+    "image_path": "product_pictures/product_חטיף כיפלי בטעם גריל70ג_7290000110844.jpg"
+  },
+  {
+    "id": 148,
+    "name": "יוגורט יופלה תות3% 150גר",
+    "code": "7290000040042",
+    "category": "dairy",
+    "description": "יופלה תות 3%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 318,
+    "image_path": "product_pictures/product_יוגורט יופלה תות3% 150גר_7290000040042.jpg"
+  },
+  {
+    "id": 149,
+    "name": "סנו אנטי קאלק מרסס 1 ל'",
+    "code": "7290000293943",
+    "category": "Household & Cleaning Supplies",
+    "description": "סנו אנטי קאלק",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 317,
+    "image_path": "product_pictures/product_סנו אנטי קאלק מרסס 1 ל'_7290000293943.jpg"
+  },
+  {
+    "id": 150,
+    "name": "תח.רחצה להזנה עמוקה 750מ",
+    "code": "8712561594608",
+    "category": "snacks",
+    "description": "תחליב רחצה דאב",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 317,
+    "image_path": "product_pictures/product_תח.רחצה להזנה עמוקה 750מ_8712561594608.jpg"
+  },
+  {
+    "id": 151,
+    "name": "יופלה דיאט תות0% 150 גר",
+    "code": "7290004124205",
+    "category": "dairy",
+    "description": "יופלה דיאט תות0%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 317,
+    "image_path": "product_pictures/product_יופלה דיאט תות0% 150 גר_7290004124205.jpg"
+  },
+  {
+    "id": 152,
+    "name": "ביסלי פלאפל 70 גרם",
+    "code": "7290000066134",
+    "category": "snacks",
+    "description": "ביסלי פלאפל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 317,
+    "image_path": "product_pictures/product_ביסלי פלאפל 70 גרם_7290000066134.jpg"
+  },
+  {
+    "id": 153,
+    "name": "קינדר קארדס 128 גרם",
+    "code": "8000500269169",
+    "category": "snacks",
+    "description": "קינדר קארדס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 317,
+    "image_path": "product_pictures/product_קינדר קארדס 128 גרם_8000500269169.jpg"
+  },
+  {
+    "id": 154,
+    "name": "פריכיות דק.פיטנס3דגנ120ג",
+    "code": "7290111564277",
+    "category": "snacks",
+    "description": "פריכיות פיטנס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_פריכיות דק.פיטנס3דגנ120ג_7290111564277.jpg"
+  },
+  {
+    "id": 155,
+    "name": "במבה מתוקה 30 גרם",
+    "code": "7290000066295",
+    "category": "snacks",
+    "description": "במבה מתוקה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_במבה מתוקה 30 גרם_7290000066295.jpg"
+  },
+  {
+    "id": 156,
+    "name": "ביצי הפתעה קינדר 20*3 גר",
+    "code": "8000500026731",
+    "category": "snacks",
+    "description": "ביצי הפתעה קינדר",
+    "unit_qty": "גרמים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_ביצי הפתעה קינדר 203 גר_8000500026731.jpg"
+  },
+  {
+    "id": 157,
+    "name": "חומוס עם חריף אחלה 400 ג",
+    "code": "7290104061448",
+    "category": "Condiments & Spices",
+    "description": "חומוס חריף אחלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_חומוס עם חריף אחלה 400 ג_7290104061448.jpg"
+  },
+  {
+    "id": 158,
+    "name": "משקה סויה בטעם וניל 1 לי",
+    "code": "7290004125585",
+    "category": "drinks",
+    "description": "משקה סויה וניל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_משקה סויה בטעם וניל 1 לי_7290004125585.jpg"
+  },
+  {
+    "id": 159,
+    "name": "קוקה קולה בקבוק 1.5 ליטר",
+    "code": "7290110115203",
+    "category": "drinks",
+    "description": "קוקה קולה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_קוקה קולה בקבוק 1.5 ליטר_7290110115203.jpg"
+  },
+  {
+    "id": 160,
+    "name": "קוטג' תנובה 3% שומן 250",
+    "code": "7290004127077",
+    "category": "snacks",
+    "description": "קוטג' 3% שומן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_קוטג' תנובה 3% שומן 250_7290004127077.jpg"
+  },
+  {
+    "id": 161,
+    "name": "קוקה קולה זירו 1.5 ליטר",
+    "code": "7290110115227",
+    "category": "drinks",
+    "description": "קוקה קולה זיר",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_קוקה קולה זירו 1.5 ליטר_7290110115227.jpg"
+  },
+  {
+    "id": 162,
+    "name": "חטיף באונטי 57 גרם",
+    "code": "40111216",
+    "category": "snacks",
+    "description": "חטיף באונטי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_חטיף באונטי 57 גרם_40111216.jpg"
+  },
+  {
+    "id": 163,
+    "name": "שמנת לבישול 10%שומן250מ",
+    "code": "7290004137021",
+    "category": "dairy",
+    "description": "שמנת לבישול10%",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 316,
+    "image_path": "product_pictures/product_שמנת לבישול 10%שומן250מ_7290004137021.jpg"
+  },
+  {
+    "id": 164,
+    "name": "משח.סנסודיין דואל קייר75",
+    "code": "7290005084355",
+    "category": "Health Care",
+    "description": "משחת שיניים",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 315,
+    "image_path": "product_pictures/product_משח.סנסודיין דואל קייר75_7290005084355.jpg"
+  },
+  {
+    "id": 165,
+    "name": "משקה שיבולת שועל 1 ליטר",
+    "code": "7290110325619",
+    "category": "drinks",
+    "description": "משקה שיבולת שועל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 315,
+    "image_path": "product_pictures/product_משקה שיבולת שועל 1 ליטר_7290110325619.jpg"
+  },
+  {
+    "id": 166,
+    "name": "משקה סויה 1 ליטר",
+    "code": "7290004125578",
+    "category": "drinks",
+    "description": "משקה סויה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 315,
+    "image_path": "product_pictures/product_משקה סויה 1 ליטר_7290004125578.jpg"
+  },
+  {
+    "id": 167,
+    "name": "יוגורט גו קרמי תות0% 200",
+    "code": "7290110328764",
+    "category": "dairy",
+    "description": "יוגורט גו קרמי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 315,
+    "image_path": "product_pictures/product_יוגורט גו קרמי תות0% 200_7290110328764.jpg"
+  },
+  {
+    "id": 168,
+    "name": "מסטיק פירות מנטה בקבוק",
+    "code": "80790990",
+    "category": "snacks",
+    "description": "מסטיק מנטוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 314,
+    "image_path": "product_pictures/product_מסטיק פירות מנטה בקבוק_80790990.jpg"
+  },
+  {
+    "id": 169,
+    "name": "חטיף קינדר הפי היפו 5יח'",
+    "code": "8000500023624",
+    "category": "snacks",
+    "description": "קינדר הפי היפו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 314,
+    "image_path": "product_pictures/product_חטיף קינדר הפי היפו 5יח'_8000500023624.jpg"
+  },
+  {
+    "id": 170,
+    "name": "שמנת בישול-15%שף לבן250מ",
+    "code": "7290004125721",
+    "category": "dairy",
+    "description": "שמנת לבישול15%",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 314,
+    "image_path": "product_pictures/product_שמנת בישול-15%שף לבן250מ_7290004125721.jpg"
+  },
+  {
+    "id": 171,
+    "name": "קוטג' תנובה 9% שומן 250ג",
+    "code": "7290004127336",
+    "category": "dairy",
+    "description": "קוטג' תנובה 9%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 313,
+    "image_path": "product_pictures/product_קוטג' תנובה 9% שומן 250ג_7290004127336.jpg"
+  },
+  {
+    "id": 172,
+    "name": "ספרייט זירו 1.5 ליטר",
+    "code": "7290110115272",
+    "category": "drinks",
+    "description": "ספרייט זירו",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 312,
+    "image_path": "product_pictures/product_ספרייט זירו 1.5 ליטר_7290110115272.jpg"
+  },
+  {
+    "id": 173,
+    "name": "חלב מפוסטר 1% בקרטון 1ל'",
+    "code": "7290000042435",
+    "category": "dairy",
+    "description": "חלב 1% בקרטון",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 312,
+    "image_path": "product_pictures/product_חלב מפוסטר 1% בקרטון 1ל'_7290000042435.jpg"
+  },
+  {
+    "id": 174,
+    "name": "יולו שוקולד חלב",
+    "code": "7290014761056",
+    "category": "dairy",
+    "description": "יולו שוקולד חלב",
+    "unit_qty": "גרמים",
+    "occurrence_count": 312,
+    "image_path": "product_pictures/product_יולו שוקולד חלב_7290014761056.jpg"
+  },
+  {
+    "id": 175,
+    "name": "אפרופו איטליאנו 50 גרם",
+    "code": "7290104500572",
+    "category": "snacks",
+    "description": "אפרופו איטליאנו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 312,
+    "image_path": "product_pictures/product_אפרופו איטליאנו 50 גרם_7290104500572.jpg"
+  },
+  {
+    "id": 176,
+    "name": "דנונ.פרו20ג חלבון תות200",
+    "code": "7290110566975",
+    "category": "dairy",
+    "description": "דנונה פרו חלבון",
+    "unit_qty": "גרמים",
+    "occurrence_count": 311,
+    "image_path": "product_pictures/product_דנונ.פרו20ג חלבון תות200_7290110566975.jpg"
+  },
+  {
+    "id": 177,
+    "name": "לילי לח פיור מארז 4",
+    "code": "7290111341984",
+    "category": "Household & Cleaning Supplies",
+    "description": "נייר טואלט לח4יח",
+    "unit_qty": "יחידה",
+    "occurrence_count": 311,
+    "image_path": "product_pictures/product_לילי לח פיור מארז 4_7290111341984.jpg"
+  },
+  {
+    "id": 178,
+    "name": "הוטפופ טעם טבעי100*6ג",
+    "code": "5701932026964",
+    "category": "snacks",
+    "description": "פופקורן הוטפופ",
+    "unit_qty": "גרמים",
+    "occurrence_count": 311,
+    "image_path": "product_pictures/product_הוטפופ טעם טבעי1006ג_5701932026964.jpg"
+  },
+  {
+    "id": 179,
+    "name": "כריות נוגט 686 גרם",
+    "code": "7290112495006",
+    "category": "snacks",
+    "description": "כריות נוגט",
+    "unit_qty": "גרמים",
+    "occurrence_count": 311,
+    "image_path": "product_pictures/product_כריות נוגט 686 גרם_7290112495006.jpg"
+  },
+  {
+    "id": 180,
+    "name": "תפוצ'יפס ברביקיו ודבש50ג",
+    "code": "7290110578978",
+    "category": "snacks",
+    "description": "תפוצ'יפס ברביקיו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 311,
+    "image_path": "product_pictures/product_תפוצ'יפס ברביקיו ודבש50ג_7290110578978.jpg"
+  },
+  {
+    "id": 181,
+    "name": "רויון 1.5% בקרטון 1ל",
+    "code": "7290000043890",
+    "category": "dairy",
+    "description": "רויון בקרטון1.5%",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 310,
+    "image_path": "product_pictures/product_רויון 1.5% בקרטון 1ל_7290000043890.jpg"
+  },
+  {
+    "id": 182,
+    "name": "משקה סויה ללת\"ס 1 ליטר",
+    "code": "7290110324926",
+    "category": "drinks",
+    "description": "משקה סויה ללת\"ס",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 310,
+    "image_path": "product_pictures/product_משקה סויה ללתס 1 ליטר_7290110324926.jpg"
+  },
+  {
+    "id": 183,
+    "name": "ספרייט ליים 1.5 ליטר",
+    "code": "7290110115265",
+    "category": "drinks",
+    "description": "ספרייט ליים",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 310,
+    "image_path": "product_pictures/product_ספרייט ליים 1.5 ליטר_7290110115265.jpg"
+  },
+  {
+    "id": 184,
+    "name": "יוגורט ביו 0% דנונה 200ג",
+    "code": "7290002824466",
+    "category": "dairy",
+    "description": "יוגורט ביו 0%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 309,
+    "image_path": "product_pictures/product_יוגורט ביו 0% דנונה 200ג_7290002824466.jpg"
+  },
+  {
+    "id": 185,
+    "name": "אורביט באבל מינט בקבוק64",
+    "code": "4009900482417",
+    "category": "snacks",
+    "description": "אורביט באבל מינט",
+    "unit_qty": "גרמים",
+    "occurrence_count": 309,
+    "image_path": "product_pictures/product_אורביט באבל מינט בקבוק64_4009900482417.jpg"
+  },
+  {
+    "id": 186,
+    "name": "פריכיות דקות+קינואה120גר",
+    "code": "7290111564291",
+    "category": "snacks",
+    "description": "פריכיות פיטנס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 309,
+    "image_path": "product_pictures/product_פריכיות דקות+קינואה120גר_7290111564291.jpg"
+  },
+  {
+    "id": 187,
+    "name": "300-K קוטל חרק/.זוחל630מ",
+    "code": "7290000288352",
+    "category": "Household & Cleaning Supplies",
+    "description": "300-K קוטל חרק",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 309,
+    "image_path": "product_pictures/product_300-K קוטל חרק.זוחל630מ_7290000288352.jpg"
+  },
+  {
+    "id": 188,
+    "name": "דנונה פרו 20ג חלבון 200ג",
+    "code": "7290110565527",
+    "category": "dairy",
+    "description": "דנונה פרו חלבון",
+    "unit_qty": "גרמים",
+    "occurrence_count": 309,
+    "image_path": "product_pictures/product_דנונה פרו 20ג חלבון 200ג_7290110565527.jpg"
+  },
+  {
+    "id": 189,
+    "name": "עוגיות מזרחיות שומשום400",
+    "code": "7290002132011",
+    "category": "snacks",
+    "description": "עוגיות מזרחיות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_עוגיות מזרחיות שומשום400_7290002132011.jpg"
+  },
+  {
+    "id": 190,
+    "name": "עוגת הבית שיש אסם 400 גר",
+    "code": "7290006983770",
+    "category": "snacks",
+    "description": "עוגת שיש",
+    "unit_qty": "גרמים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_עוגת הבית שיש אסם 400 גר_7290006983770.jpg"
+  },
+  {
+    "id": 191,
+    "name": "מים מינרליים מי עדן1.5*6",
+    "code": "7290019056973",
+    "category": "drinks",
+    "description": "מי עדן 1.5*6ל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_מים מינרליים מי עדן1.56_7290019056973.jpg"
+  },
+  {
+    "id": 192,
+    "name": "משקה סויה לייט 1ל",
+    "code": "7290004132552",
+    "category": "drinks",
+    "description": "משקה סויה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_משקה סויה לייט 1ל_7290004132552.jpg"
+  },
+  {
+    "id": 193,
+    "name": "רוטב פסטה",
+    "code": "7290013284310",
+    "category": "Condiments & Spices",
+    "description": "רוטב פסטה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_רוטב פסטה_7290013284310.jpg"
+  },
+  {
+    "id": 194,
+    "name": "אייס קפה יטבתה 2% 1ל",
+    "code": "7290003029907",
+    "category": "dairy",
+    "description": "אייס קפה יטבתה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_אייס קפה יטבתה 2% 1ל_7290003029907.jpg"
+  },
+  {
+    "id": 195,
+    "name": "מלווח מעדנות 700 גרם",
+    "code": "7290000238036",
+    "category": "Frozen Foods",
+    "description": "מלווח מעדנית",
+    "unit_qty": "גרמים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_מלווח מעדנות 700 גרם_7290000238036.jpg"
+  },
+  {
+    "id": 196,
+    "name": "חלב נטול לקטוז 2% 1 ליטר",
+    "code": "7290110563462",
+    "category": "dairy",
+    "description": "חלב נטול לקטוז",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_חלב נטול לקטוז 2% 1 ליטר_7290110563462.jpg"
+  },
+  {
+    "id": 197,
+    "name": "סוכ.מנטוס טעם פירות37.5ג",
+    "code": "7290002752332",
+    "category": "snacks",
+    "description": "סוכריות מנטוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_סוכ.מנטוס טעם פירות37.5ג_7290002752332.jpg"
+  },
+  {
+    "id": 198,
+    "name": "דנונה ביו 1.7% 150*8גרם",
+    "code": "7290006664990",
+    "category": "dairy",
+    "description": "דנונה ביו 8 יח'",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_דנונה ביו 1.7% 1508גרם_7290006664990.jpg"
+  },
+  {
+    "id": 199,
+    "name": "פריגת תפוזים 1.5 ליטר",
+    "code": "7290110114961",
+    "category": "drinks",
+    "description": "פריגת תפוזים",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 308,
+    "image_path": "product_pictures/product_פריגת תפוזים 1.5 ליטר_7290110114961.jpg"
+  },
+  {
+    "id": 200,
+    "name": "חטיפי פריכונים עם דבש80ג",
+    "code": "7290000078762",
+    "category": "snacks",
+    "description": "חטיפי פריכונים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_חטיפי פריכונים עם דבש80ג_7290000078762.jpg"
+  },
+  {
+    "id": 201,
+    "name": "תח.רחצה דאב תה ירוק 750מ",
+    "code": "8712561611411",
+    "category": "Health Care",
+    "description": "תחליב רחצה דאב",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_תח.רחצה דאב תה ירוק 750מ_8712561611411.jpg"
+  },
+  {
+    "id": 202,
+    "name": "מסטיק מנטוס אבטיח60גרם",
+    "code": "80896081",
+    "category": "snacks",
+    "description": "מנטוס בקבוק",
+    "unit_qty": "גרמים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_מסטיק מנטוס אבטיח60גרם_80896081.jpg"
+  },
+  {
+    "id": 203,
+    "name": "ביסקוויט נוטלה 166 גרם",
+    "code": "8000500310397",
+    "category": "snacks",
+    "description": "ביסקוויט נוטלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_ביסקוויט נוטלה 166 גרם_8000500310397.jpg"
+  },
+  {
+    "id": 204,
+    "name": "יוג.גו קרמי אפרסק0% 200ג",
+    "code": "7290110328788",
+    "category": "dairy",
+    "description": "יוגורט גו סמיך",
+    "unit_qty": "גרמים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_יוג.גו קרמי אפרסק0% 200ג_7290110328788.jpg"
+  },
+  {
+    "id": 205,
+    "name": "פאנטה אורנג' 1.5 ל'",
+    "code": "7290110115296",
+    "category": "drinks",
+    "description": "פאנטה אורנג'",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_פאנטה אורנג' 1.5 ל'_7290110115296.jpg"
+  },
+  {
+    "id": 206,
+    "name": "מים מינרל.נביעות 1.5*6ל",
+    "code": "7290110114855",
+    "category": "drinks",
+    "description": "מים נביעות1.5*6ל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_מים מינרל.נביעות 1.56ל_7290110114855.jpg"
+  },
+  {
+    "id": 207,
+    "name": "משקה ש.שועל אגוז לוז 1ל",
+    "code": "7290110327514",
+    "category": "drinks",
+    "description": "משקה ש.שועל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_משקה ש.שועל אגוז לוז 1ל_7290110327514.jpg"
+  },
+  {
+    "id": 208,
+    "name": "שמנת חמוצה15% מועשרת200",
+    "code": "7290000041858",
+    "category": "dairy",
+    "description": "שמנת חמוצה יטבתה",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_שמנת חמוצה15% מועשרת200_7290000041858.jpg"
+  },
+  {
+    "id": 209,
+    "name": "קפה נמס גקובס קרוננג200ג",
+    "code": "8714599513866",
+    "category": "Condiments & Spices",
+    "description": "קפה נמס ג'קובס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_קפה נמס גקובס קרוננג200ג_8714599513866.jpg"
+  },
+  {
+    "id": 210,
+    "name": "מעדן הגולן שוקולד 125 גר",
+    "code": "7290115678376",
+    "category": "dairy",
+    "description": "מעדן הגולן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 307,
+    "image_path": "product_pictures/product_מעדן הגולן שוקולד 125 גר_7290115678376.jpg"
+  },
+  {
+    "id": 211,
+    "name": "קוקה קולה זירו 1.5*6 ל'",
+    "code": "7290110115418",
+    "category": "drinks",
+    "description": "קולה זירו1.5*6ל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 306,
+    "image_path": "product_pictures/product_קוקה קולה זירו 1.56 ל'_7290110115418.jpg"
+  },
+  {
+    "id": 212,
+    "name": "שוקו בשקית יטבתה 225מ\"ל",
+    "code": "7290000042855",
+    "category": "dairy",
+    "description": "שוקו בשקית",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 306,
+    "image_path": "product_pictures/product_שוקו בשקית יטבתה 225מל_7290000042855.jpg"
+  },
+  {
+    "id": 213,
+    "name": "ביסלי ברביקיו 70 גרם",
+    "code": "7290115201680",
+    "category": "snacks",
+    "description": "ביסלי ברביקיו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 306,
+    "image_path": "product_pictures/product_ביסלי ברביקיו 70 גרם_7290115201680.jpg"
+  },
+  {
+    "id": 214,
+    "name": "קריספי טורטיה תירס 60 גר",
+    "code": "7290105691248",
+    "category": "snacks",
+    "description": "קריספי טורטיה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 306,
+    "image_path": "product_pictures/product_קריספי טורטיה תירס 60 גר_7290105691248.jpg"
+  },
+  {
+    "id": 215,
+    "name": "פינוקיות קרם פסק זמן200ג",
+    "code": "7290112332691",
+    "category": "snacks",
+    "description": "פינוקיות פסק זמן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 306,
+    "image_path": "product_pictures/product_פינוקיות קרם פסק זמן200ג_7290112332691.jpg"
+  },
+  {
+    "id": 216,
+    "name": "ממרח נוטלה טו גו 52 גרם",
+    "code": "9800800056",
+    "category": "snacks",
+    "description": "ממרח נוטלה טו גו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 306,
+    "image_path": "product_pictures/product_ממרח נוטלה טו גו 52 גרם_9800800056.jpg"
+  },
+  {
+    "id": 217,
+    "name": "פסטה אסם תלתלים 500 גרם",
+    "code": "7290000060248",
+    "category": "Dry/Baking Goods",
+    "description": "פסטה תלתלים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 306,
+    "image_path": "product_pictures/product_פסטה אסם תלתלים 500 גרם_7290000060248.jpg"
+  },
+  {
+    "id": 218,
+    "name": "ממרח בטעם שוקולד 500גר",
+    "code": "7290000416021",
+    "category": "Condiments & Spices",
+    "description": "ממרח השחר",
+    "unit_qty": "גרמים",
+    "occurrence_count": 306,
+    "image_path": "product_pictures/product_ממרח בטעם שוקולד 500גר_7290000416021.jpg"
+  },
+  {
+    "id": 219,
+    "name": "חומוס עם טחינה אחלה 400ג",
+    "code": "7290104061417",
+    "category": "Condiments & Spices",
+    "description": "חומוס טחינה אחלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 305,
+    "image_path": "product_pictures/product_חומוס עם טחינה אחלה 400ג_7290104061417.jpg"
+  },
+  {
+    "id": 220,
+    "name": "מסטיק  מנטה עדינה בקבוק",
+    "code": "80773443",
+    "category": "snacks",
+    "description": "מסטיק מנטוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 305,
+    "image_path": "product_pictures/product_מסטיק  מנטה עדינה בקבוק_80773443.jpg"
+  },
+  {
+    "id": 221,
+    "name": "פיניש נוזל הברקה 800 מ\"ל",
+    "code": "7290101865261",
+    "category": "Household & Cleaning Supplies",
+    "description": "פיניש נוזל הברקה",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 305,
+    "image_path": "product_pictures/product_פיניש נוזל הברקה 800 מל_7290101865261.jpg"
+  },
+  {
+    "id": 222,
+    "name": "ממרח טעם שוקולד בד\"ץ400ג",
+    "code": "7290000416618",
+    "category": "Condiments & Spices",
+    "description": "ממרח בטעם שוקולד",
+    "unit_qty": "גרמים",
+    "occurrence_count": 305,
+    "image_path": "product_pictures/product_ממרח טעם שוקולד בדץ400ג_7290000416618.jpg"
+  },
+  {
+    "id": 223,
+    "name": "לחם ברמן אקטיב 750 גרם",
+    "code": "7290000497044",
+    "category": "Dry/Baking Goods",
+    "description": "לחם ברמן אקטיב",
+    "unit_qty": "גרמים",
+    "occurrence_count": 305,
+    "image_path": "product_pictures/product_לחם ברמן אקטיב 750 גרם_7290000497044.jpg"
+  },
+  {
+    "id": 224,
+    "name": "פריגת אשכוליות 1.5 ליטר",
+    "code": "7290110114985",
+    "category": "drinks",
+    "description": "פריגת אשכוליו",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 305,
+    "image_path": "product_pictures/product_פריגת אשכוליות 1.5 ליטר_7290110114985.jpg"
+  },
+  {
+    "id": 225,
+    "name": "חומוס עם צנובר אחלה 400ג",
+    "code": "7290104061431",
+    "category": "Condiments & Spices",
+    "description": "חומוס צנובר אחלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 304,
+    "image_path": "product_pictures/product_חומוס עם צנובר אחלה 400ג_7290104061431.jpg"
+  },
+  {
+    "id": 226,
+    "name": "פריגת ענבים 1.5 ליטר",
+    "code": "7290110115005",
+    "category": "drinks",
+    "description": "פריגת ענבים",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 304,
+    "image_path": "product_pictures/product_פריגת ענבים 1.5 ליטר_7290110115005.jpg"
+  },
+  {
+    "id": 227,
+    "name": "ערגליות תות 300 גרם",
+    "code": "7290008775823",
+    "category": "snacks",
+    "description": "ערגליות תות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 304,
+    "image_path": "product_pictures/product_ערגליות תות 300 גרם_7290008775823.jpg"
+  },
+  {
+    "id": 228,
+    "name": "דאו.דאב ספריי אורגינל150",
+    "code": "8720181046605",
+    "category": "Household & Cleaning Supplies",
+    "description": "דאודורנט דאב",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 304,
+    "image_path": "product_pictures/product_דאו.דאב ספריי אורגינל150_8720181046605.jpg"
+  },
+  {
+    "id": 229,
+    "name": "גמדים סקוויז לדרך תות100",
+    "code": "7290112339867",
+    "category": "dairy",
+    "description": "גמדים לדרך",
+    "unit_qty": "גרמים",
+    "occurrence_count": 304,
+    "image_path": "product_pictures/product_גמדים סקוויז לדרך תות100_7290112339867.jpg"
+  },
+  {
+    "id": 230,
+    "name": "קרקר זהב 150 גרם",
+    "code": "7290000074375",
+    "category": "snacks",
+    "description": "קרקר זהב אסם",
+    "unit_qty": "גרמים",
+    "occurrence_count": 304,
+    "image_path": "product_pictures/product_קרקר זהב 150 גרם_7290000074375.jpg"
+  },
+  {
+    "id": 231,
+    "name": "בצק עלים 1 ק\"ג",
+    "code": "7290000238029",
+    "category": "Frozen Foods",
+    "description": "בצק עלים מרודד",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 304,
+    "image_path": "product_pictures/product_בצק עלים 1 קג_7290000238029.jpg"
+  },
+  {
+    "id": 232,
+    "name": "ביסקויט עד חצות חלב200גר",
+    "code": "7290000181103",
+    "category": "snacks",
+    "description": "ביסקוויט עד חצות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 304,
+    "image_path": "product_pictures/product_ביסקויט עד חצות חלב200גר_7290000181103.jpg"
+  },
+  {
+    "id": 233,
+    "name": "פירורית זהב",
+    "code": "7290100680711",
+    "category": "Condiments & Spices",
+    "description": "פירורית זהב אסם",
+    "unit_qty": "גרמים",
+    "occurrence_count": 303,
+    "image_path": "product_pictures/product_פירורית זהב_7290100680711.jpg"
+  },
+  {
+    "id": 234,
+    "name": "ערגליות שוקו 300 גרם",
+    "code": "7290008775816",
+    "category": "snacks",
+    "description": "ערגליות שוקו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 303,
+    "image_path": "product_pictures/product_ערגליות שוקו 300 גרם_7290008775816.jpg"
+  },
+  {
+    "id": 235,
+    "name": "גמדים לדרך תות בננה100ג",
+    "code": "7290112339874",
+    "category": "dairy",
+    "description": "גמדים לדרך",
+    "unit_qty": "גרמים",
+    "occurrence_count": 303,
+    "image_path": "product_pictures/product_גמדים לדרך תות בננה100ג_7290112339874.jpg"
+  },
+  {
+    "id": 236,
+    "name": "מעדן ג'לי אפרסק+חתיכ125.",
+    "code": "7290004136871",
+    "category": "snacks",
+    "description": "מעדן ג'לי אפרסק",
+    "unit_qty": "גרמים",
+    "occurrence_count": 303,
+    "image_path": "product_pictures/product_מעדן ג'לי אפרסק+חתיכ125._7290004136871.jpg"
+  },
+  {
+    "id": 237,
+    "name": "פיוז טי תה קר אפרסק 1.5ל",
+    "code": "7290110115463",
+    "category": "snacks",
+    "description": "פיוז טי תה אפרסק",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 303,
+    "image_path": "product_pictures/product_פיוז טי תה קר אפרסק 1.5ל_7290110115463.jpg"
+  },
+  {
+    "id": 238,
+    "name": "חומץ 5% 1 ליטר",
+    "code": "7290000272726",
+    "category": "Dry/Baking Goods",
+    "description": "חומץ 5%",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 302,
+    "image_path": "product_pictures/product_חומץ 5% 1 ליטר_7290000272726.jpg"
+  },
+  {
+    "id": 239,
+    "name": "שוופס סודה 1.5*4 ליטר",
+    "code": "7290019056164",
+    "category": "drinks",
+    "description": "שוופס סודה1.5*4ל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 302,
+    "image_path": "product_pictures/product_שוופס סודה 1.54 ליטר_7290019056164.jpg"
+  },
+  {
+    "id": 240,
+    "name": "שמן זית 2 קלאסי 750מ\"ל",
+    "code": "7290010429554",
+    "category": "Dry/Baking Goods",
+    "description": "שמן זית 2 קלאסי",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 302,
+    "image_path": "product_pictures/product_שמן זית 2 קלאסי 750מל_7290010429554.jpg"
+  },
+  {
+    "id": 241,
+    "name": "ופלים קואדרטיני קקאו250ג",
+    "code": "8000380004966",
+    "category": "snacks",
+    "description": "ופל קואדרטיני",
+    "unit_qty": "גרמים",
+    "occurrence_count": 302,
+    "image_path": "product_pictures/product_ופלים קואדרטיני קקאו250ג_8000380004966.jpg"
+  },
+  {
+    "id": 242,
+    "name": "שמן קנולה+נוגדי חימצון1ל",
+    "code": "7290000144474",
+    "category": "Dry/Baking Goods",
+    "description": "שמן קנולה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 302,
+    "image_path": "product_pictures/product_שמן קנולה+נוגדי חימצון1ל_7290000144474.jpg"
+  },
+  {
+    "id": 243,
+    "name": "מנה חמה ספגטי בולונז 65ג",
+    "code": "7290000067599",
+    "category": "snacks",
+    "description": "מנה חמה בולונז",
+    "unit_qty": "גרמים",
+    "occurrence_count": 301,
+    "image_path": "product_pictures/product_מנה חמה ספגטי בולונז 65ג_7290000067599.jpg"
+  },
+  {
+    "id": 244,
+    "name": "קרקר דק פיטנס בטטה 140גר",
+    "code": "7290112968821",
+    "category": "snacks",
+    "description": "קרקר דק פיטנס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 301,
+    "image_path": "product_pictures/product_קרקר דק פיטנס בטטה 140גר_7290112968821.jpg"
+  },
+  {
+    "id": 245,
+    "name": "פריגת לימונענע 1.5 ליטר",
+    "code": "7290110115043",
+    "category": "drinks",
+    "description": "משק\"ל פריגת",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 301,
+    "image_path": "product_pictures/product_פריגת לימונענע 1.5 ליטר_7290110115043.jpg"
+  },
+  {
+    "id": 246,
+    "name": "קוטג' בקטנה 5% 100 גרם",
+    "code": "7290110321277",
+    "category": "dairy",
+    "description": "קוטג' בקטנה 5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 301,
+    "image_path": "product_pictures/product_קוטג' בקטנה 5% 100 גרם_7290110321277.jpg"
+  },
+  {
+    "id": 247,
+    "name": "אורביט וייט פירות 64גרם",
+    "code": "4009900402965",
+    "category": "snacks",
+    "description": "אורביט בקבוקון",
+    "unit_qty": "גרמים",
+    "occurrence_count": 301,
+    "image_path": "product_pictures/product_אורביט וייט פירות 64גרם_4009900402965.jpg"
+  },
+  {
+    "id": 248,
+    "name": "חומוס יום יום 125 גרם",
+    "code": "7290005174551",
+    "category": "Condiments & Spices",
+    "description": "חומוס יום יום",
+    "unit_qty": "גרמים",
+    "occurrence_count": 301,
+    "image_path": "product_pictures/product_חומוס יום יום 125 גרם_7290005174551.jpg"
+  },
+  {
+    "id": 249,
+    "name": "קרקר דק כפרי פיטנס 140גר",
+    "code": "7290115205176",
+    "category": "snacks",
+    "description": "קרקר דק פיטנס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_קרקר דק כפרי פיטנס 140גר_7290115205176.jpg"
+  },
+  {
+    "id": 250,
+    "name": "לחמית שיפון 230 גרם",
+    "code": "7290006983176",
+    "category": "Dry/Baking Goods",
+    "description": "לחמית שיפון אסם",
+    "unit_qty": "גרמים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_לחמית שיפון 230 גרם_7290006983176.jpg"
+  },
+  {
+    "id": 251,
+    "name": "חלב מועשר יטבתה 3%כד 2ל'",
+    "code": "7290003029815",
+    "category": "dairy",
+    "description": "חלב מועשר יטבתה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_חלב מועשר יטבתה 3%כד 2ל'_7290003029815.jpg"
+  },
+  {
+    "id": 252,
+    "name": "מלח ים דק 500 גרם",
+    "code": "7290000523224",
+    "category": "Condiments & Spices",
+    "description": "מלח ים דק",
+    "unit_qty": "גרמים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_מלח ים דק 500 גרם_7290000523224.jpg"
+  },
+  {
+    "id": 253,
+    "name": "ביסקוויט נוטלה 276 גרם",
+    "code": "8000500366073",
+    "category": "snacks",
+    "description": "ביסקוויט נוטלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_ביסקוויט נוטלה 276 גרם_8000500366073.jpg"
+  },
+  {
+    "id": 254,
+    "name": "שמפו פנטן לחות מוגברת660",
+    "code": "8001090832573",
+    "category": "Health Care",
+    "description": "שמפו פנטן",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_שמפו פנטן לחות מוגברת660_8001090832573.jpg"
+  },
+  {
+    "id": 255,
+    "name": "גב.סימפוניה 5% 200 גרם",
+    "code": "7290004584351",
+    "category": "dairy",
+    "description": "גבינת סימפוניה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_גב.סימפוניה 5% 200 גרם_7290004584351.jpg"
+  },
+  {
+    "id": 256,
+    "name": "קולה זירו נטול קפאין1.5ל",
+    "code": "7290110115234",
+    "category": "drinks",
+    "description": "קולה זירו נטו",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_קולה זירו נטול קפאין1.5ל_7290110115234.jpg"
+  },
+  {
+    "id": 257,
+    "name": "חטיף נייטשר וואלי דבש5יח",
+    "code": "16000548404",
+    "category": "snacks",
+    "description": "חטיף נייטשר ואלי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 300,
+    "image_path": "product_pictures/product_חטיף נייטשר וואלי דבש5יח_16000548404.jpg"
+  },
+  {
+    "id": 258,
+    "name": "קולה זירו 1 ליטר",
+    "code": "7290013585387",
+    "category": "drinks",
+    "description": "קולה זירו",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 299,
+    "image_path": "product_pictures/product_קולה זירו 1 ליטר_7290013585387.jpg"
+  },
+  {
+    "id": 259,
+    "name": "יולו שוקולד לבן",
+    "code": "7290014761070",
+    "category": "dairy",
+    "description": "יולו שוקולד לבן",
+    "unit_qty": "גרמים",
+    "occurrence_count": 299,
+    "image_path": "product_pictures/product_יולו שוקולד לבן_7290014761070.jpg"
+  },
+  {
+    "id": 260,
+    "name": "בדין ורוד סחלבים960מל",
+    "code": "8690637976995",
+    "category": "Household & Cleaning Supplies",
+    "description": "בדין אקסטרה ורוד",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 299,
+    "image_path": "product_pictures/product_בדין ורוד סחלבים960מל_8690637976995.jpg"
+  },
+  {
+    "id": 261,
+    "name": "גב.סימפוניה +5%זיתים200ג",
+    "code": "7290005839108",
+    "category": "dairy",
+    "description": "גבינת סימפוניה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 299,
+    "image_path": "product_pictures/product_גב.סימפוניה +5%זיתים200ג_7290005839108.jpg"
+  },
+  {
+    "id": 262,
+    "name": "קצפת צמחית השף הלבן500מל",
+    "code": "7290004124847",
+    "category": "dairy",
+    "description": "קצפת צמחית",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 298,
+    "image_path": "product_pictures/product_קצפת צמחית השף הלבן500מל_7290004124847.jpg"
+  },
+  {
+    "id": 263,
+    "name": "פרילי תות 1.5% 125 גרם",
+    "code": "72961506",
+    "category": "snacks",
+    "description": "פרילי תות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 298,
+    "image_path": "product_pictures/product_פרילי תות 1.5% 125 גרם_72961506.jpg"
+  },
+  {
+    "id": 264,
+    "name": "סנו ג'אוול לימון 4 ליטר",
+    "code": "7290000288024",
+    "category": "Household & Cleaning Supplies",
+    "description": "סנו JAVEL אקונומ",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 298,
+    "image_path": "product_pictures/product_סנו ג'אוול לימון 4 ליטר_7290000288024.jpg"
+  },
+  {
+    "id": 265,
+    "name": "מילקי טופ שוקול.מגולג170",
+    "code": "7290005839313",
+    "category": "dairy",
+    "description": "מילקי טופ",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 297,
+    "image_path": "product_pictures/product_מילקי טופ שוקול.מגולג170_7290005839313.jpg"
+  },
+  {
+    "id": 266,
+    "name": "דנונה פרו 20פ.יער0% 200ג",
+    "code": "7290112330390",
+    "category": "dairy",
+    "description": "דנונה פרו 0%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 297,
+    "image_path": "product_pictures/product_דנונה פרו 20פ.יער0% 200ג_7290112330390.jpg"
+  },
+  {
+    "id": 267,
+    "name": "מ.חמה נודלס טעם עוף70גרם",
+    "code": "7290000073750",
+    "category": "snacks",
+    "description": "מנה חמה נודלס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 297,
+    "image_path": "product_pictures/product_מ.חמה נודלס טעם עוף70גרם_7290000073750.jpg"
+  },
+  {
+    "id": 268,
+    "name": "נוטלה בי רדי 132 גרם",
+    "code": "8000500227848",
+    "category": "snacks",
+    "description": "נוטלה בי רדי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 297,
+    "image_path": "product_pictures/product_נוטלה בי רדי 132 גרם_8000500227848.jpg"
+  },
+  {
+    "id": 269,
+    "name": "קוקה קולה 1 ליטר",
+    "code": "7290013585394",
+    "category": "drinks",
+    "description": "קוקה קולה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 297,
+    "image_path": "product_pictures/product_קוקה קולה 1 ליטר_7290013585394.jpg"
+  },
+  {
+    "id": 270,
+    "name": "גב.לבנה רכה 9% 250 גרם",
+    "code": "7290000048192",
+    "category": "dairy",
+    "description": "גבינה לבנה 9%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 297,
+    "image_path": "product_pictures/product_גב.לבנה רכה 9% 250 גרם_7290000048192.jpg"
+  },
+  {
+    "id": 271,
+    "name": "אלסבון כיף צבעוני 500*3מ",
+    "code": "7290004731472",
+    "category": "Household & Cleaning Supplies",
+    "description": "אלסבון כיף 3 יח",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 296,
+    "image_path": "product_pictures/product_אלסבון כיף צבעוני 5003מ_7290004731472.jpg"
+  },
+  {
+    "id": 272,
+    "name": "מרגרינה בלובנד ללת\"מ200ג",
+    "code": "8719200998001",
+    "category": "dairy",
+    "description": "מרגרינה בלובנד",
+    "unit_qty": "גרמים",
+    "occurrence_count": 296,
+    "image_path": "product_pictures/product_מרגרינה בלובנד ללתמ200ג_8719200998001.jpg"
+  },
+  {
+    "id": 273,
+    "name": "עין גדי מים מינרל. 2*6 ל",
+    "code": "7290019056553",
+    "category": "drinks",
+    "description": "מים עין גדי2*6ל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 296,
+    "image_path": "product_pictures/product_עין גדי מים מינרל. 26 ל_7290019056553.jpg"
+  },
+  {
+    "id": 274,
+    "name": "דוריטוס חמוץ חריף 185גרם",
+    "code": "7290106667266",
+    "category": "snacks",
+    "description": "דוריטוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 296,
+    "image_path": "product_pictures/product_דוריטוס חמוץ חריף 185גרם_7290106667266.jpg"
+  },
+  {
+    "id": 275,
+    "name": "נשנושים ט.שמנת+בצל260ג",
+    "code": "7290112495105",
+    "category": "snacks",
+    "description": "נשנושים שמנת בצל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 296,
+    "image_path": "product_pictures/product_נשנושים ט.שמנת+בצל260ג_7290112495105.jpg"
+  },
+  {
+    "id": 276,
+    "name": "פנה ריגטה מס73' 500 גרם",
+    "code": "8076802085738",
+    "category": "Dry/Baking Goods",
+    "description": "פנה ריגטה ברילה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 295,
+    "image_path": "product_pictures/product_פנה ריגטה מס73' 500 גרם_8076802085738.jpg"
+  },
+  {
+    "id": 277,
+    "name": "שוק.חלב אגוזים מילקה100ג",
+    "code": "7622201801809",
+    "category": "dairy",
+    "description": "שוקולד מילקה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 295,
+    "image_path": "product_pictures/product_שוק.חלב אגוזים מילקה100ג_7622201801809.jpg"
+  },
+  {
+    "id": 278,
+    "name": "כרוב אדום אחלה 500 גרם",
+    "code": "7290002825722",
+    "category": "Condiments & Spices",
+    "description": "סלט כרוב אחלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 295,
+    "image_path": "product_pictures/product_כרוב אדום אחלה 500 גרם_7290002825722.jpg"
+  },
+  {
+    "id": 279,
+    "name": "קוקה קולה 1.5*6 ליטר",
+    "code": "7290110115364",
+    "category": "drinks",
+    "description": "קוקה קולה1.5*6ל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 295,
+    "image_path": "product_pictures/product_קוקה קולה 1.56 ליטר_7290110115364.jpg"
+  },
+  {
+    "id": 280,
+    "name": "סנוקליר ניקוי חלונות 1ל'",
+    "code": "7290005425646",
+    "category": "Household & Cleaning Supplies",
+    "description": "סנוקליר 1 ליטר",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 295,
+    "image_path": "product_pictures/product_סנוקליר ניקוי חלונות 1ל'_7290005425646.jpg"
+  },
+  {
+    "id": 281,
+    "name": "מילקי אקסטרה קצפת 170מ\"ל",
+    "code": "72940952",
+    "category": "dairy",
+    "description": "מילקי אקסטרה",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 295,
+    "image_path": "product_pictures/product_מילקי אקסטרה קצפת 170מל_72940952.jpg"
+  },
+  {
+    "id": 282,
+    "name": "חלב מועשר1% בקבוק 1ליטר",
+    "code": "7290107932134",
+    "category": "dairy",
+    "description": "חלב מועשר 1%",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 294,
+    "image_path": "product_pictures/product_חלב מועשר1% בקבוק 1ליטר_7290107932134.jpg"
+  },
+  {
+    "id": 283,
+    "name": "שוקולית בפחית עלית 500גר",
+    "code": "7290000174723",
+    "category": "snacks",
+    "description": "שוקולית",
+    "unit_qty": "גרמים",
+    "occurrence_count": 294,
+    "image_path": "product_pictures/product_שוקולית בפחית עלית 500גר_7290000174723.jpg"
+  },
+  {
+    "id": 284,
+    "name": "מרכך מקסימה סופט סילק1ל",
+    "code": "7290108350623",
+    "category": "Household & Cleaning Supplies",
+    "description": "מרכך מקסימה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 294,
+    "image_path": "product_pictures/product_מרכך מקסימה סופט סילק1ל_7290108350623.jpg"
+  },
+  {
+    "id": 285,
+    "name": "נוטלה ממרח שוקולד 750 גר",
+    "code": "80176800",
+    "category": "snacks",
+    "description": "ממרח נוטלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 294,
+    "image_path": "product_pictures/product_נוטלה ממרח שוקולד 750 גר_80176800.jpg"
+  },
+  {
+    "id": 286,
+    "name": "דנונה לשתיה תות בננה267ג",
+    "code": "7290105965738",
+    "category": "dairy",
+    "description": "דנונה לשתיה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_דנונה לשתיה תות בננה267ג_7290105965738.jpg"
+  },
+  {
+    "id": 287,
+    "name": "יופלה פירות יער+שמנת150ג",
+    "code": "7290004130916",
+    "category": "dairy",
+    "description": "יופלה פירות יער",
+    "unit_qty": "גרמים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_יופלה פירות יער+שמנת150ג_7290004130916.jpg"
+  },
+  {
+    "id": 288,
+    "name": "סוכר דמררה צנצנת 1 ק\"ג",
+    "code": "7290003643646",
+    "category": "Condiments & Spices",
+    "description": "סוכר דמררה",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_סוכר דמררה צנצנת 1 קג_7290003643646.jpg"
+  },
+  {
+    "id": 289,
+    "name": "עוגיות מזרחיות מלח400גרם",
+    "code": "856591000062",
+    "category": "snacks",
+    "description": "עוגיות מזרחיות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_עוגיות מזרחיות מלח400גרם_856591000062.jpg"
+  },
+  {
+    "id": 290,
+    "name": "גלידונית וניל 60יח 630גר",
+    "code": "7290000137513",
+    "category": "Frozen Foods",
+    "description": "גלידונית",
+    "unit_qty": "גרמים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_גלידונית וניל 60יח 630גר_7290000137513.jpg"
+  },
+  {
+    "id": 291,
+    "name": "נביעות+טעם אפרסק 1.5ליטר",
+    "code": "7290110114794",
+    "category": "drinks",
+    "description": "נביעות+אפרסק",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_נביעות+טעם אפרסק 1.5ליטר_7290110114794.jpg"
+  },
+  {
+    "id": 292,
+    "name": "יוגורט יווני לבן6.5% 130",
+    "code": "7290107936309",
+    "category": "dairy",
+    "description": "יוגורט יווני",
+    "unit_qty": "גרמים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_יוגורט יווני לבן6.5% 130_7290107936309.jpg"
+  },
+  {
+    "id": 293,
+    "name": "גב.בולגרית פיראוס5% 250ג",
+    "code": "7290004120634",
+    "category": "dairy",
+    "description": "גבינה בולגרית5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_גב.בולגרית פיראוס5% 250ג_7290004120634.jpg"
+  },
+  {
+    "id": 294,
+    "name": "במבה 25*10 גרם",
+    "code": "7290105693341",
+    "category": "snacks",
+    "description": "במבה 10 יח",
+    "unit_qty": "גרמים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_במבה 2510 גרם_7290105693341.jpg"
+  },
+  {
+    "id": 295,
+    "name": "פחית קוקה קולה 330 מ\"ל",
+    "code": "7290011017866",
+    "category": "drinks",
+    "description": "קוקה קולה פחית",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 293,
+    "image_path": "product_pictures/product_פחית קוקה קולה 330 מל_7290011017866.jpg"
+  },
+  {
+    "id": 296,
+    "name": "דניאלה תות מוקצף5% 88גרם",
+    "code": "7290008693134",
+    "category": "dairy",
+    "description": "דניאלה תות מוקצף",
+    "unit_qty": "גרמים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_דניאלה תות מוקצף5% 88גרם_7290008693134.jpg"
+  },
+  {
+    "id": 297,
+    "name": "מילקי שכבות שוק+.קצפת108",
+    "code": "7290110557423",
+    "category": "dairy",
+    "description": "מילקי שכבות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_מילקי שכבות שוק+.קצפת108_7290110557423.jpg"
+  },
+  {
+    "id": 298,
+    "name": "דני שוקולד 1.5% 125 גרם",
+    "code": "72993637",
+    "category": "dairy",
+    "description": "דני שוקולד 1.5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_דני שוקולד 1.5% 125 גרם_72993637.jpg"
+  },
+  {
+    "id": 299,
+    "name": "קולה דיאט בקבוק 1.5 ל'",
+    "code": "7290110115210",
+    "category": "drinks",
+    "description": "קוקה קולה דיא",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_קולה דיאט בקבוק 1.5 ל'_7290110115210.jpg"
+  },
+  {
+    "id": 300,
+    "name": "רסק עגבניות מרוכז100גר",
+    "code": "7290002019794",
+    "category": "Dry/Baking Goods",
+    "description": "רוטב עגבניות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_רסק עגבניות מרוכז100גר_7290002019794.jpg"
+  },
+  {
+    "id": 301,
+    "name": "סלט כרוב אדום יום יום120",
+    "code": "7290103404758",
+    "category": "Condiments & Spices",
+    "description": "כרוב אדום אחלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_סלט כרוב אדום יום יום120_7290103404758.jpg"
+  },
+  {
+    "id": 302,
+    "name": "קוטקס תחבושות נייט 20 יח",
+    "code": "5029053523446",
+    "category": "Health Care",
+    "description": "תחבושות נייט קוט",
+    "unit_qty": "יחידה",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_קוטקס תחבושות נייט 20 יח_5029053523446.jpg"
+  },
+  {
+    "id": 303,
+    "name": "דנונה פרו 20 וניל0% 200ג",
+    "code": "7290112330352",
+    "category": "dairy",
+    "description": "דנונה פרו20 וניל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_דנונה פרו 20 וניל0% 200ג_7290112330352.jpg"
+  },
+  {
+    "id": 304,
+    "name": "מוקה יטבתה בקבוק 2% 1ל",
+    "code": "7290003029532",
+    "category": "dairy",
+    "description": "מוקה יטבתה בקבוק",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_מוקה יטבתה בקבוק 2% 1ל_7290003029532.jpg"
+  },
+  {
+    "id": 305,
+    "name": "מילקי שוק.לבן,מוס תות108",
+    "code": "7290110557430",
+    "category": "dairy",
+    "description": "מילקי שכבות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_מילקי שוק.לבן,מוס תות108_7290110557430.jpg"
+  },
+  {
+    "id": 306,
+    "name": "מילקי בטעם וניל 170 מ\"ל",
+    "code": "72940754",
+    "category": "dairy",
+    "description": "מילקי טעם וניל",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 292,
+    "image_path": "product_pictures/product_מילקי בטעם וניל 170 מל_72940754.jpg"
+  },
+  {
+    "id": 307,
+    "name": "מארז אקטימל תות 100*8מ\"ל",
+    "code": "7290107938396",
+    "category": "dairy",
+    "description": "אקטימל תות 8יח'",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 291,
+    "image_path": "product_pictures/product_מארז אקטימל תות 1008מל_7290107938396.jpg"
+  },
+  {
+    "id": 308,
+    "name": "נביעות+טעם תפוח 1.5 ליטר",
+    "code": "7290110114787",
+    "category": "drinks",
+    "description": "נביעות+תפוח",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 291,
+    "image_path": "product_pictures/product_נביעות+טעם תפוח 1.5 ליטר_7290110114787.jpg"
+  },
+  {
+    "id": 309,
+    "name": "דניאלה מעדן גבינה 88 גרם",
+    "code": "7290005838002",
+    "category": "snacks",
+    "description": "מעדן דניאלה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 291,
+    "image_path": "product_pictures/product_דניאלה מעדן גבינה 88 גרם_7290005838002.jpg"
+  },
+  {
+    "id": 310,
+    "name": "שוקו יטבתה מארז 225*8 מל",
+    "code": "7290003029792",
+    "category": "dairy",
+    "description": "שקיות שוקו 8 יח'",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 291,
+    "image_path": "product_pictures/product_שוקו יטבתה מארז 2258 מל_7290003029792.jpg"
+  },
+  {
+    "id": 311,
+    "name": "הוטפופ טעם חמאה100*6גר",
+    "code": "5701932026971",
+    "category": "snacks",
+    "description": "הוטפופ טעם חמאה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 291,
+    "image_path": "product_pictures/product_הוטפופ טעם חמאה1006גר_5701932026971.jpg"
+  },
+  {
+    "id": 312,
+    "name": "מילקשייק שוקו+סירופ300מ",
+    "code": "7290110559038",
+    "category": "dairy",
+    "description": "מילקשייק שוקו",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 291,
+    "image_path": "product_pictures/product_מילקשייק שוקו+סירופ300מ_7290110559038.jpg"
+  },
+  {
+    "id": 313,
+    "name": "יוג.גו סמיך0%תפוח קינ100",
+    "code": "7290116930909",
+    "category": "dairy",
+    "description": "יוגורט גו סמיך0%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 291,
+    "image_path": "product_pictures/product_יוג.גו סמיך0%תפוח קינ100_7290116930909.jpg"
+  },
+  {
+    "id": 314,
+    "name": "יולו שכבות שוקו.",
+    "code": "7290014761414",
+    "category": "dairy",
+    "description": "יולו שכבות שוקו.",
+    "unit_qty": "גרמים",
+    "occurrence_count": 290,
+    "image_path": "product_pictures/product_יולו שכבות שוקו._7290014761414.jpg"
+  },
+  {
+    "id": 315,
+    "name": "מילקשייק פיסטוק יטבתה300",
+    "code": "7290110578725",
+    "category": "dairy",
+    "description": "מילקשייק פיסטוק",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 290,
+    "image_path": "product_pictures/product_מילקשייק פיסטוק יטבתה300_7290110578725.jpg"
+  },
+  {
+    "id": 316,
+    "name": "שוופס מוגז עדין פ.יער1.5",
+    "code": "7290019056065",
+    "category": "drinks",
+    "description": "שוופס מוגז",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 290,
+    "image_path": "product_pictures/product_שוופס מוגז עדין פ.יער1.5_7290019056065.jpg"
+  },
+  {
+    "id": 317,
+    "name": "תפוצ'יפס קראנצ' גריל 50ג",
+    "code": "7290008752244",
+    "category": "snacks",
+    "description": "תפוצ'יפס גריל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 289,
+    "image_path": "product_pictures/product_תפוצ'יפס קראנצ' גריל 50ג_7290008752244.jpg"
+  },
+  {
+    "id": 318,
+    "name": "שוקולד מילקה אוראו 100 ג",
+    "code": "7622300617820",
+    "category": "snacks",
+    "description": "שוקולד מילקה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 289,
+    "image_path": "product_pictures/product_שוקולד מילקה אוראו 100 ג_7622300617820.jpg"
+  },
+  {
+    "id": 319,
+    "name": "דגני בוקר שוגי 500 גרם",
+    "code": "7290107647854",
+    "category": "snacks",
+    "description": "דגני בוקר שוגי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 289,
+    "image_path": "product_pictures/product_דגני בוקר שוגי 500 גרם_7290107647854.jpg"
+  },
+  {
+    "id": 320,
+    "name": "פריגת מנגו 1.5 ליטר",
+    "code": "7290110115036",
+    "category": "drinks",
+    "description": "פריגת מנגו",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 288,
+    "image_path": "product_pictures/product_פריגת מנגו 1.5 ליטר_7290110115036.jpg"
+  },
+  {
+    "id": 321,
+    "name": "שוופס טוניק 1.5 ליטר",
+    "code": "7290019056324",
+    "category": "drinks",
+    "description": "שוופס מי טוני",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 288,
+    "image_path": "product_pictures/product_שוופס טוניק 1.5 ליטר_7290019056324.jpg"
+  },
+  {
+    "id": 322,
+    "name": "מ.חמה נודלס טעם בקר70ג",
+    "code": "7290000073767",
+    "category": "snacks",
+    "description": "מנה חמה נודלס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 288,
+    "image_path": "product_pictures/product_מ.חמה נודלס טעם בקר70ג_7290000073767.jpg"
+  },
+  {
+    "id": 323,
+    "name": "נייטשר וואלי מייפל 5יח",
+    "code": "16000548503",
+    "category": "snacks",
+    "description": "חטיף נייטשר ואלי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 288,
+    "image_path": "product_pictures/product_נייטשר וואלי מייפל 5יח_16000548503.jpg"
+  },
+  {
+    "id": 324,
+    "name": "קורנפלקס אלופים בדץ 850ג",
+    "code": "7290112494351",
+    "category": "snacks",
+    "description": "קורנפלקס אלופים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 287,
+    "image_path": "product_pictures/product_קורנפלקס אלופים בדץ 850ג_7290112494351.jpg"
+  },
+  {
+    "id": 325,
+    "name": "אטריות דקיקות אסם 400 גר",
+    "code": "7290000060972",
+    "category": "Dry/Baking Goods",
+    "description": "אטריות דקיקות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 287,
+    "image_path": "product_pictures/product_אטריות דקיקות אסם 400 גר_7290000060972.jpg"
+  },
+  {
+    "id": 326,
+    "name": "נביעות+טעם ענבים 1.5ליטר",
+    "code": "7290110114800",
+    "category": "drinks",
+    "description": "נביעות+ענבים",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 287,
+    "image_path": "product_pictures/product_נביעות+טעם ענבים 1.5ליטר_7290110114800.jpg"
+  },
+  {
+    "id": 327,
+    "name": "אצבעות עמק חטיף גבינה172",
+    "code": "7290004122683",
+    "category": "dairy",
+    "description": "אצבעות עמק",
+    "unit_qty": "גרמים",
+    "occurrence_count": 287,
+    "image_path": "product_pictures/product_אצבעות עמק חטיף גבינה172_7290004122683.jpg"
+  },
+  {
+    "id": 328,
+    "name": "מרגרינה בטעם חמאה200גרם",
+    "code": "8719200998018",
+    "category": "dairy",
+    "description": "מחמאה מרגרינה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 286,
+    "image_path": "product_pictures/product_מרגרינה בטעם חמאה200גרם_8719200998018.jpg"
+  },
+  {
+    "id": 329,
+    "name": "מעדן סויה ביו תות 150 גר",
+    "code": "7290110329808",
+    "category": "dairy",
+    "description": "מעדן סויה ביו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 286,
+    "image_path": "product_pictures/product_מעדן סויה ביו תות 150 גר_7290110329808.jpg"
+  },
+  {
+    "id": 330,
+    "name": "פריגת מיקס תות-בננה1.5ל",
+    "code": "7290110115050",
+    "category": "drinks",
+    "description": "פריגת תות בננ",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 286,
+    "image_path": "product_pictures/product_פריגת מיקס תות-בננה1.5ל_7290110115050.jpg"
+  },
+  {
+    "id": 331,
+    "name": "עוגיות מזרחיות פריכות400",
+    "code": "856591000109",
+    "category": "snacks",
+    "description": "עוגיות מזרחיות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 286,
+    "image_path": "product_pictures/product_עוגיות מזרחיות פריכות400_856591000109.jpg"
+  },
+  {
+    "id": 332,
+    "name": "משקה שיבולת שועל3.5% 1 ל",
+    "code": "5411188134985",
+    "category": "drinks",
+    "description": "משקה שיבולת שועל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 286,
+    "image_path": "product_pictures/product_משקה שיבולת שועל3.5% 1 ל_5411188134985.jpg"
+  },
+  {
+    "id": 333,
+    "name": "סוכר לבן צנצנת 1 ק\"ג",
+    "code": "7290003643387",
+    "category": "Condiments & Spices",
+    "description": "סוכר לבן צנצנת",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 286,
+    "image_path": "product_pictures/product_סוכר לבן צנצנת 1 קג_7290003643387.jpg"
+  },
+  {
+    "id": 334,
+    "name": "שוופס מוגז עדין אפרסק1.5",
+    "code": "7290019056096",
+    "category": "drinks",
+    "description": "שוופס אפרסק",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 286,
+    "image_path": "product_pictures/product_שוופס מוגז עדין אפרסק1.5_7290019056096.jpg"
+  },
+  {
+    "id": 335,
+    "name": "גמדים ארוחת בוקר תות100ג",
+    "code": "7290112347008",
+    "category": "dairy",
+    "description": "גמדים ארוחת בוקר",
+    "unit_qty": "גרמים",
+    "occurrence_count": 285,
+    "image_path": "product_pictures/product_גמדים ארוחת בוקר תות100ג_7290112347008.jpg"
+  },
+  {
+    "id": 336,
+    "name": "גמדים לדרך סלט פירות100ג",
+    "code": "7290112355102",
+    "category": "dairy",
+    "description": "גמדים לדרך",
+    "unit_qty": "גרמים",
+    "occurrence_count": 285,
+    "image_path": "product_pictures/product_גמדים לדרך סלט פירות100ג_7290112355102.jpg"
+  },
+  {
+    "id": 337,
+    "name": "חומוס עשיר ב40% טחינה400",
+    "code": "7290110564360",
+    "category": "Condiments & Spices",
+    "description": "חומוס בטחינה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 285,
+    "image_path": "product_pictures/product_חומוס עשיר ב40% טחינה400_7290110564360.jpg"
+  },
+  {
+    "id": 338,
+    "name": "מעדן סויה ביו פ.יער150גר",
+    "code": "7290110329822",
+    "category": "snacks",
+    "description": "מעדן סויה ביו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 285,
+    "image_path": "product_pictures/product_מעדן סויה ביו פ.יער150גר_7290110329822.jpg"
+  },
+  {
+    "id": 339,
+    "name": "פיוז טי זירו תה אפרסק1.5",
+    "code": "7290110115623",
+    "category": "drinks",
+    "description": "פיוז טי תה אפרסק",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 285,
+    "image_path": "product_pictures/product_פיוז טי זירו תה אפרסק1.5_7290110115623.jpg"
+  },
+  {
+    "id": 340,
+    "name": "פתיתים אורז ואטריות500ג",
+    "code": "7290105695024",
+    "category": "Dry/Baking Goods",
+    "description": "פתיתים אפויים",
+    "unit_qty": "גרמים",
+    "occurrence_count": 284,
+    "image_path": "product_pictures/product_פתיתים אורז ואטריות500ג_7290105695024.jpg"
+  },
+  {
+    "id": 341,
+    "name": "נקניקיות עוף 400 גרם",
+    "code": "7290000537566",
+    "category": "Frozen Foods",
+    "description": "נקניקיות עוף",
+    "unit_qty": "גרמים",
+    "occurrence_count": 284,
+    "image_path": "product_pictures/product_נקניקיות עוף 400 גרם_7290000537566.jpg"
+  },
+  {
+    "id": 342,
+    "name": "שמנתלהקצפה 38% 250 גרם",
+    "code": "7290104728310",
+    "category": "dairy",
+    "description": "שמנת להקצפה 38%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 284,
+    "image_path": "product_pictures/product_שמנתלהקצפה 38% 250 גרם_7290104728310.jpg"
+  },
+  {
+    "id": 343,
+    "name": "משקה חלב בננה בקבוק 1 ל'",
+    "code": "7290003029372",
+    "category": "dairy",
+    "description": "משקה חלב בננה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 283,
+    "image_path": "product_pictures/product_משקה חלב בננה בקבוק 1 ל'_7290003029372.jpg"
+  },
+  {
+    "id": 344,
+    "name": "בפלות בטעם שוקולד 200גרם",
+    "code": "7290107951104",
+    "category": "snacks",
+    "description": "בפלות טעם שוקולד",
+    "unit_qty": "גרמים",
+    "occurrence_count": 283,
+    "image_path": "product_pictures/product_בפלות בטעם שוקולד 200גרם_7290107951104.jpg"
+  },
+  {
+    "id": 345,
+    "name": "פתית חסכוני שוודית 300גר",
+    "code": "7290003805501",
+    "category": "snacks",
+    "description": "פתית קרקר שוודי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 283,
+    "image_path": "product_pictures/product_פתית חסכוני שוודית 300גר_7290003805501.jpg"
+  },
+  {
+    "id": 346,
+    "name": "פריכיות משולשות סלק 30גר",
+    "code": "7290112332585",
+    "category": "snacks",
+    "description": "פריכיות משולשות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 283,
+    "image_path": "product_pictures/product_פריכיות משולשות סלק 30גר_7290112332585.jpg"
+  },
+  {
+    "id": 347,
+    "name": "חטיף טויסט 28 גרם",
+    "code": "72918388",
+    "category": "snacks",
+    "description": "חטיף טוויסט",
+    "unit_qty": "גרמים",
+    "occurrence_count": 282,
+    "image_path": "product_pictures/product_חטיף טויסט 28 גרם_72918388.jpg"
+  },
+  {
+    "id": 348,
+    "name": "מיונז אמיתי הלמנס 394 גר",
+    "code": "7290000120836",
+    "category": "dairy",
+    "description": "מיונז אמיתי הלמנ",
+    "unit_qty": "גרמים",
+    "occurrence_count": 282,
+    "image_path": "product_pictures/product_מיונז אמיתי הלמנס 394 גר_7290000120836.jpg"
+  },
+  {
+    "id": 349,
+    "name": "דנונה פרו20 קרמל מלוח200",
+    "code": "7290112355027",
+    "category": "dairy",
+    "description": "דנונה פרו קרמל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 282,
+    "image_path": "product_pictures/product_דנונה פרו20 קרמל מלוח200_7290112355027.jpg"
+  },
+  {
+    "id": 350,
+    "name": "דגני בוקר דליפקאן 400גרם",
+    "code": "7290112495433",
+    "category": "snacks",
+    "description": "דגני בוקר דליפקא",
+    "unit_qty": "גרמים",
+    "occurrence_count": 282,
+    "image_path": "product_pictures/product_דגני בוקר דליפקאן 400גרם_7290112495433.jpg"
+  },
+  {
+    "id": 351,
+    "name": "סימפוניה שום שמיר5% 200ג",
+    "code": "7290107944472",
+    "category": "dairy",
+    "description": "גבינת סימפוניה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 281,
+    "image_path": "product_pictures/product_סימפוניה שום שמיר5% 200ג_7290107944472.jpg"
+  },
+  {
+    "id": 352,
+    "name": "האני נאט צ'יריוס 625גרם",
+    "code": "5900020026552",
+    "category": "snacks",
+    "description": "האני נאט צ'יריוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 281,
+    "image_path": "product_pictures/product_האני נאט צ'יריוס 625גרם_5900020026552.jpg"
+  },
+  {
+    "id": 353,
+    "name": "גב.לבנה 9% שומן 500 גרם",
+    "code": "7290004127817",
+    "category": "dairy",
+    "description": "גבינה לבנה 9%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 281,
+    "image_path": "product_pictures/product_גב.לבנה 9% שומן 500 גרם_7290004127817.jpg"
+  },
+  {
+    "id": 354,
+    "name": "גבי. טוב טעם 3% 250גרם",
+    "code": "7290000474540",
+    "category": "dairy",
+    "description": "גבינת טוב טעם3%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 281,
+    "image_path": "product_pictures/product_גבי. טוב טעם 3% 250גרם_7290000474540.jpg"
+  },
+  {
+    "id": 355,
+    "name": "מיקס חטיפים מגדים 390 גר",
+    "code": "7290010116348",
+    "category": "snacks",
+    "description": "מיקס חטיפים עלית",
+    "unit_qty": "גרמים",
+    "occurrence_count": 280,
+    "image_path": "product_pictures/product_מיקס חטיפים מגדים 390 גר_7290010116348.jpg"
+  },
+  {
+    "id": 356,
+    "name": "מיץ תפוזים סחוט 1 ליטר",
+    "code": "7290000525969",
+    "category": "drinks",
+    "description": "מיץ תפוזים סחוט",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 280,
+    "image_path": "product_pictures/product_מיץ תפוזים סחוט 1 ליטר_7290000525969.jpg"
+  },
+  {
+    "id": 357,
+    "name": "בירה הייניקן בק.חוזר500מ",
+    "code": "7290010237890",
+    "category": "drinks",
+    "description": "בירה הייניקן",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 280,
+    "image_path": "product_pictures/product_בירה הייניקן בק.חוזר500מ_7290010237890.jpg"
+  },
+  {
+    "id": 358,
+    "name": "פסטה מקרוני 7 500 גרם",
+    "code": "7290000060217",
+    "category": "Dry/Baking Goods",
+    "description": "פסטה מקרוני 7",
+    "unit_qty": "גרמים",
+    "occurrence_count": 280,
+    "image_path": "product_pictures/product_פסטה מקרוני 7 500 גרם_7290000060217.jpg"
+  },
+  {
+    "id": 359,
+    "name": "שוק.פרה פצפוצי אורז 100ג",
+    "code": "7290112351104",
+    "category": "snacks",
+    "description": "שוקולד פרה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 280,
+    "image_path": "product_pictures/product_שוק.פרה פצפוצי אורז 100ג_7290112351104.jpg"
+  },
+  {
+    "id": 360,
+    "name": "גבינת עמק 9% 400 גרם",
+    "code": "7290004137311",
+    "category": "dairy",
+    "description": "גבינת עמק 9%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 280,
+    "image_path": "product_pictures/product_גבינת עמק 9% 400 גרם_7290004137311.jpg"
+  },
+  {
+    "id": 361,
+    "name": "רביולי עם גבינה 400 גרם",
+    "code": "7290003989539",
+    "category": "Dry/Baking Goods",
+    "description": "רביולי גבינה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 280,
+    "image_path": "product_pictures/product_רביולי עם גבינה 400 גרם_7290003989539.jpg"
+  },
+  {
+    "id": 362,
+    "name": "שוופס טוניק ללא סוכר1.5ל",
+    "code": "7290019056331",
+    "category": "drinks",
+    "description": "מי טוניק ל.סו",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 279,
+    "image_path": "product_pictures/product_שוופס טוניק ללא סוכר1.5ל_7290019056331.jpg"
+  },
+  {
+    "id": 363,
+    "name": "קפה פלטינום ברזילאי 200",
+    "code": "7290103401429",
+    "category": "Condiments & Spices",
+    "description": "קפה פלטינום",
+    "unit_qty": "גרמים",
+    "occurrence_count": 279,
+    "image_path": "product_pictures/product_קפה פלטינום ברזילאי 200_7290103401429.jpg"
+  },
+  {
+    "id": 364,
+    "name": "יוגורט גו סמיך קוקוס200ג",
+    "code": "7290110329952",
+    "category": "dairy",
+    "description": "יוגורט גו סמיך",
+    "unit_qty": "גרמים",
+    "occurrence_count": 279,
+    "image_path": "product_pictures/product_יוגורט גו סמיך קוקוס200ג_7290110329952.jpg"
+  },
+  {
+    "id": 365,
+    "name": "דנונה פרו ל.סוכר פיסט200",
+    "code": "7290110558314",
+    "category": "dairy",
+    "description": "דנונה פרו",
+    "unit_qty": "גרמים",
+    "occurrence_count": 279,
+    "image_path": "product_pictures/product_דנונה פרו ל.סוכר פיסט200_7290110558314.jpg"
+  },
+  {
+    "id": 366,
+    "name": "ביסלי גריל 200 גרם",
+    "code": "7290000066196",
+    "category": "snacks",
+    "description": "ביסלי גריל",
+    "unit_qty": "גרמים",
+    "occurrence_count": 279,
+    "image_path": "product_pictures/product_ביסלי גריל 200 גרם_7290000066196.jpg"
+  },
+  {
+    "id": 367,
+    "name": "בורגול 500 גרם",
+    "code": "7290100700587",
+    "category": "Dry/Baking Goods",
+    "description": "בורגול 500 גרם",
+    "unit_qty": "גרמים",
+    "occurrence_count": 278,
+    "image_path": "product_pictures/product_בורגול 500 גרם_7290100700587.jpg"
+  },
+  {
+    "id": 368,
+    "name": "אקטימל תות בננה 100*8מ\"ל",
+    "code": "7290102031276",
+    "category": "dairy",
+    "description": "אקטימל 8 יח",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 278,
+    "image_path": "product_pictures/product_אקטימל תות בננה 1008מל_7290102031276.jpg"
+  },
+  {
+    "id": 369,
+    "name": "דנונה ביו מולטי 200 גרם",
+    "code": "7290110558284",
+    "category": "dairy",
+    "description": "דנונה ביו מולטי",
+    "unit_qty": "גרמים",
+    "occurrence_count": 278,
+    "image_path": "product_pictures/product_דנונה ביו מולטי 200 גרם_7290110558284.jpg"
+  },
+  {
+    "id": 370,
+    "name": "אקטימל תות 100*14 מ\"ל",
+    "code": "7290011518561",
+    "category": "dairy",
+    "description": "אקטימל מארז14יח'",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 278,
+    "image_path": "product_pictures/product_אקטימל תות 10014 מל_7290011518561.jpg"
+  },
+  {
+    "id": 371,
+    "name": "שוק.עם סוכריות קופצות90",
+    "code": "7290112351128",
+    "category": "dairy",
+    "description": "שוקולד פרה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 278,
+    "image_path": "product_pictures/product_שוק.עם סוכריות קופצות90_7290112351128.jpg"
+  },
+  {
+    "id": 372,
+    "name": "שמנת לבישול 15% 250 מ\"ל",
+    "code": "7290105362339",
+    "category": "dairy",
+    "description": "שמנת לבישול 15%",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 278,
+    "image_path": "product_pictures/product_שמנת לבישול 15% 250 מל_7290105362339.jpg"
+  },
+  {
+    "id": 373,
+    "name": "פריגת תפוחים 1.5 ליטר",
+    "code": "7290110115029",
+    "category": "drinks",
+    "description": "פריגת תפוחים",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 277,
+    "image_path": "product_pictures/product_פריגת תפוחים 1.5 ליטר_7290110115029.jpg"
+  },
+  {
+    "id": 374,
+    "name": "יוגורט תות מולר 150 מ\"ל",
+    "code": "7290102390427",
+    "category": "dairy",
+    "description": "יוגורט מולר תות",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 277,
+    "image_path": "product_pictures/product_יוגורט תות מולר 150 מל_7290102390427.jpg"
+  },
+  {
+    "id": 375,
+    "name": "לחם פשוט מלא 750 גרם",
+    "code": "7290014940901",
+    "category": "Dry/Baking Goods",
+    "description": "לחם מלא",
+    "unit_qty": "גרמים",
+    "occurrence_count": 277,
+    "image_path": "product_pictures/product_לחם פשוט מלא 750 גרם_7290014940901.jpg"
+  },
+  {
+    "id": 376,
+    "name": "מנה חמה נודלס סצ'ואן76גר",
+    "code": "7290100680667",
+    "category": "snacks",
+    "description": "מנה חמה נודלס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 277,
+    "image_path": "product_pictures/product_מנה חמה נודלס סצ'ואן76גר_7290100680667.jpg"
+  },
+  {
+    "id": 377,
+    "name": "גב.עמק פרוס 28%קופסא400ג",
+    "code": "7290004125776",
+    "category": "dairy",
+    "description": "גבינת עמק פרוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 277,
+    "image_path": "product_pictures/product_גב.עמק פרוס 28%קופסא400ג_7290004125776.jpg"
+  },
+  {
+    "id": 378,
+    "name": "דנונה דל לקטוז 200 גרם",
+    "code": "7290110561352",
+    "category": "dairy",
+    "description": "דנונה דל לקטוז",
+    "unit_qty": "גרמים",
+    "occurrence_count": 277,
+    "image_path": "product_pictures/product_דנונה דל לקטוז 200 גרם_7290110561352.jpg"
+  },
+  {
+    "id": 379,
+    "name": "משקה פרו קפה יטבתה350מ",
+    "code": "7290107954976",
+    "category": "dairy",
+    "description": "משקה פרו קפה",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 276,
+    "image_path": "product_pictures/product_משקה פרו קפה יטבתה350מ_7290107954976.jpg"
+  },
+  {
+    "id": 380,
+    "name": "שמנת לבישול 9% 250 מ\"ל",
+    "code": "7290106520912",
+    "category": "dairy",
+    "description": "שמנת לבישול 9%",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 275,
+    "image_path": "product_pictures/product_שמנת לבישול 9% 250 מל_7290106520912.jpg"
+  },
+  {
+    "id": 381,
+    "name": "ספגטי מס' 5 ברילה500גר",
+    "code": "8076800195057",
+    "category": "Dry/Baking Goods",
+    "description": "ספגטי מס 5 ברילה",
+    "unit_qty": "גרמים",
+    "occurrence_count": 275,
+    "image_path": "product_pictures/product_ספגטי מס' 5 ברילה500גר_8076800195057.jpg"
+  },
+  {
+    "id": 382,
+    "name": "בייגלה שמיניות עם מלח400",
+    "code": "7290000461625",
+    "category": "snacks",
+    "description": "בייגלה שמיניות",
+    "unit_qty": "גרמים",
+    "occurrence_count": 275,
+    "image_path": "product_pictures/product_בייגלה שמיניות עם מלח400_7290000461625.jpg"
+  },
+  {
+    "id": 383,
+    "name": "ממרח לורפק עם מלח 250 גר",
+    "code": "5740900403215",
+    "category": "dairy",
+    "description": "ממרח לורפק",
+    "unit_qty": "גרמים",
+    "occurrence_count": 275,
+    "image_path": "product_pictures/product_ממרח לורפק עם מלח 250 גר_5740900403215.jpg"
+  },
+  {
+    "id": 384,
+    "name": "קוסקוס בינוני 350 גרם",
+    "code": "7290000064758",
+    "category": "Dry/Baking Goods",
+    "description": "קוסקוס בינוני",
+    "unit_qty": "גרמים",
+    "occurrence_count": 275,
+    "image_path": "product_pictures/product_קוסקוס בינוני 350 גרם_7290000064758.jpg"
+  },
+  {
+    "id": 385,
+    "name": "שוופס לימונדה ורודה1.5ל",
+    "code": "7290018471906",
+    "category": "drinks",
+    "description": "שוופס לימונדה",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 274,
+    "image_path": "product_pictures/product_שוופס לימונדה ורודה1.5ל_7290018471906.jpg"
+  },
+  {
+    "id": 386,
+    "name": "שוופס מוגז לימונייד 1.5ל",
+    "code": "7290018471944",
+    "category": "drinks",
+    "description": "שוופס לימוניי",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 274,
+    "image_path": "product_pictures/product_שוופס מוגז לימונייד 1.5ל_7290018471944.jpg"
+  },
+  {
+    "id": 387,
+    "name": "קוטג' 5% רכיבים טבעי250ג",
+    "code": "7290002868996",
+    "category": "dairy",
+    "description": "קוטג' 5% 250גרם",
+    "unit_qty": "גרמים",
+    "occurrence_count": 274,
+    "image_path": "product_pictures/product_קוטג' 5% רכיבים טבעי250ג_7290002868996.jpg"
+  },
+  {
+    "id": 388,
+    "name": "ויטמינצ'יק פטל 1 ליטר",
+    "code": "7290115208047",
+    "category": "drinks",
+    "description": "ויטמינצ'יק פטל",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 273,
+    "image_path": "product_pictures/product_ויטמינצ'יק פטל 1 ליטר_7290115208047.jpg"
+  },
+  {
+    "id": 389,
+    "name": "גל.וניל צרפתי כשל\"פ",
+    "code": "72986370",
+    "category": "Frozen Foods",
+    "description": "גלידה בן & ג'ריס",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 271,
+    "image_path": "product_pictures/product_גל.וניל צרפתי כשלפ_72986370.jpg"
+  },
+  {
+    "id": 390,
+    "name": "גבינה לבנה 5% שומן 250 ג",
+    "code": "7290000474502",
+    "category": "dairy",
+    "description": "גבינה לבנה 5%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 269,
+    "image_path": "product_pictures/product_גבינה לבנה 5% שומן 250 ג_7290000474502.jpg"
+  },
+  {
+    "id": 391,
+    "name": "מיץ תפוזים סחוט 2 ליטר",
+    "code": "7290018925065",
+    "category": "drinks",
+    "description": "מיץ תפוזים סחוט",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 268,
+    "image_path": "product_pictures/product_מיץ תפוזים סחוט 2 ליטר_7290018925065.jpg"
+  },
+  {
+    "id": 392,
+    "name": "משקה פרו וניל יטבתה350מ",
+    "code": "7290110568276",
+    "category": "dairy",
+    "description": "משקה פרו וניל",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 268,
+    "image_path": "product_pictures/product_משקה פרו וניל יטבתה350מ_7290110568276.jpg"
+  },
+  {
+    "id": 393,
+    "name": "גל.קרם עוגיות 500 מ\"ל",
+    "code": "72986424",
+    "category": "Frozen Foods",
+    "description": "גלידה בן & ג'ר",
+    "unit_qty": "מיליליטרים",
+    "occurrence_count": 268,
+    "image_path": "product_pictures/product_גל.קרם עוגיות 500 מל_72986424.jpg"
+  },
+  {
+    "id": 394,
+    "name": "מיץ לימון משומר-עסיס 1ל'",
+    "code": "7290000272696",
+    "category": "Dry/Baking Goods",
+    "description": "מיץ לימון משומר",
+    "unit_qty": "ליטרים",
+    "occurrence_count": 266,
+    "image_path": "product_pictures/product_מיץ לימון משומר-עסיס 1ל'_7290000272696.jpg"
+  },
+  {
+    "id": 395,
+    "name": "דני שלוק שוקולד 125*4גרם",
+    "code": "7290104726262",
+    "category": "dairy",
+    "description": "דני שלוק 4 יח",
+    "unit_qty": "גרמים",
+    "occurrence_count": 265,
+    "image_path": "product_pictures/product_דני שלוק שוקולד 1254גרם_7290104726262.jpg"
+  },
+  {
+    "id": 396,
+    "name": "אורז בסמטי דאווט",
+    "code": "8901537024014",
+    "category": "Dry/Baking Goods",
+    "description": "אורז בסמטי דאווט",
+    "unit_qty": "קילוגרמים",
+    "occurrence_count": 265,
+    "image_path": "product_pictures/product_אורז בסמטי דאווט_8901537024014.jpg"
+  },
+  {
+    "id": 397,
+    "name": "ספוגיות לניקוי כלים 6 יח",
+    "code": "7290000286228",
+    "category": "Household & Cleaning Supplies",
+    "description": "ספוגיות לכלים6יח",
+    "unit_qty": "יחידה",
+    "occurrence_count": 262,
+    "image_path": "product_pictures/product_ספוגיות לניקוי כלים 6 יח_7290000286228.jpg"
+  },
+  {
+    "id": 398,
+    "name": "גבינת עמק 9% פרוס 200 גר",
+    "code": "7290004122348",
+    "category": "dairy",
+    "description": "גבינת עמק 9%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 259,
+    "image_path": "product_pictures/product_גבינת עמק 9% פרוס 200 גר_7290004122348.jpg"
+  },
+  {
+    "id": 399,
+    "name": "פיראוס צפתית מעוד5% 200ג",
+    "code": "7290004131814",
+    "category": "dairy",
+    "description": "צפתית 5% פיראוס",
+    "unit_qty": "גרמים",
+    "occurrence_count": 258,
+    "image_path": "product_pictures/product_פיראוס צפתית מעוד5% 200ג_7290004131814.jpg"
+  },
+  {
+    "id": 400,
+    "name": "גבינה צהובה נעם 9% 200 ג",
+    "code": "7290102394845",
+    "category": "dairy",
+    "description": "גבינה צהובה 9%",
+    "unit_qty": "גרמים",
+    "occurrence_count": 253,
+    "image_path": "product_pictures/product_גבינה צהובה נעם 9% 200 ג_7290102394845.jpg"
+  }
+]

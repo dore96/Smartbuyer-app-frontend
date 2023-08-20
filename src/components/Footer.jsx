@@ -26,7 +26,7 @@ export const Footer = () => {
                     {/* Footer subtitle */}
                     <Grid item xs={12}>
                         <Typography color="textSecondary" variant="body2" align="center">
-                            {`© ${new Date().getFullYear()} Smart Buyer App By Dor Edelman and Maor Halevi`}
+                            {`© ${new Date().getFullYear()} Smart Buyer App By Dor Edelman`}
                         </Typography>
                     </Grid>
                 </Grid>

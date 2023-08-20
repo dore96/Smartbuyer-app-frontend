@@ -10,23 +10,33 @@ import TokenContext from "../components/TokenContext";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import products from "../products.json"
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
+import { useTheme } from "@mui/material/styles";
 
-const Shop = ({ products, handleAddToCart }) => {
+const Shop = ({ handleAddToCart }) => {
     const {show , showPopup,popupMessage,popupMessageType,setShowPopup} = usePopupMessage();
     const [filteredProducts, setFilteredProducts] = useState([]);
     const [groupedProducts, setGroupedProducts] = useState([]);
     const location = useLocation();
+    const Theme = useTheme();
     const currentPath = location.pathname;
     const { isLoggedIn } = useContext(TokenContext);
 
     useEffect(() => {
-        // Filter products based on the route path
+        const categoryFromUrl = currentPath.replace('/shop/', '');
+        const decodedCategory = decodeURIComponent(categoryFromUrl);
+
+        // Filter products based on the decoded category
         const filteredByPath =
             currentPath === '/shop'
-                ? products // Display all products if the path is '/shop'
-                : products.filter((product) =>
-                    product.category.toLowerCase().includes(currentPath.replace('/shop/', ''))
-                );
+                ? products : products.filter((product) =>
+            product.category.toLowerCase().includes(decodedCategory.toLowerCase())
+        );
+
+        // Sort the filtered products by name in ascending order
+        filteredByPath.sort((a, b) => a.name.localeCompare(b.name));
 
         // Group products by category
         const grouped = filteredByPath.reduce((grouped, product) => {
@@ -40,12 +50,12 @@ const Shop = ({ products, handleAddToCart }) => {
 
         setFilteredProducts(filteredByPath);
         setGroupedProducts(grouped);
-    }, [currentPath, products]);
+    }, [currentPath]);
 
     const handleAddToCartFromShop = (product, quantity) => {
         if(isLoggedIn){
             // Update the popup state variables
-            show(`Added ${quantity} ${product.unit} of ${product.name} to the cart`,true);
+            show(`Added ${quantity} units of ${product.name} to the cart`,true);
             handleAddToCart(product, quantity);
         }
         else{
@@ -79,6 +89,17 @@ const Shop = ({ products, handleAddToCart }) => {
         setGroupedProducts(grouped);
     };
 
+    const PrevArrow = ({ onClick }) => (
+        <ArrowCircleLeftIcon onClick={onClick} style={{ position: 'absolute', top: '60%', left: '0', transform: 'translateY(-50%)', zIndex: '1' ,
+            fontSize: '36px',
+            color: Theme.palette.secondary.main}} />
+    );
+
+    const NextArrow = ({ onClick }) => (
+        <ArrowCircleRightIcon onClick={onClick} style={{ position: 'absolute', top: '60%', right: '0', transform: 'translateY(-50%)', zIndex: '1',
+            fontSize: '36px',
+            color: Theme.palette.secondary.main}} />
+    );
 
     const CategoryHeaderStyle = {
         fontSize: '24px',
@@ -94,18 +115,14 @@ const Shop = ({ products, handleAddToCart }) => {
         const itemsInCategory = groupedProducts[category].length;
         let slidesToShow;
 
-        if (screenWidth >= 600) {
+        if (screenWidth >= 1200) {
+            slidesToShow = itemsInCategory >= 8 ? 8 : itemsInCategory;
+        } else if (screenWidth >= 992) {
+            slidesToShow = itemsInCategory >= 6 ? 6 : itemsInCategory;
+        } else if (screenWidth >= 768) {
             slidesToShow = itemsInCategory >= 5 ? 5 : itemsInCategory;
         } else {
-            slidesToShow = itemsInCategory >= 3 ? 3 : itemsInCategory;
-        }
-
-        // For mobile devices, if itemsInCategory is less than 3, set slidesToShow to the length
-        // For non-mobile devices, if itemsInCategory is less than 5, set slidesToShow to the length
-        if (screenWidth < 600 && itemsInCategory < 3) {
-            slidesToShow = itemsInCategory;
-        } else if (screenWidth >= 600 && itemsInCategory < 5) {
-            slidesToShow = itemsInCategory;
+            slidesToShow = itemsInCategory >= 4 ? 4 : itemsInCategory;
         }
 
         return slidesToShow;
@@ -135,15 +152,17 @@ const Shop = ({ products, handleAddToCart }) => {
                 {Object.keys(groupedProducts).map((category) => (
                     <div key={category} style={{ display: 'block' }}>
                         <Typography style={CategoryHeaderStyle} sx={{ backgroundColor: 'secondary.main' }}>
-                            {category}
+                            {category.toUpperCase()}
                         </Typography>
                         {/* Use the Slider component to wrap the product cards */}
                         <Slider
-                            dots={true}
+                            prevArrow={<PrevArrow />}
+                            nextArrow={<NextArrow />}
                             infinite={true}
                             speed={500}
                             slidesToShow={getSlidesToShow(category)}
-                            slidesToScroll={1}
+                            slidesToScroll={getSlidesToShow(category)}
+                            lazyLoad="ondemand"
                             style={{ textAlign: 'left' }}
                         >
                             {groupedProducts[category].map((product, index) => (
