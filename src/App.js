@@ -61,7 +61,8 @@ function App() {
         if (isLoggedIn) {
             fetchCartData();
         }
-    }, [isLoggedIn, token]);
+        // eslint-disable-next-line
+    } ,[isLoggedIn]);
 
     // Add products to the cart
     const handleAddToCart = (product, quantity) => {
