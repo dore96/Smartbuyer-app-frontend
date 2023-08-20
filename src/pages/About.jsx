@@ -37,7 +37,7 @@ const About = () => {
                     </Typography>
                     <Typography variant="body1">
                         Whether you're a busy professional, a parent, or simply looking for a more
-                        convenient way to shop, Smart Buyer is here for you. Say goodbye to the hassle
+                        convenient way to shop, Smart Buyer Application is here for you. Say goodbye to the hassle
                         of visiting multiple stores or spending hours comparing prices. Join us on this
                         journey to smarter, more efficient grocery shopping. Happy shopping with Smart Buyer!
                     </Typography>
