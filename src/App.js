@@ -42,7 +42,7 @@ function App() {
             const options = {
                 method: 'GET',
                 headers: {
-                    'Authorization': `Bearer ${token}`, // Replace with actual token
+                    'Authorization': `Bearer ${token}`,
                 },
             };
 
